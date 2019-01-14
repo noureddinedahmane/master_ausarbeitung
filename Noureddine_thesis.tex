@@ -1,0 +1,203 @@
+%% LaTeX2e class for student theses
+%% thesis.tex
+%% 
+%% Karlsruhe Institute of Technology
+%% Institute for Program Structures and Data Organization
+%% Chair for Software Design and Quality (SDQ)
+%%
+%% Dr.-Ing. Erik Burger
+%% burger@kit.edu
+%%
+%% Version 1.3.2, 2017-08-01
+
+%% Available page modes: oneside, twoside
+%% Available languages: english, ngerman
+%% Available modes: draft, final (see README)
+
+\documentclass[twoside, english]{sdqthesis}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+%% ---------------------------------
+%% | Information about the thesis  |
+%% ---------------------------------
+
+%% Name of the author
+\author{Noureddine Dahmane}
+
+%% Title (and possibly subtitle) of the thesis
+\title{Adaptive Monitoring for Continuous Performance Model Integration}
+
+%% Type of the thesis 
+\thesistype{Master’s Thesis}
+
+%% Change the institute here, ``IPD'' is default
+% \myinstitute{Institute for \dots}
+
+%% You can put a logo in the ``logos'' directory and include it here
+%% instead of the SDQ logo
+% \grouplogo{myfile}
+%% Alternatively, you can disable the group logo
+ \nogrouplogo
+
+%% The reviewers are the professors that grade your thesis
+\reviewerone{Prof. Anne Koziolek}
+
+\reviewertwo{Prof. Ralf Reussner}
+
+%% The advisors are PhDs or Postdocs
+\advisorone{M.Sc. Manar Mazkatli}
+
+
+%% Please enter the start end end time of your thesis
+\editingtime{28. März 2018}{01. Oktober 2018}
+
+\settitle
+
+%% --------------------------------
+%% | Settings for word separation |
+%% --------------------------------
+
+%% Describe separation hints here.
+%% For more details, see 
+%% http://en.wikibooks.org/wiki/LaTeX/Text_Formatting#Hyphenation
+\hyphenation{
+% me-ta-mo-del
+}
+
+%% --------------------------------
+%% | Bibliography                 |
+%% --------------------------------
+
+%% Use biber instead of BibTeX, see README
+\usepackage[citestyle=numeric,style=numeric,backend=biber]{biblatex}
+\addbibresource{thesis.bib}
+
+%% ====================================
+%% ====================================
+%% ||                                ||
+%% || Beginning of the main document ||
+%% ||                                ||
+%% ====================================
+%% ====================================
+\begin{document}
+
+%% Set PDF metadata
+\setpdf
+
+%% Set the title
+\maketitle
+
+%% The Preamble begins here
+\frontmatter
+
+\input{sections/declaration.tex}
+
+\setcounter{page}{1}
+\pagenumbering{roman}
+
+%% ----------------
+%% |   Abstract   |
+%% ----------------
+ 
+%% For theses written in English, an abstract both in English
+%% and German is mandatory.
+%%
+%% For theses written in German, a German abstract is sufficient.
+%%
+%% The text is included from the following files:
+%% - sections/abstract
+
+
+
+%% ------------------------
+%% |   Table of Contents  |
+%% ------------------------
+\tableofcontents
+
+\listoffigures
+
+%% -----------------
+%% |   Main part   |
+%% -----------------
+
+\mainmatter
+\input{sections/abstract_en.tex}}
+\input{sections/introduction.tex}
+\input{sections/foundations.tex}
+\input{sections/thesis_statement.tex}
+\input{sections/content.tex}
+\input{sections/evaluation.tex}
+\input{sections/relatedwork.tex}
+\input{sections/conclusion.tex}
+
+
+%% --------------------
+%% |   Bibliography   |
+%% --------------------
+
+%% Add entry to the table of contents for the bibliography
+\printbibliography[heading=bibintoc]
+
+\begin{thebibliography}{9}
+
+
+\bibitem{latexcompanion} 
+Erik Burger. 
+\textit{Flexible Views for View-based Model-driven Development}. 
+PhD thesis. Karlsruhe, Germany: Karlsruhe Institute of Technology, July 2014.
+
+\bibitem{latexcompanion} 
+Ralf H. Reussner et al. 
+\textit{Modeling and Simulating Software Architectures – The Palladio Approach}. 
+Cambridge, MA: MIT Press, Oct. 2016. 408 pp.
+
+\bibitem{latexcompanion} 
+Max E. Kramer, Erik Burger, and Michael Langhammer 
+\textit{View-centric engineering
+with synchronized heterogeneous models}. 
+In: Proceedings of the
+1stWorkshop on View-Based, Aspect-Oriented and Orthographic Software Modelling.
+VAO ’13. Montpellier, France: ACM, 2013, 5:1–5:6. isbn: 978-1-4503-
+2070-
+
+\bibitem{latexcompanion} 
+Mazkatli Manar, and Anne Koziolek. 
+\textit{Continuous Integration of Performance Model}. 
+Companion of the 2018 ACM/SPEC International Conference on Performance Engineering. ACM, 2018.
+
+\bibitem{latexcompanion} 
+Michael Langhammer.  
+\textit{Automated Coevolution of Source Code and Software Architecture Models}. 
+PhD thesis. Karl- sruhe, Germany: Karlsruhe Institute of Technology (KIT), 2017. 259 pp.
+
+\bibitem{latexcompanion} 
+Michael Langhammer and Klaus Krogmann.  
+\textit{A Co-evolution Approach for Source Code and Component-based Archi- tecture Models}. 
+ In: 17. Workshop Software-Reengineering und-Evolution. Vol. 4. 2015.
+
+\bibitem{latexcompanion} 
+André van Hoorn, Jan Waller, and Wilhelm Hasselbring.  
+\textit{Kieker: A Framework for Application Performance Moni- toring and Dynamic Software Analysis}. 
+In: Proceedings of the 3rd ACM/SPEC International Conference on Performance Engineering. ACM, 2012.
+
+
+\bibitem{latexcompanion} 
+Robert Heinrich et al.  
+\textit{Integrated Observation and Modeling Techniques to Support Adaptation and Evolution of Software Systems}. 
+In: DFG Priority Program SPP1593, 4th Workshop. Nov. 2014.
+
+
+ 
+\bibitem{latexcompanion} 
+Gregor Kiczales et al.
+\textit{Aspect-oriented programming}. 
+ In: ECOOP 97—Object-oriented programming (1997)
+ 
+
+
+
+\end{thebibliography}
+
+\end{document}
