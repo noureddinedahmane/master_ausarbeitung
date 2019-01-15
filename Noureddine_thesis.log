@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.4)  14 JAN 2019 23:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.4)  15 JAN 2019 00:40
 entering extended mode
 **./Noureddine_thesis.tex
 (Noureddine_thesis.tex
@@ -1792,7 +1792,7 @@ Package biblatex Info: ... file 'Noureddine_thesis.bbl' not found.
 No file Noureddine_thesis.bbl.
 Package biblatex Info: Reference section=0 on input line 84.
 Package biblatex Info: Reference segment=0 on input line 84.
-<logos/kitlogo_en_cmyk.pdf, id=39, 198.7425pt x 92.345pt>
+<logos/kitlogo_en_cmyk.pdf, id=67, 198.7425pt x 92.345pt>
 File: logos/kitlogo_en_cmyk.pdf Graphic file (type pdf)
 <use logos/kitlogo_en_cmyk.pdf>
 Package pdftex.def Info: logos/kitlogo_en_cmyk.pdf  used on input line 91.
@@ -1861,7 +1861,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7.9> on input line 91.
 Missing character: There is no ¹ in font lmsy10!
-<title-background.pdf, id=40, 597.50786pt x 845.04686pt>
+<title-background.pdf, id=68, 597.50786pt x 845.04686pt>
 File: title-background.pdf Graphic file (type pdf)
 <use title-background.pdf>
 Package pdftex.def Info: title-background.pdf  used on input line 91.
@@ -1887,11 +1887,11 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 11
 
 (Noureddine_thesis.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 16.
+(Font)              <12> on input line 10.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8.8> on input line 16.
+(Font)              <8.8> on input line 10.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.6> on input line 16.
+(Font)              <6.6> on input line 10.
 Missing character: There is no ¹ in font lmsy10!
 )
 \tf@toc=\write6
@@ -1911,15 +1911,9 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 11
 
 
 ]
-(sections/abstract_en.tex)
-! Too many }'s.
-l.126 \input{sections/abstract_en.tex}}
-                                       
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-(sections/introduction.texpdfTeX warning (ext4): destination with the same iden
-tifier (name{page.1}) has been already used, duplicate ignored
+(sections/abstract_en.tex) (sections/introduction.texpdfTeX warning (ext4): des
+tination with the same identifier (name{page.1}) has been already used, duplica
+te ignored
 <to be read again> 
                    \relax 
 l.13 \chapter
@@ -1941,6 +1935,8 @@ chapter 1.
 
 ]
 chapter 2.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <17.28> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 17.
 ) (sections/thesis_statement.tex [5] [6
 
 
@@ -1956,8 +1952,6 @@ chapter 4.
 
 ]
 chapter 5.
-LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <17.28> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 21.
 ) (sections/relatedwork.tex [11] [12
 
 
@@ -2031,7 +2025,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 203.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 203.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 203.
 Package rerunfilecheck Info: File `Noureddine_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: C05164A66C403EE97E0CBAB6BDA320B4;509.
+(rerunfilecheck)             Checksum: E4AFF07C7624683C4322889A06D0DE99;1063.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2041,10 +2035,10 @@ Package logreq Info: Writing requests to 'Noureddine_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24471 strings out of 493305
- 452755 string characters out of 3138884
- 1043650 words of memory out of 3000000
- 27494 multiletter control sequences out of 15000+200000
+ 24491 strings out of 493305
+ 453168 string characters out of 3138884
+ 1044061 words of memory out of 3000000
+ 27507 multiletter control sequences out of 15000+200000
  90241 words of font info for 118 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  59i,19n,80p,9099b,2269s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2053,9 +2047,9 @@ iKTeX 2.9/fonts/type1/public/lm/lmb10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr1
 7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Noureddine_thesis.pdf (25 pages, 157458 bytes).
+Output written on Noureddine_thesis.pdf (25 pages, 163177 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
- 21587 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 233 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 21643 words of extra memory for PDF output out of 24883 (max. 10000000)
 

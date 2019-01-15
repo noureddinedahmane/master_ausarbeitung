@@ -1,9 +1,16 @@
 \BOOKMARK [0][-]{chapter*.3}{Abstract}{}% 1
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 2
 \BOOKMARK [0][-]{chapter.2}{Foundations}{}% 3
-\BOOKMARK [0][-]{chapter.3}{Thesis Statement}{}% 4
-\BOOKMARK [0][-]{chapter.4}{Adaptive Monitoring for Continuous Performance Model Integration}{}% 5
-\BOOKMARK [0][-]{chapter.5}{Evaluation}{}% 6
-\BOOKMARK [1][-]{section.5.1}{First Section}{chapter.5}% 7
-\BOOKMARK [0][-]{chapter.6}{Related Work}{}% 8
-\BOOKMARK [0][-]{chapter.7}{Conclusions and Future Work}{}% 9
+\BOOKMARK [1][-]{section.2.1}{Palladio Component Model}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.2}{Vitruvius}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.3}{Kieker Monitoring}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.4}{Java Model Parser and printer}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.5}{Source Code Model eXtractor}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.6}{Automated Coevolution of Source Code and Software Architecture Models}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.7}{Continuous Integration of Performance Model}{chapter.2}% 10
+\BOOKMARK [0][-]{chapter.3}{Thesis Statement}{}% 11
+\BOOKMARK [0][-]{chapter.4}{Adaptive Monitoring for Continuous Performance Model Integration}{}% 12
+\BOOKMARK [0][-]{chapter.5}{Evaluation}{}% 13
+\BOOKMARK [1][-]{section.5.1}{First Section}{chapter.5}% 14
+\BOOKMARK [0][-]{chapter.6}{Related Work}{}% 15
+\BOOKMARK [0][-]{chapter.7}{Conclusions and Future Work}{}% 16
