@@ -1,16 +1,22 @@
 \BOOKMARK [0][-]{chapter*.3}{Abstract}{}% 1
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 2
 \BOOKMARK [0][-]{chapter.2}{Foundations}{}% 3
-\BOOKMARK [1][-]{section.2.1}{Palladio Component Model}{chapter.2}% 4
-\BOOKMARK [1][-]{section.2.2}{Vitruvius}{chapter.2}% 5
-\BOOKMARK [1][-]{section.2.3}{Kieker Monitoring}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.4}{Java Model Parser and printer}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.5}{Source Code Model eXtractor}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.6}{Automated Coevolution of Source Code and Software Architecture Models}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.7}{Continuous Integration of Performance Model}{chapter.2}% 10
-\BOOKMARK [0][-]{chapter.3}{Thesis Statement}{}% 11
-\BOOKMARK [0][-]{chapter.4}{Adaptive Monitoring for Continuous Performance Model Integration}{}% 12
-\BOOKMARK [0][-]{chapter.5}{Evaluation}{}% 13
-\BOOKMARK [1][-]{section.5.1}{First Section}{chapter.5}% 14
-\BOOKMARK [0][-]{chapter.6}{Related Work}{}% 15
-\BOOKMARK [0][-]{chapter.7}{Conclusions and Future Work}{}% 16
+\BOOKMARK [1][-]{section.2.1}{The Palladio Component Model}{chapter.2}% 4
+\BOOKMARK [2][-]{subsection.2.1.1}{Palladio Models}{section.2.1}% 5
+\BOOKMARK [1][-]{section.2.2}{Vitruvius}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.3}{Java Model Parser and printer}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.4}{Eclipse Modeling Framework}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.5}{Automated Coevolution of Source Code and Software Architecture Models}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.6}{Kieker Monitoring Framework}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.7}{Source Code Model eXtractor}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.7.1}{SoMoX SEFFs Reconstruction}{section.2.7}% 12
+\BOOKMARK [2][-]{subsection.2.7.2}{Incremental SEFF Reconstruction}{section.2.7}% 13
+\BOOKMARK [1][-]{section.2.8}{Continuous Integration of Performance Model}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.9}{Iterative Performance Model Parameter Estimation Considering Parametric Dependencies}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.10}{DevOps}{chapter.2}% 16
+\BOOKMARK [0][-]{chapter.3}{Problem Statement}{}% 17
+\BOOKMARK [0][-]{chapter.4}{Adaptive Monitoring for Continuous Performance Model Integration}{}% 18
+\BOOKMARK [0][-]{chapter.5}{Evaluation}{}% 19
+\BOOKMARK [1][-]{section.5.1}{First Section}{chapter.5}% 20
+\BOOKMARK [0][-]{chapter.6}{Related Work}{}% 21
+\BOOKMARK [0][-]{chapter.7}{Conclusions and Future Work}{}% 22

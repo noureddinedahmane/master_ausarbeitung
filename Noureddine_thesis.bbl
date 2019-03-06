@@ -1,0 +1,661 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{thomas2005erzeugung}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=9ed0a6934e57cddec1898f18a104ea90}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={Thomas\bibnamedelima Stahl},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ed0a6934e57cddec1898f18a104ea90}
+      \strng{fullhash}{9ed0a6934e57cddec1898f18a104ea90}
+      \strng{bibnamehash}{9ed0a6934e57cddec1898f18a104ea90}
+      \strng{authorbibnamehash}{9ed0a6934e57cddec1898f18a104ea90}
+      \strng{authornamehash}{9ed0a6934e57cddec1898f18a104ea90}
+      \strng{authorfullhash}{9ed0a6934e57cddec1898f18a104ea90}
+      \field{sortinit}{a}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{1. Aufl. Heidelberg: dpunkt-Verl.}
+      \field{title}{Modellgetriebene Softwareentwicklung : Techniken, Engineering, Management. 1. Aufl.}
+      \field{volume}{303}
+      \field{year}{2005}
+      \field{pages}{23\bibrangedash 38}
+      \range{pages}{16}
+    \endentry
+    \entry{becker2009palladio}{article}{}
+      \name{author}{3}{}{%
+        {{hash=8deefb02d038861e0dd2e38fd1500e03}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ba7ecc5039717e22ccf225ab7421719b}{%
+           family={Koziolek},
+           familyi={K\bibinitperiod},
+           given={Heiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4e41ac50a44ea2d2e0fbdd12c485c1b2}{%
+           family={Reussner},
+           familyi={R\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{4430d2d2728269e971b97efcf75dc10a}
+      \strng{fullhash}{4430d2d2728269e971b97efcf75dc10a}
+      \strng{bibnamehash}{4430d2d2728269e971b97efcf75dc10a}
+      \strng{authorbibnamehash}{4430d2d2728269e971b97efcf75dc10a}
+      \strng{authornamehash}{4430d2d2728269e971b97efcf75dc10a}
+      \strng{authorfullhash}{4430d2d2728269e971b97efcf75dc10a}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Systems and Software}
+      \field{number}{1}
+      \field{title}{The Palladio component model for model-driven performance prediction}
+      \field{volume}{82}
+      \field{year}{2009}
+      \field{pages}{3\bibrangedash 22}
+      \range{pages}{20}
+    \endentry
+    \entry{brunnert2015performance}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=a5f5cfe8dee153e1e8bdecd48b638734}{%
+           family={Brunnert},
+           familyi={B\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=529b033b2b49b24fc325b55c6d332cd1}{%
+           family={Hoorn},
+           familyi={H\bibinitperiod},
+           given={Andr{é}},
+           giveni={A\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=72d1bc340cd4074d8bb08f4fb997791e}{%
+           family={Willnecker},
+           familyi={W\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6221337808f9b63184645cf030e13912}{%
+           family={Danciu},
+           familyi={D\bibinitperiod},
+           given={Alexandru},
+           giveni={A\bibinitperiod}}}%
+        {{hash=131b9781ee9671d87bd60771bd41a0bc}{%
+           family={Hasselbring},
+           familyi={H\bibinitperiod},
+           given={Wilhelm},
+           giveni={W\bibinitperiod}}}%
+        {{hash=cd8ba7f743cf632a91943b9146c071f7}{%
+           family={Heger},
+           familyi={H\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+        {{hash=149352c61471c9c1f040a55dfc6cce02}{%
+           family={Herbst},
+           familyi={H\bibinitperiod},
+           given={Nikolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ac3fa7065c9e1283af5f18092faf6d64}{%
+           family={Jamshidi},
+           familyi={J\bibinitperiod},
+           given={Pooyan},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0793d2d9899806683ab844116f4ab119}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Reiner},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a7a394baf07e831646cfc453ce073ecb}{%
+           family={Kistowski},
+           familyi={K\bibinitperiod},
+           given={Joakim},
+           giveni={J\bibinitperiod},
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{35b01568e75ffc62122d732fa46f82cb}
+      \strng{fullhash}{5d9411cf449c13f95a46ee9827e47d28}
+      \strng{bibnamehash}{35b01568e75ffc62122d732fa46f82cb}
+      \strng{authorbibnamehash}{35b01568e75ffc62122d732fa46f82cb}
+      \strng{authornamehash}{35b01568e75ffc62122d732fa46f82cb}
+      \strng{authorfullhash}{5d9411cf449c13f95a46ee9827e47d28}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1508.04752}
+      \field{title}{Performance-oriented DevOps: A research agenda}
+      \field{year}{2015}
+    \endentry
+    \entry{burger2013flexible}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=9afe40ae228febe360fd974fb38fc565}{%
+           family={Burger},
+           familyi={B\bibinitperiod},
+           given={Erik\bibnamedelima Johannes},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{9afe40ae228febe360fd974fb38fc565}
+      \strng{fullhash}{9afe40ae228febe360fd974fb38fc565}
+      \strng{bibnamehash}{9afe40ae228febe360fd974fb38fc565}
+      \strng{authorbibnamehash}{9afe40ae228febe360fd974fb38fc565}
+      \strng{authornamehash}{9afe40ae228febe360fd974fb38fc565}
+      \strng{authorfullhash}{9afe40ae228febe360fd974fb38fc565}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 18th international doctoral symposium on Components and architecture}
+      \field{title}{Flexible views for view-based model-driven development}
+      \field{year}{2013}
+      \field{pages}{25\bibrangedash 30}
+      \range{pages}{6}
+    \endentry
+    \entry{goldschmidt2012view}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=52fa948a442ef9d2e292e4e643c76996}{%
+           family={Goldschmidt},
+           familyi={G\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8deefb02d038861e0dd2e38fd1500e03}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3e06bb0fa0071643497a324850780e6e}{%
+           family={Burger},
+           familyi={B\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4728d5b0285b7f2a307143e247a2cda}
+      \strng{fullhash}{f4728d5b0285b7f2a307143e247a2cda}
+      \strng{bibnamehash}{f4728d5b0285b7f2a307143e247a2cda}
+      \strng{authorbibnamehash}{f4728d5b0285b7f2a307143e247a2cda}
+      \strng{authornamehash}{f4728d5b0285b7f2a307143e247a2cda}
+      \strng{authorfullhash}{f4728d5b0285b7f2a307143e247a2cda}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Modellierung}
+      \field{title}{View-based Modelling-A Tool Oriented Analysis}
+      \field{year}{2012}
+    \endentry
+    \entry{heidenreich2009closing}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=2a42b84845851b795e1fcb349bda3850}{%
+           family={Heidenreich},
+           familyi={H\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=899a6b67620a37608752bcf42bdb2d2a}{%
+           family={Johannes},
+           familyi={J\bibinitperiod},
+           given={Jendrik},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a4d113a0095a5565bb70be19bd44a501}{%
+           family={Seifert},
+           familyi={S\bibinitperiod},
+           given={Mirko},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6ad72c44da88cf62a6c77aedd33c3aa3}{%
+           family={Wende},
+           familyi={W\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{575e3a5c288f44381a7b290a8093dbdb}
+      \strng{fullhash}{5d97570fd20936f8fe9af7f2e81852bf}
+      \strng{bibnamehash}{575e3a5c288f44381a7b290a8093dbdb}
+      \strng{authorbibnamehash}{575e3a5c288f44381a7b290a8093dbdb}
+      \strng{authornamehash}{575e3a5c288f44381a7b290a8093dbdb}
+      \strng{authorfullhash}{5d97570fd20936f8fe9af7f2e81852bf}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Software Language Engineering}
+      \field{title}{Closing the gap between modelling and java}
+      \field{year}{2009}
+      \field{pages}{374\bibrangedash 383}
+      \range{pages}{10}
+    \endentry
+    \entry{heidenreich2009derivation}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=2a42b84845851b795e1fcb349bda3850}{%
+           family={Heidenreich},
+           familyi={H\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=899a6b67620a37608752bcf42bdb2d2a}{%
+           family={Johannes},
+           familyi={J\bibinitperiod},
+           given={Jendrik},
+           giveni={J\bibinitperiod}}}%
+        {{hash=dd481d830d039034a139227f9f4fee14}{%
+           family={Karol},
+           familyi={K\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a4d113a0095a5565bb70be19bd44a501}{%
+           family={Seifert},
+           familyi={S\bibinitperiod},
+           given={Mirko},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6ad72c44da88cf62a6c77aedd33c3aa3}{%
+           family={Wende},
+           familyi={W\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{575e3a5c288f44381a7b290a8093dbdb}
+      \strng{fullhash}{d331495e6466e412798762cf941a4f41}
+      \strng{bibnamehash}{575e3a5c288f44381a7b290a8093dbdb}
+      \strng{authorbibnamehash}{575e3a5c288f44381a7b290a8093dbdb}
+      \strng{authornamehash}{575e3a5c288f44381a7b290a8093dbdb}
+      \strng{authorfullhash}{d331495e6466e412798762cf941a4f41}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{European Conference on Model Driven Architecture-Foundations and Applications}
+      \field{title}{Derivation and refinement of textual syntax for models}
+      \field{year}{2009}
+      \field{pages}{114\bibrangedash 129}
+      \range{pages}{16}
+    \endentry
+    \entry{van2009continuous}{article}{}
+      \name{author}{7}{}{%
+        {{hash=529b033b2b49b24fc325b55c6d332cd1}{%
+           family={Hoorn},
+           familyi={H\bibinitperiod},
+           given={Andr{é}},
+           giveni={A\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=7d7398f33841172258dd4e2bb4867024}{%
+           family={Rohr},
+           familyi={R\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=131b9781ee9671d87bd60771bd41a0bc}{%
+           family={Hasselbring},
+           familyi={H\bibinitperiod},
+           given={Wilhelm},
+           giveni={W\bibinitperiod}}}%
+        {{hash=03b5b06f02fbcb1efe5bbdfdbb426cc8}{%
+           family={Waller},
+           familyi={W\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=85ba4124084f97d0ccad1546b7d2ead0}{%
+           family={Ehlers},
+           familyi={E\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2a5ff4bb2e440a0603814bc0b41cf905}{%
+           family={Frey},
+           familyi={F\bibinitperiod},
+           given={S{ö}ren},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9e3b8fe507882527d608b715337ef49b}{%
+           family={Kieselhorst},
+           familyi={K\bibinitperiod},
+           given={Dennis},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Department of Computer Science, Kiel University, Germany}%
+      }
+      \strng{namehash}{cbd89949318dd9a4e2955deddb315789}
+      \strng{fullhash}{f551830325721b9550f6529960ff6230}
+      \strng{bibnamehash}{cbd89949318dd9a4e2955deddb315789}
+      \strng{authorbibnamehash}{cbd89949318dd9a4e2955deddb315789}
+      \strng{authornamehash}{cbd89949318dd9a4e2955deddb315789}
+      \strng{authorfullhash}{f551830325721b9550f6529960ff6230}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Continuous monitoring of software services: Design and application of the Kieker framework}
+      \field{year}{2009}
+    \endentry
+    \entry{jung2013instrumentation}{report}{}
+      \name{author}{1}{}{%
+        {{hash=0793d2d9899806683ab844116f4ab119}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Reiner},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Tech. rep. Kiel University}%
+      }
+      \strng{namehash}{0793d2d9899806683ab844116f4ab119}
+      \strng{fullhash}{0793d2d9899806683ab844116f4ab119}
+      \strng{bibnamehash}{0793d2d9899806683ab844116f4ab119}
+      \strng{authorbibnamehash}{0793d2d9899806683ab844116f4ab119}
+      \strng{authornamehash}{0793d2d9899806683ab844116f4ab119}
+      \strng{authorfullhash}{0793d2d9899806683ab844116f4ab119}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An instrumentation record language for kieker}
+      \field{type}{techreport}
+      \field{year}{2013}
+    \endentry
+    \entry{kiczales1997j}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f5edd9987901ebb101c01110c566249c}{%
+           family={Kiczales},
+           familyi={K\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5edd9987901ebb101c01110c566249c}
+      \strng{fullhash}{f5edd9987901ebb101c01110c566249c}
+      \strng{bibnamehash}{f5edd9987901ebb101c01110c566249c}
+      \strng{authorbibnamehash}{f5edd9987901ebb101c01110c566249c}
+      \strng{authornamehash}{f5edd9987901ebb101c01110c566249c}
+      \strng{authorfullhash}{f5edd9987901ebb101c01110c566249c}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Lecture notes in Computer Science, ECOOP}
+      \field{title}{J. lamping, A. Mendhekar, C. Maeda, C. Lopes, J.-M. Loingtier, and J. Irwin. Aspect-oriented programming}
+      \field{year}{1997}
+      \field{pages}{220\bibrangedash 242}
+      \range{pages}{23}
+    \endentry
+    \entry{koziolek2006parameter}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=ba7ecc5039717e22ccf225ab7421719b}{%
+           family={Koziolek},
+           familyi={K\bibinitperiod},
+           given={Heiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=043027b1c88b24970aaf5b61b3bde1ce}{%
+           family={Happe},
+           familyi={H\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8deefb02d038861e0dd2e38fd1500e03}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{51ee89afbc84a2d90ff2ef6e56a0d992}
+      \strng{fullhash}{51ee89afbc84a2d90ff2ef6e56a0d992}
+      \strng{bibnamehash}{51ee89afbc84a2d90ff2ef6e56a0d992}
+      \strng{authorbibnamehash}{51ee89afbc84a2d90ff2ef6e56a0d992}
+      \strng{authornamehash}{51ee89afbc84a2d90ff2ef6e56a0d992}
+      \strng{authorfullhash}{51ee89afbc84a2d90ff2ef6e56a0d992}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on the Quality of Software Architectures}
+      \field{title}{Parameter dependent performance specifications of software components}
+      \field{year}{2006}
+      \field{pages}{163\bibrangedash 179}
+      \range{pages}{17}
+    \endentry
+    \entry{kramer2013view}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=cabd85ca8546ac2e0b809e48abdbf453}{%
+           family={Kramer},
+           familyi={K\bibinitperiod},
+           given={Max\bibnamedelima E},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=3e06bb0fa0071643497a324850780e6e}{%
+           family={Burger},
+           familyi={B\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=634b19e19b8a647e0679ec4aeac2d8c5}{%
+           family={Langhammer},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{7aacf7e8e1b81b7a2c694ca295ed1c2c}
+      \strng{fullhash}{7aacf7e8e1b81b7a2c694ca295ed1c2c}
+      \strng{bibnamehash}{7aacf7e8e1b81b7a2c694ca295ed1c2c}
+      \strng{authorbibnamehash}{7aacf7e8e1b81b7a2c694ca295ed1c2c}
+      \strng{authornamehash}{7aacf7e8e1b81b7a2c694ca295ed1c2c}
+      \strng{authorfullhash}{7aacf7e8e1b81b7a2c694ca295ed1c2c}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 1st Workshop on View-Based, Aspect-Oriented and Orthographic Software Modelling}
+      \field{title}{View-centric engineering with synchronized heterogeneous models}
+      \field{year}{2013}
+      \field{pages}{5}
+      \range{pages}{1}
+    \endentry
+    \entry{krogmann2012reconstruction}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ea463e7d98843baebb721149834e04e4}{%
+           family={Krogmann},
+           familyi={K\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {KIT Scientific Publishing}%
+      }
+      \strng{namehash}{ea463e7d98843baebb721149834e04e4}
+      \strng{fullhash}{ea463e7d98843baebb721149834e04e4}
+      \strng{bibnamehash}{ea463e7d98843baebb721149834e04e4}
+      \strng{authorbibnamehash}{ea463e7d98843baebb721149834e04e4}
+      \strng{authornamehash}{ea463e7d98843baebb721149834e04e4}
+      \strng{authorfullhash}{ea463e7d98843baebb721149834e04e4}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Reconstruction of software component architectures and behaviour models using static and dynamic analysis}
+      \field{volume}{4}
+      \field{year}{2012}
+    \endentry
+    \entry{langhammer2017automated}{article}{}
+      \name{author}{1}{}{%
+        {{hash=634b19e19b8a647e0679ec4aeac2d8c5}{%
+           family={Langhammer},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{634b19e19b8a647e0679ec4aeac2d8c5}
+      \strng{fullhash}{634b19e19b8a647e0679ec4aeac2d8c5}
+      \strng{bibnamehash}{634b19e19b8a647e0679ec4aeac2d8c5}
+      \strng{authorbibnamehash}{634b19e19b8a647e0679ec4aeac2d8c5}
+      \strng{authornamehash}{634b19e19b8a647e0679ec4aeac2d8c5}
+      \strng{authorfullhash}{634b19e19b8a647e0679ec4aeac2d8c5}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Automated Coevolution of Source Code and So ware Architecture Models}
+      \field{year}{2017}
+    \endentry
+    \entry{langhammer2015co}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=634b19e19b8a647e0679ec4aeac2d8c5}{%
+           family={Langhammer},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ea463e7d98843baebb721149834e04e4}{%
+           family={Krogmann},
+           familyi={K\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{0e4848a886c1e4bc7b8246478dd618f6}
+      \strng{fullhash}{0e4848a886c1e4bc7b8246478dd618f6}
+      \strng{bibnamehash}{0e4848a886c1e4bc7b8246478dd618f6}
+      \strng{authorbibnamehash}{0e4848a886c1e4bc7b8246478dd618f6}
+      \strng{authornamehash}{0e4848a886c1e4bc7b8246478dd618f6}
+      \strng{authorfullhash}{0e4848a886c1e4bc7b8246478dd618f6}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{17. Workshop Software-Reengineering und-Evolution}
+      \field{title}{A Co-evolution Approach for Source Code and Component-based Architecture Models}
+      \field{volume}{4}
+      \field{year}{2015}
+    \endentry
+    \entry{mazkatli2018continuous}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=0fad7b85c104c23ecc066cb8d49a5513}{%
+           family={Mazkatli},
+           familyi={M\bibinitperiod},
+           given={Manar},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c3aaf4ee46b2c36357c970d426e834d2}{%
+           family={Koziolek},
+           familyi={K\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{89591830bdd164c184c26c80bdcd825d}
+      \strng{fullhash}{89591830bdd164c184c26c80bdcd825d}
+      \strng{bibnamehash}{89591830bdd164c184c26c80bdcd825d}
+      \strng{authorbibnamehash}{89591830bdd164c184c26c80bdcd825d}
+      \strng{authornamehash}{89591830bdd164c184c26c80bdcd825d}
+      \strng{authorfullhash}{89591830bdd164c184c26c80bdcd825d}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Companion of the 2018 ACM/SPEC International Conference on Performance Engineering}
+      \field{title}{Continuous Integration of Performance Model}
+      \field{year}{2018}
+      \field{pages}{153\bibrangedash 158}
+      \range{pages}{6}
+    \endentry
+    \entry{schmidt2006erzeugung}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=68c838da618763ad153823dc10bc7ab3}{%
+           family={Schmidt.},
+           familyi={S\bibinitperiod},
+           given={D.C.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{68c838da618763ad153823dc10bc7ab3}
+      \strng{fullhash}{68c838da618763ad153823dc10bc7ab3}
+      \strng{bibnamehash}{68c838da618763ad153823dc10bc7ab3}
+      \strng{authorbibnamehash}{68c838da618763ad153823dc10bc7ab3}
+      \strng{authornamehash}{68c838da618763ad153823dc10bc7ab3}
+      \strng{authorfullhash}{68c838da618763ad153823dc10bc7ab3}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{In: Computer 39.2}
+      \field{title}{Guest Editor’s Introduction: ModelDriven Engineering}
+      \field{volume}{303}
+      \field{year}{2006}
+      \field{pages}{25\bibrangedash 31}
+      \range{pages}{7}
+    \endentry
+    \entry{steinberg2008emf}{book}{}
+      \name{author}{4}{}{%
+        {{hash=122b4e099dc38ce376f0c1ce73c50fa6}{%
+           family={Steinberg},
+           familyi={S\bibinitperiod},
+           given={Dave},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0a1b4003a0c8f6684170bd0db0f4d562}{%
+           family={Budinsky},
+           familyi={B\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e420244d63b7d0f3670498a5e6ee6f5f}{%
+           family={Merks},
+           familyi={M\bibinitperiod},
+           given={Ed},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d406b86250eac1cd4e040cf2bf9017ed}{%
+           family={Paternostro},
+           familyi={P\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Education}%
+      }
+      \strng{namehash}{388cff7b6de4680de110ab3d7c53b701}
+      \strng{fullhash}{dfd73748aed1e1ae3bd404391e026736}
+      \strng{bibnamehash}{388cff7b6de4680de110ab3d7c53b701}
+      \strng{authorbibnamehash}{388cff7b6de4680de110ab3d7c53b701}
+      \strng{authornamehash}{388cff7b6de4680de110ab3d7c53b701}
+      \strng{authorfullhash}{dfd73748aed1e1ae3bd404391e026736}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{EMF: eclipse modeling framework}
+      \field{year}{2008}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

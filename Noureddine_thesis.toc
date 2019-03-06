@@ -7,28 +7,42 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Foundations}{5}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Palladio Component Model}{5}{section.2.1}
+\contentsline {section}{\numberline {2.1}The Palladio Component Model}{5}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Vitruvius}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.1.1}Palladio Models}{5}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Kieker Monitoring}{5}{section.2.3}
+\contentsline {subsubsection}{\numberline {2.1.1.1}SEFFs}{5}{subsubsection.2.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Java Model Parser and printer}{5}{section.2.4}
+\contentsline {section}{\numberline {2.2}Vitruvius}{7}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Source Code Model eXtractor}{5}{section.2.5}
+\contentsline {section}{\numberline {2.3}Java Model Parser and printer}{8}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Automated Coevolution of Source Code and Software Architecture Models}{5}{section.2.6}
+\contentsline {section}{\numberline {2.4}Eclipse Modeling Framework}{8}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Continuous Integration of Performance Model}{5}{section.2.7}
+\contentsline {section}{\numberline {2.5}Automated Coevolution of Source Code and Software Architecture Models}{8}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Thesis Statement}{7}{chapter.3}
+\contentsline {section}{\numberline {2.6}Kieker Monitoring Framework}{10}{section.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Adaptive Monitoring for Continuous Performance Model Integration}{9}{chapter.4}
+\contentsline {section}{\numberline {2.7}Source Code Model eXtractor}{11}{section.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Evaluation}{11}{chapter.5}
+\contentsline {subsection}{\numberline {2.7.1}SoMoX SEFFs Reconstruction}{12}{subsection.2.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}First Section}{11}{section.5.1}
+\contentsline {subsection}{\numberline {2.7.2}Incremental SEFF Reconstruction}{12}{subsection.2.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Related Work}{13}{chapter.6}
+\contentsline {section}{\numberline {2.8}Continuous Integration of Performance Model}{13}{section.2.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusions and Future Work}{15}{chapter.7}
+\contentsline {section}{\numberline {2.9}Iterative Performance Model Parameter Estimation Considering Parametric Dependencies}{14}{section.2.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.10}DevOps}{15}{section.2.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Problem Statement}{19}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Adaptive Monitoring for Continuous Performance Model Integration}{21}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Evaluation}{23}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}First Section}{23}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Related Work}{25}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Conclusions and Future Work}{27}{chapter.7}

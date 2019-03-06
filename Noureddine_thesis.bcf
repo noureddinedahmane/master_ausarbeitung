@@ -1974,6 +1974,30 @@
     <bcf:datasource type="file" datatype="bibtex">thesis.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">becker2009palladio</bcf:citekey>
+    <bcf:citekey order="2">koziolek2006parameter</bcf:citekey>
+    <bcf:citekey order="3">koziolek2006parameter</bcf:citekey>
+    <bcf:citekey order="4">goldschmidt2012view</bcf:citekey>
+    <bcf:citekey order="5">burger2013flexible</bcf:citekey>
+    <bcf:citekey order="5">kramer2013view</bcf:citekey>
+    <bcf:citekey order="6">thomas2005erzeugung</bcf:citekey>
+    <bcf:citekey order="6">schmidt2006erzeugung</bcf:citekey>
+    <bcf:citekey order="7">heidenreich2009closing</bcf:citekey>
+    <bcf:citekey order="8">steinberg2008emf</bcf:citekey>
+    <bcf:citekey order="9">heidenreich2009derivation</bcf:citekey>
+    <bcf:citekey order="10">langhammer2015co</bcf:citekey>
+    <bcf:citekey order="10">langhammer2017automated</bcf:citekey>
+    <bcf:citekey order="11">van2009continuous</bcf:citekey>
+    <bcf:citekey order="12">jung2013instrumentation</bcf:citekey>
+    <bcf:citekey order="13">kiczales1997j</bcf:citekey>
+    <bcf:citekey order="14">krogmann2012reconstruction</bcf:citekey>
+    <bcf:citekey order="15">langhammer2017automated</bcf:citekey>
+    <bcf:citekey order="16">langhammer2017automated</bcf:citekey>
+    <bcf:citekey order="17">mazkatli2018continuous</bcf:citekey>
+    <bcf:citekey order="18">mazkatli2018continuous</bcf:citekey>
+    <bcf:citekey order="19">langhammer2015co</bcf:citekey>
+    <bcf:citekey order="20">kiczales1997j</bcf:citekey>
+    <bcf:citekey order="21">brunnert2015performance</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
