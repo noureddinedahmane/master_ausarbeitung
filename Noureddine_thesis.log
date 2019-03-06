@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.4)  6 MAR 2019 22:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.4)  6 MAR 2019 23:36
 entering extended mode
 **./Noureddine_thesis.tex
 (Noureddine_thesis.tex
@@ -1767,7 +1767,7 @@ Package biblatex Info: ... file 'Noureddine_thesis.bbl' found.
  (Noureddine_thesis.bbl)
 Package biblatex Info: Reference section=0 on input line 86.
 Package biblatex Info: Reference segment=0 on input line 86.
-<logos/kitlogo_en_cmyk.pdf, id=91, 198.7425pt x 92.345pt>
+<logos/kitlogo_en_cmyk.pdf, id=99, 198.7425pt x 92.345pt>
 File: logos/kitlogo_en_cmyk.pdf Graphic file (type pdf)
 <use logos/kitlogo_en_cmyk.pdf>
 Package pdftex.def Info: logos/kitlogo_en_cmyk.pdf  used on input line 93.
@@ -1837,7 +1837,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7.9> on input line 93.
 Missing character: There is no ¹ in font lmsy10!
-<title-background.pdf, id=92, 597.50786pt x 845.04686pt>
+<title-background.pdf, id=100, 597.50786pt x 845.04686pt>
 File: title-background.pdf Graphic file (type pdf)
 <use title-background.pdf>
 Package pdftex.def Info: title-background.pdf  used on input line 93.
@@ -1925,12 +1925,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--32
  []
 
 [5]
-<figures/pcmmodels.png, id=206, 711.8595pt x 324.61275pt>
+<figures/pcmmodels.png, id=216, 711.8595pt x 324.61275pt>
 File: figures/pcmmodels.png Graphic file (type png)
 <use figures/pcmmodels.png>
 Package pdftex.def Info: figures/pcmmodels.png  used on input line 35.
 (pdftex.def)             Requested size: 389.23111pt x 177.49243pt.
-<figures/code_seff.png, id=208, 592.01175pt x 381.22424pt>
+<figures/code_seff.png, id=218, 592.01175pt x 381.22424pt>
 File: figures/code_seff.png Graphic file (type png)
 <use figures/code_seff.png>
 Package pdftex.def Info: figures/code_seff.png  used on input line 42.
@@ -1962,7 +1962,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 68.
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
@@ -1992,7 +1995,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
-<figures/coevolution_approach.png, id=252, 326.4195pt x 540.8205pt>
+<figures/coevolution_approach.png, id=260, 326.4195pt x 540.8205pt>
 File: figures/coevolution_approach.png Graphic file (type png)
 <use figures/coevolution_approach.png>
 Package pdftex.def Info: figures/coevolution_approach.png  used on input line 1
@@ -2029,7 +2032,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
-<figures/kieker.png, id=270, 439.04025pt x 194.52675pt>
+<figures/kieker.png, id=273, 439.04025pt x 194.52675pt>
 File: figures/kieker.png Graphic file (type png)
 <use figures/kieker.png>
 Package pdftex.def Info: figures/kieker.png  used on input line 123.
@@ -2037,7 +2040,7 @@ Package pdftex.def Info: figures/kieker.png  used on input line 123.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/kieker-probe-mixed-img.png, id=271, 404.712pt x 131.89275pt>
+<figures/kieker-probe-mixed-img.png, id=274, 404.712pt x 131.89275pt>
 File: figures/kieker-probe-mixed-img.png Graphic file (type png)
 <use figures/kieker-probe-mixed-img.png>
 Package pdftex.def Info: figures/kieker-probe-mixed-img.png  used on input line
@@ -2046,7 +2049,7 @@ Package pdftex.def Info: figures/kieker-probe-mixed-img.png  used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/kieker-aop-img.png, id=272, 318.59026pt x 109.00725pt>
+<figures/kieker-aop-img.png, id=275, 318.59026pt x 109.00725pt>
 File: figures/kieker-aop-img.png Graphic file (type png)
 <use figures/kieker-aop-img.png>
 Package pdftex.def Info: figures/kieker-aop-img.png  used on input line 137.
@@ -2136,7 +2139,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 195--196
  []
 
 [13]
-<figures/cipm.png, id=302, 651.03226pt x 249.3315pt>
+<figures/cipm.png, id=301, 651.03226pt x 249.3315pt>
 File: figures/cipm.png Graphic file (type png)
 <use figures/cipm.png>
 Package pdftex.def Info: figures/cipm.png  used on input line 201.
@@ -2164,41 +2167,76 @@ Underfull \hbox (badness 10000) in paragraph at lines 212--213
 ng>] [17 <./figures/kieker.png> <./figures/kieker-probe-mixed-img.png> <./figur
 es/kieker-aop-img.png>] [18 <./figures/cipm.png>]
 chapter 3.
-) (sections/content.tex [19
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
 
 
-] [20
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+[19
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
+
+ []
+
+[20]) (sections/content.tex [21] [22
 
 
 ]
 chapter 4.
-) (sections/evaluation.tex [21] [22
+) (sections/evaluation.tex [23] [24
 
 
 ]
 chapter 5.
-) (sections/relatedwork.tex [23] [24
+) (sections/relatedwork.tex [25] [26
 
 
 ]
 chapter 6.
-) (sections/conclusion.tex [25] [26
+) (sections/conclusion.tex [27] [28
 
 
 ]
 chapter 7.
-) [27] [28
+) [29] [30
 
 
-] [29]
+] [31]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
- [30]
+ [32]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
  (Noureddine_thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
 Package rerunfilecheck Info: File `Noureddine_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 772AC8A5F0957C00DCA3F6E1E1F6A628;1576.
+(rerunfilecheck)             Checksum: AB72B9CB9D2C8EB750F5B270B8B15207;1704.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2211,23 +2249,23 @@ Package logreq Info: Writing requests to 'Noureddine_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24936 strings out of 493305
- 462590 string characters out of 3138884
- 1051393 words of memory out of 3000000
- 27820 multiletter control sequences out of 15000+200000
- 104323 words of font info for 154 fonts, out of 3000000 for 9000
+ 24971 strings out of 493305
+ 463557 string characters out of 3138884
+ 1051484 words of memory out of 3000000
+ 27855 multiletter control sequences out of 15000+200000
+ 104918 words of font info for 157 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  61i,20n,82p,9099b,2269s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/lm/lmb10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr1
-7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmssbx10.pfb>
-Output written on Noureddine_thesis.pdf (38 pages, 776126 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/lm/lmb10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on Noureddine_thesis.pdf (40 pages, 784921 bytes).
 PDF statistics:
- 434 PDF objects out of 1000 (max. 8388607)
- 101 named destinations out of 1000 (max. 500000)
- 25310 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 442 PDF objects out of 1000 (max. 8388607)
+ 93 named destinations out of 1000 (max. 500000)
+ 25838 words of extra memory for PDF output out of 29859 (max. 10000000)
 

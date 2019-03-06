@@ -35,14 +35,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.10}DevOps}{15}{section.2.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Problem Statement}{19}{chapter.3}
+\contentsline {chapter}{\numberline {3}Thesis Statement}{19}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Adaptive Monitoring for Continuous Performance Model Integration}{21}{chapter.4}
+\contentsline {section}{\numberline {3.1}Contribution}{19}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Evaluation}{23}{chapter.5}
+\contentsline {section}{\numberline {3.2}Scientific challenges}{20}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}First Section}{23}{section.5.1}
+\contentsline {chapter}{\numberline {4}Adaptive Monitoring for Continuous Performance Model Integration}{23}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Related Work}{25}{chapter.6}
+\contentsline {chapter}{\numberline {5}Evaluation}{25}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusions and Future Work}{27}{chapter.7}
+\contentsline {section}{\numberline {5.1}First Section}{25}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Related Work}{27}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Conclusions and Future Work}{29}{chapter.7}

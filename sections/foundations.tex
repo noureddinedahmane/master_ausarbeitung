@@ -64,10 +64,10 @@ Java Model Parser and Printer (JaMoPP) \cite{heidenreich2009closing} is a parser
 \section{Eclipse Modeling Framework}
 \label{sec:Eclipse Modeling Framework}
 Eclipse Modeling Framework (EMF) is a framework, that enable the creation of meta-models based on Ecore. Moreover, EMF provides the following facilities:
-\begin{enumerate}
+\begin{itemize}
 \item Source code generation from meta-models. 
 \item Generate an instance of eclipse in order to instantiate meta-models and edit them.
-\end{enumerate}
+\end{itemize}
 
 \section{Automated Coevolution of Source Code and Software Architecture Models}
 \label{sec:Automated Coevolution of Source Code and Software Architecture Models}
@@ -85,14 +85,14 @@ The co-evolution approach was applied to the Palladio Component Model (PCM) as a
 
 Figure  \ref{fig:coevoloution approach} shows the steps, that are used to keep architecture models and the source code consistent:
 
-\begin{enumerate}
+\begin{itemize}
 \item Step (0): users change either the PCM repository, the PCM system or the Java source code.  
 \item Step (1): monitors capture changes on the models.
 \item Step (2):  monitors trigger Vitruvius Framework and pass it the changes.
 \item Step (3): based on these changes, the Vitruvius framework executes the consistency preservation transformations. 
 \item Step (4): the transformations use information from the changes and the correspondence model to execute the preservation rules.
 \item Step (5): the transformations update the models. 
-\end{enumerate}
+\end{itemize}
 
 When it comes to an automatic update of SEFF in step (5), the co-evolution approach executes an incremental SEFF reconstruction step instead of transformation. \\
 
@@ -147,12 +147,12 @@ Source Code Model eXtractor (SoMoX) is a reverse engineering approach, which has
 In the following, we will review only the features of SoMoX that are involved in the context of this thesis. 
 
 In order to create the architecture of a software system, SoMoX reverse-engineer the software system using the following steps:
-\begin{enumerate}
+\begin{itemize}
 \item Parse the source code into a model.  
 \item Detect components and interfaces using metrics.
 \item Detect data types and signatures using metrics.
 \item Reconstruct the SEFFs.
-\end{enumerate}
+\end{itemize}
 
 For the source code parsing in the first step, SoMoX uses JaMoPP to create an EMF model of the Java source code that can be manipulated. In this thesis, we will also use JaMoPP source code parsing and manipulation purpose.\\
 
