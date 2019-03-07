@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.4)  7 MAR 2019 12:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.4)  7 MAR 2019 20:50
 entering extended mode
 **./Noureddine_thesis.tex
 (Noureddine_thesis.tex
@@ -1378,12 +1378,40 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  T1/LinuxLibertineMonoT-TLF/b/n --> OT1/lmtt/m/n on inpu
 t line 38.
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count134
+\lst@gtempboxa=\box35
+\lst@token=\toks28
+\lst@length=\count135
+\lst@currlwidth=\dimen139
+\lst@column=\count136
+\lst@pos=\count137
+\lst@lostspace=\dimen140
+\lst@width=\dimen141
+\lst@newlines=\count138
+\lst@lineno=\count139
+\lst@maxwidth=\dimen142
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count140
+\lst@skipnumbers=\count141
+\lst@framebox=\box36
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
 Package: biblatex 2018/03/04 v3.11 programmable bibliographies (PK/MW)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count134
+\lrq@indent=\count142
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -1391,49 +1419,49 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ("C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
 \@xs@message=\write3
-\integerpart=\count135
-\decimalpart=\count136
+\integerpart=\count143
+\decimalpart=\count144
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count137
-\c@listtotal=\count138
-\c@listcount=\count139
-\c@liststart=\count140
-\c@liststop=\count141
-\c@citecount=\count142
-\c@citetotal=\count143
-\c@multicitecount=\count144
-\c@multicitetotal=\count145
-\c@instcount=\count146
-\c@maxnames=\count147
-\c@minnames=\count148
-\c@maxitems=\count149
-\c@minitems=\count150
-\c@citecounter=\count151
-\c@savedcitecounter=\count152
-\c@uniquelist=\count153
-\c@uniquename=\count154
-\c@refsection=\count155
-\c@refsegment=\count156
-\c@maxextratitle=\count157
-\c@maxextratitleyear=\count158
-\c@maxextradate=\count159
-\c@maxextraalpha=\count160
-\c@abbrvpenalty=\count161
-\c@highnamepenalty=\count162
-\c@lownamepenalty=\count163
-\c@maxparens=\count164
-\c@parenlevel=\count165
-\blx@tempcnta=\count166
-\blx@tempcntb=\count167
-\blx@tempcntc=\count168
-\blx@maxsection=\count169
-\blx@maxsegment@0=\count170
-\blx@notetype=\count171
-\blx@parenlevel@text=\count172
-\blx@parenlevel@foot=\count173
-\blx@sectionciteorder@0=\count174
+\c@tabx@nest=\count145
+\c@listtotal=\count146
+\c@listcount=\count147
+\c@liststart=\count148
+\c@liststop=\count149
+\c@citecount=\count150
+\c@citetotal=\count151
+\c@multicitecount=\count152
+\c@multicitetotal=\count153
+\c@instcount=\count154
+\c@maxnames=\count155
+\c@minnames=\count156
+\c@maxitems=\count157
+\c@minitems=\count158
+\c@citecounter=\count159
+\c@savedcitecounter=\count160
+\c@uniquelist=\count161
+\c@uniquename=\count162
+\c@refsection=\count163
+\c@refsegment=\count164
+\c@maxextratitle=\count165
+\c@maxextratitleyear=\count166
+\c@maxextradate=\count167
+\c@maxextraalpha=\count168
+\c@abbrvpenalty=\count169
+\c@highnamepenalty=\count170
+\c@lownamepenalty=\count171
+\c@maxparens=\count172
+\c@parenlevel=\count173
+\blx@tempcnta=\count174
+\blx@tempcntb=\count175
+\blx@tempcntc=\count176
+\blx@maxsection=\count177
+\blx@maxsegment@0=\count178
+\blx@notetype=\count179
+\blx@parenlevel@text=\count180
+\blx@parenlevel@foot=\count181
+\blx@sectionciteorder@0=\count182
 \labelnumberwidth=\skip81
 \labelalphawidth=\skip82
 \biblabelsep=\skip83
@@ -1444,9 +1472,9 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \bibhang=\skip88
 \blx@bcfin=\read1
 \blx@bcfout=\write4
-\c@mincomprange=\count175
-\c@maxcomprange=\count176
-\c@mincompwidth=\count177
+\c@mincomprange=\count183
+\c@maxcomprange=\count184
+\c@mincompwidth=\count185
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1457,74 +1485,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count178
-\c@savedafterword=\count179
-\c@annotator=\count180
-\c@savedannotator=\count181
-\c@author=\count182
-\c@savedauthor=\count183
-\c@bookauthor=\count184
-\c@savedbookauthor=\count185
-\c@commentator=\count186
-\c@savedcommentator=\count187
-\c@editor=\count188
-\c@savededitor=\count189
-\c@editora=\count190
-\c@savededitora=\count191
-\c@editorb=\count192
-\c@savededitorb=\count193
-\c@editorc=\count194
-\c@savededitorc=\count195
-\c@foreword=\count196
-\c@savedforeword=\count197
-\c@holder=\count198
-\c@savedholder=\count199
-\c@introduction=\count266
-\c@savedintroduction=\count267
-\c@namea=\count268
-\c@savednamea=\count269
-\c@nameb=\count270
-\c@savednameb=\count271
-\c@namec=\count272
-\c@savednamec=\count273
-\c@translator=\count274
-\c@savedtranslator=\count275
-\c@shortauthor=\count276
-\c@savedshortauthor=\count277
-\c@shorteditor=\count278
-\c@savedshorteditor=\count279
-\c@labelname=\count280
-\c@savedlabelname=\count281
-\c@institution=\count282
-\c@savedinstitution=\count283
-\c@lista=\count284
-\c@savedlista=\count285
-\c@listb=\count286
-\c@savedlistb=\count287
-\c@listc=\count288
-\c@savedlistc=\count289
-\c@listd=\count290
-\c@savedlistd=\count291
-\c@liste=\count292
-\c@savedliste=\count293
-\c@listf=\count294
-\c@savedlistf=\count295
-\c@location=\count296
-\c@savedlocation=\count297
-\c@organization=\count298
-\c@savedorganization=\count299
-\c@origlocation=\count300
-\c@savedoriglocation=\count301
-\c@origpublisher=\count302
-\c@savedorigpublisher=\count303
-\c@publisher=\count304
-\c@savedpublisher=\count305
-\c@language=\count306
-\c@savedlanguage=\count307
-\c@origlanguage=\count308
-\c@savedoriglanguage=\count309
-\c@pageref=\count310
-\c@savedpageref=\count311
+\c@afterword=\count186
+\c@savedafterword=\count187
+\c@annotator=\count188
+\c@savedannotator=\count189
+\c@author=\count190
+\c@savedauthor=\count191
+\c@bookauthor=\count192
+\c@savedbookauthor=\count193
+\c@commentator=\count194
+\c@savedcommentator=\count195
+\c@editor=\count196
+\c@savededitor=\count197
+\c@editora=\count198
+\c@savededitora=\count199
+\c@editorb=\count266
+\c@savededitorb=\count267
+\c@editorc=\count268
+\c@savededitorc=\count269
+\c@foreword=\count270
+\c@savedforeword=\count271
+\c@holder=\count272
+\c@savedholder=\count273
+\c@introduction=\count274
+\c@savedintroduction=\count275
+\c@namea=\count276
+\c@savednamea=\count277
+\c@nameb=\count278
+\c@savednameb=\count279
+\c@namec=\count280
+\c@savednamec=\count281
+\c@translator=\count282
+\c@savedtranslator=\count283
+\c@shortauthor=\count284
+\c@savedshortauthor=\count285
+\c@shorteditor=\count286
+\c@savedshorteditor=\count287
+\c@labelname=\count288
+\c@savedlabelname=\count289
+\c@institution=\count290
+\c@savedinstitution=\count291
+\c@lista=\count292
+\c@savedlista=\count293
+\c@listb=\count294
+\c@savedlistb=\count295
+\c@listc=\count296
+\c@savedlistc=\count297
+\c@listd=\count298
+\c@savedlistd=\count299
+\c@liste=\count300
+\c@savedliste=\count301
+\c@listf=\count302
+\c@savedlistf=\count303
+\c@location=\count304
+\c@savedlocation=\count305
+\c@organization=\count306
+\c@savedorganization=\count307
+\c@origlocation=\count308
+\c@savedoriglocation=\count309
+\c@origpublisher=\count310
+\c@savedorigpublisher=\count311
+\c@publisher=\count312
+\c@savedpublisher=\count313
+\c@language=\count314
+\c@savedlanguage=\count315
+\c@origlanguage=\count316
+\c@savedoriglanguage=\count317
+\c@pageref=\count318
+\c@savedpageref=\count319
 \shorthandwidth=\skip89
 \shortjournalwidth=\skip90
 \shortserieswidth=\skip91
@@ -1550,13 +1578,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
 File: biblatex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
-\c@textcitecount=\count312
-\c@textcitetotal=\count313
-\c@textcitemaxnames=\count314
-\c@biburlnumpenalty=\count315
-\c@biburlucpenalty=\count316
-\c@biburllcpenalty=\count317
-\c@smartand=\count318
+\c@textcitecount=\count320
+\c@textcitetotal=\count321
+\c@textcitemaxnames=\count322
+\c@biburlnumpenalty=\count323
+\c@biburlucpenalty=\count324
+\c@biburllcpenalty=\count325
+\c@smartand=\count326
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -1568,8 +1596,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
 File: standard.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count319
-\c@bbx:relatedtotal=\count320
+\c@bbx:relatedcount=\count327
+\c@bbx:relatedtotal=\count328
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -1621,68 +1649,70 @@ File: german.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count321
-\@quotereset=\count322
+\@quotelevel=\count329
+\@quotereset=\count330
 (Noureddine_thesis.aux)
 \openout1 = `Noureddine_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 86.
-LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 86
-.
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 108.
+LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 10
+8.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\newtx\omlnxlmi.fd"
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 86.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 86.
-
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 108.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 108
+.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\newtx\untxexa.fd"
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 86.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 108.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 108.
+
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 86.
-LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 86
-.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 108.
+LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 10
+8.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\newtx\lmsntxsy.fd"
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 86.
-LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 8
-6.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 108.
+LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 1
+08.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\newtx\lmxntxexx.fd"
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 86.
-LaTeX Font Info:    Try loading font information for LY1+ptm on input line 86.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 108.
+LaTeX Font Info:    Try loading font information for LY1+ptm on input line 108.
+
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ly1\ly1ptm.fd"
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 86.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 108.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1693,10 +1723,10 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 86.
-\c@mv@tabular=\count323
-\c@mv@boldtabular=\count324
-LaTeX Info: Redefining \microtypecontext on input line 86.
+or `english'. on input line 108.
+\c@mv@tabular=\count331
+\c@mv@boldtabular=\count332
+LaTeX Info: Redefining \microtypecontext on input line 108.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1711,21 +1741,21 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-\AtBeginShipoutBox=\box35
+\AtBeginShipoutBox=\box37
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count325
-\scratchdimen=\dimen139
-\scratchbox=\box36
-\nofMPsegments=\count326
-\nofMParguments=\count327
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count328
-\MPscratchDim=\dimen140
-\MPnumerator=\count329
-\makeMPintoPDFobject=\count330
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count333
+\scratchdimen=\dimen143
+\scratchbox=\box38
+\nofMPsegments=\count334
+\nofMParguments=\count335
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count336
+\MPscratchDim=\dimen144
+\MPnumerator=\count337
+\makeMPintoPDFobject=\count338
+\everyMPtoPDFconversion=\toks30
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1739,7 +1769,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-Package hyperref Info: Link coloring OFF on input line 86.
+Package hyperref Info: Link coloring OFF on input line 108.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1747,16 +1777,17 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count331
+\c@section@level=\count339
 )
-LaTeX Info: Redefining \ref on input line 86.
-LaTeX Info: Redefining \pageref on input line 86.
-LaTeX Info: Redefining \nameref on input line 86.
+LaTeX Info: Redefining \ref on input line 108.
+LaTeX Info: Redefining \pageref on input line 108.
+LaTeX Info: Redefining \nameref on input line 108.
 
 (Noureddine_thesis.out) (Noureddine_thesis.out)
 \@outlinefile=\write5
 \openout5 = `Noureddine_thesis.out'.
 
+\c@lstlisting=\count340
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1765,14 +1796,15 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Noureddine_thesis.bbl' found.
  (Noureddine_thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 86.
-Package biblatex Info: Reference segment=0 on input line 86.
+Package biblatex Info: Reference section=0 on input line 108.
+Package biblatex Info: Reference segment=0 on input line 108.
 <logos/kitlogo_en_cmyk.pdf, id=195, 198.7425pt x 92.345pt>
 File: logos/kitlogo_en_cmyk.pdf Graphic file (type pdf)
 <use logos/kitlogo_en_cmyk.pdf>
-Package pdftex.def Info: logos/kitlogo_en_cmyk.pdf  used on input line 93.
+Package pdftex.def Info: logos/kitlogo_en_cmyk.pdf  used on input line 115.
 (pdftex.def)             Requested size: 110.22453pt x 51.21504pt.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 93.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 115.
+
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1782,65 +1814,67 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <24.88> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 93.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 93.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 115.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 115.
+
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 93.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 115.
+
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 93.
-
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 115
+.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 93.
-
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 115
+.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 93.
+(Font)              <17.28> on input line 115.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12.5> on input line 93.
+(Font)              <12.5> on input line 115.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9.4> on input line 93.
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 93.
-
+(Font)              <9.4> on input line 115.
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 115
+.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\newtx\untxmia.fd"
 File: untxmia.fd 2016/01/31 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 93.
-
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 115
+.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\newtx\untxsym.fd"
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 93.
-
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 115
+.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\newtx\untxsyc.fd"
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 Missing character: There is no ¹ in font lmsy10!
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 93.
+(Font)              <14.4> on input line 115.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.5> on input line 93.
+(Font)              <10.5> on input line 115.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.9> on input line 93.
+(Font)              <7.9> on input line 115.
 Missing character: There is no ¹ in font lmsy10!
 <title-background.pdf, id=196, 597.50786pt x 845.04686pt>
 File: title-background.pdf Graphic file (type pdf)
 <use title-background.pdf>
-Package pdftex.def Info: title-background.pdf  used on input line 93.
+Package pdftex.def Info: title-background.pdf  used on input line 115.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
  [1
 
@@ -1857,9 +1891,9 @@ ound.pdf> <./logos/kitlogo_en_cmyk.pdf>] [2
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 119.
-Package tocbasic Info: character protrusion at toc deactivated on input line 11
-9.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 141.
+Package tocbasic Info: character protrusion at toc deactivated on input line 14
+1.
 
 (Noureddine_thesis.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1874,8 +1908,8 @@ Missing character: There is no ¹ in font lmsy10!
 \openout6 = `Noureddine_thesis.toc'.
 
  [4]
-Package tocbasic Info: character protrusion at lof deactivated on input line 12
-1.
+Package tocbasic Info: character protrusion at lof deactivated on input line 14
+3.
  (Noureddine_thesis.lof)
 \tf@lof=\write7
 \openout7 = `Noureddine_thesis.lof'.
@@ -1906,71 +1940,91 @@ l.13 \chapter
 
 ]
 chapter 1.
+
+Class scrbook Warning: \float@addtolists detected!
+(scrbook)              Implementation of \float@addtolist became
+(scrbook)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrbook)              has been replaced by several more flexible
+(scrbook)              features of package `tocbasic`.
+(scrbook)              Since Version 3.12 support for deprecated
+(scrbook)              \float@addtolist interface has been
+(scrbook)              restricted to only some of the KOMA-Script
+(scrbook)              features and been removed from others.
+(scrbook)              Loading of package `scrhack' may help to
+(scrbook)              avoid this warning, if you are using a
+(scrbook)              a package that still implements the
+(scrbook)              deprecated \float@addtolist interface .
+
 ) (sections/foundations.tex [3] [4
 
 
 ]
 chapter 2.
+
+LaTeX Warning: Reference `sec: sec: SEFFs' on page 5 undefined on input line 16
+.
+
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <17.28> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 17.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 21.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 22.
 
 LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
-(Font)              using `T1/lmss/m/n' instead on input line 21.
+(Font)              using `T1/lmss/m/n' instead on input line 22.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--32
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
 [5]
-<figures/pcmmodels.png, id=376, 711.8595pt x 324.61275pt>
+Underfull \hbox (badness 10000) in paragraph at lines 30--34
+
+ []
+
+<figures/pcmmodels.png, id=375, 711.8595pt x 324.61275pt>
 File: figures/pcmmodels.png Graphic file (type png)
 <use figures/pcmmodels.png>
-Package pdftex.def Info: figures/pcmmodels.png  used on input line 35.
+Package pdftex.def Info: figures/pcmmodels.png  used on input line 37.
 (pdftex.def)             Requested size: 389.23111pt x 177.49243pt.
-<figures/code_seff.png, id=378, 592.01175pt x 381.22424pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/code_seff.png, id=377, 592.01175pt x 381.22424pt>
 File: figures/code_seff.png Graphic file (type png)
 <use figures/code_seff.png>
-Package pdftex.def Info: figures/code_seff.png  used on input line 42.
+Package pdftex.def Info: figures/code_seff.png  used on input line 44.
 (pdftex.def)             Requested size: 389.23111pt x 250.64316pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-
- []
-
-[6 <./figures/pcmmodels.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
 Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
 
-Underfull \vbox (badness 4927) has occurred while \output is active []
-
- [7 <./figures/code_seff.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 68.
+[7 <./figures/pcmmodels.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 70.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
-
- []
-
-[8]
+) [8 <./figures/code_seff.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
@@ -1991,26 +2045,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-<figures/coevolution_approach.png, id=419, 326.4195pt x 540.8205pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+<figures/coevolution_approach.png, id=421, 326.4195pt x 540.8205pt>
 File: figures/coevolution_approach.png Graphic file (type png)
 <use figures/coevolution_approach.png>
 Package pdftex.def Info: figures/coevolution_approach.png  used on input line 1
-02.
+04.
 (pdftex.def)             Requested size: 389.23111pt x 644.91298pt.
 
-LaTeX Warning: Float too large for page by 34.91296pt on input line 105.
+LaTeX Warning: Float too large for page by 34.91296pt on input line 107.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
-
- []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 112--113
@@ -2028,57 +2082,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--117
  []
 
 [10]
+
+LaTeX Warning: Reference `fig:kieker manual instr' on page 11 undefined on inpu
+t line 118.
+
+
+LaTeX Warning: Reference `fig:kieker AOP instr' on page 11 undefined on input l
+ine 118.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
-<figures/kieker.png, id=432, 439.04025pt x 194.52675pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+
+ []
+
+<figures/kieker.png, id=431, 439.04025pt x 194.52675pt>
 File: figures/kieker.png Graphic file (type png)
 <use figures/kieker.png>
-Package pdftex.def Info: figures/kieker.png  used on input line 123.
+Package pdftex.def Info: figures/kieker.png  used on input line 125.
 (pdftex.def)             Requested size: 389.23111pt x 172.46039pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/kieker-probe-mixed-img.png, id=433, 404.712pt x 131.89275pt>
-File: figures/kieker-probe-mixed-img.png Graphic file (type png)
-<use figures/kieker-probe-mixed-img.png>
-Package pdftex.def Info: figures/kieker-probe-mixed-img.png  used on input line
- 130.
-(pdftex.def)             Requested size: 389.23111pt x 126.85306pt.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 130.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 130.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/kieker-aop-img.png, id=434, 318.59026pt x 109.00725pt>
-File: figures/kieker-aop-img.png Graphic file (type png)
-<use figures/kieker-aop-img.png>
-Package pdftex.def Info: figures/kieker-aop-img.png  used on input line 137.
-(pdftex.def)             Requested size: 389.23111pt x 133.18823pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
-
- []
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 131.
+ [11]
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
@@ -2097,75 +2141,121 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
-
-LaTeX Warning: Reference `Incremental SEFF Reconstruction' on page 12 undefined
- on input line 175.
-
-
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
-[12]
+
 Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
-File: figures/kieker-aop-img.png Graphic file (type png)
-<use figures/kieker-aop-img.png>
-Package pdftex.def Info: figures/kieker-aop-img.png  used on input line 181.
-(pdftex.def)             Requested size: 389.23111pt x 133.18823pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
+LaTeX Warning: Reference `Incremental SEFF Reconstruction' on page 13 undefined
+ on input line 185.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
 [13]
-<figures/cipm.png, id=460, 651.03226pt x 249.3315pt>
+<figures/inscremental_seff_reconst.png, id=471, 459.51675pt x 398.08725pt>
+File: figures/inscremental_seff_reconst.png Graphic file (type png)
+<use figures/inscremental_seff_reconst.png>
+Package pdftex.def Info: figures/inscremental_seff_reconst.png  used on input l
+ine 191.
+(pdftex.def)             Requested size: 389.23111pt x 337.20341pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
+
+ []
+
+[14]
+<figures/cipm.png, id=483, 651.03226pt x 249.3315pt>
 File: figures/cipm.png Graphic file (type png)
 <use figures/cipm.png>
-Package pdftex.def Info: figures/cipm.png  used on input line 201.
+Package pdftex.def Info: figures/cipm.png  used on input line 211.
 (pdftex.def)             Requested size: 389.23111pt x 149.07121pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
  []
 
-[14]) (sections/thesis_statement.tex [15] [16 <./figures/coevolution_approach.p
-ng>] [17 <./figures/kieker.png> <./figures/kieker-probe-mixed-img.png> <./figur
-es/kieker-aop-img.png>] [18 <./figures/cipm.png>]
+
+Underfull \vbox (badness 1484) has occurred while \output is active []
+
+
+
+Package scrlayer-scrpage Warning: \headheight to low.
+(scrlayer-scrpage)                At least 28.99998pt needed,
+(scrlayer-scrpage)                but only 18.125pt found.
+(scrlayer-scrpage)                I'll enlarge \headheight, for further
+(scrlayer-scrpage)                processing, but you should do this yourself,
+(scrlayer-scrpage)                e.g., setting typearea's option
+(scrlayer-scrpage)                `headheight=28.99998pt'.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 2
+24.
+
+
+Overfull \vbox (10.87498pt too high) has occurred while \output is active []
+
+
+[15]) (sections/thesis_statement.tex [16] [17 <./figures/coevolution_approach.p
+ng>] [18 <./figures/kieker.png> <./figures/inscremental_seff_reconst.png>]
+[19 <./figures/cipm.png>] [20
+
+
+]
 chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
@@ -2182,10 +2272,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-[19
-
-
-] [20]) (sections/content.tex [21] [22
+[21] [22]) (sections/content.tex [23] [24
 
 
 ]
@@ -2205,46 +2292,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-<figures/approach_context.png, id=510, 435.42674pt x 435.42674pt>
+[25]
+<figures/approach_context.png, id=552, 435.42674pt x 435.42674pt>
 File: figures/approach_context.png Graphic file (type png)
 <use figures/approach_context.png>
 Package pdftex.def Info: figures/approach_context.png  used on input line 29.
 (pdftex.def)             Requested size: 389.23111pt x 389.24275pt.
-[23]
+
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26 <./figures/approach_context.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
 
-Package scrlayer-scrpage Warning: \headheight to low.
-(scrlayer-scrpage)                At least 28.99998pt needed,
-(scrlayer-scrpage)                but only 18.125pt found.
-(scrlayer-scrpage)                I'll enlarge \headheight, for further
-(scrlayer-scrpage)                processing, but you should do this yourself,
-(scrlayer-scrpage)                e.g., setting typearea's option
-(scrlayer-scrpage)                `headheight=28.99998pt'.
-(scrlayer-scrpage)                I'll also decrease \topmargin on input line 4
-0.
-
-
-Overfull \vbox (10.87498pt too high) has occurred while \output is active []
-
-
-[24 <./figures/approach_context.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
-<figures/probes.png, id=521, 446.8695pt x 395.076pt>
+<figures/probes.png, id=562, 446.8695pt x 395.076pt>
 File: figures/probes.png Graphic file (type png)
 <use figures/probes.png>
 Package pdftex.def Info: figures/probes.png  used on input line 45.
 (pdftex.def)             Requested size: 389.23111pt x 344.13533pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
@@ -2255,7 +2334,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-[25 <./figures/probes.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
@@ -2270,27 +2349,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
-
+[27]
 Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-<figures/records.png, id=527, 578.76225pt x 342.68025pt>
+<figures/records.png, id=570, 578.76225pt x 342.68025pt>
 File: figures/records.png Graphic file (type png)
 <use figures/records.png>
 Package pdftex.def Info: figures/records.png  used on input line 66.
 (pdftex.def)             Requested size: 389.23111pt x 230.46257pt.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
-[26 <./figures/records.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
-
+[28 <./figures/probes.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
@@ -2306,11 +2388,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--86
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29 <./figures/records.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
-[27]
+
 Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
@@ -2325,20 +2410,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
-<figures/im.png, id=541, 229.45724pt x 207.174pt>
+<figures/im.png, id=586, 229.45724pt x 207.174pt>
 File: figures/im.png Graphic file (type png)
 <use figures/im.png>
 Package pdftex.def Info: figures/im.png  used on input line 101.
 (pdftex.def)             Requested size: 216.24097pt x 195.24304pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
 
-Underfull \vbox (badness 3815) has occurred while \output is active []
+Underfull \vbox (badness 1845) has occurred while \output is active []
 
- [28 <./figures/im.png>]
+ [30]
 Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
@@ -2358,14 +2446,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
-<figures/devops_approach.png, id=548, 514.92375pt x 451.6875pt>
+[31 <./figures/im.png>]
+<figures/devops_approach.png, id=597, 514.92375pt x 451.6875pt>
 File: figures/devops_approach.png Graphic file (type png)
 <use figures/devops_approach.png>
 Package pdftex.def Info: figures/devops_approach.png  used on input line 122.
 (pdftex.def)             Requested size: 389.23111pt x 341.43895pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
@@ -2376,15 +2462,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
-[29]
+[32 <./figures/devops_approach.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30 <./figures/devops_approach.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
@@ -2394,62 +2477,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
-<figures/seff_jamopp.png, id=564, 452.892pt x 316.18124pt>
+[33]
+<figures/seff_jamopp.png, id=618, 452.892pt x 316.18124pt>
 File: figures/seff_jamopp.png Graphic file (type png)
 <use figures/seff_jamopp.png>
 Package pdftex.def Info: figures/seff_jamopp.png  used on input line 151.
 (pdftex.def)             Requested size: 389.23111pt x 271.74652pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
-[31]
+
 Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
 
-<figures/correspondence_model.png, id=570, 222.23026pt x 186.09525pt>
+[34 <./figures/seff_jamopp.png>]
+<figures/correspondence_model.png, id=625, 222.23026pt x 186.09525pt>
 File: figures/correspondence_model.png Graphic file (type png)
 <use figures/correspondence_model.png>
 Package pdftex.def Info: figures/correspondence_model.png  used on input line 1
 68.
 (pdftex.def)             Requested size: 389.23111pt x 325.95547pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
-[32 <./figures/seff_jamopp.png>]
+[35 <./figures/correspondence_model.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
-<figures/vitruv_vsum.png, id=578, 419.76825pt x 348.1005pt>
+<figures/vitruv_vsum.png, id=634, 419.76825pt x 348.1005pt>
 File: figures/vitruv_vsum.png Graphic file (type png)
 <use figures/vitruv_vsum.png>
 Package pdftex.def Info: figures/vitruv_vsum.png  used on input line 184.
 (pdftex.def)             Requested size: 389.23111pt x 322.78996pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
 
-[33 <./figures/correspondence_model.png>]
+[36 <./figures/vitruv_vsum.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
-<figures/extended_vsum.png, id=587, 384.2355pt x 484.81125pt>
+<figures/extended_vsum.png, id=646, 384.2355pt x 484.81125pt>
 File: figures/extended_vsum.png Graphic file (type png)
 <use figures/extended_vsum.png>
 Package pdftex.def Info: figures/extended_vsum.png  used on input line 208.
@@ -2457,7 +2533,7 @@ Package pdftex.def Info: figures/extended_vsum.png  used on input line 208.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[34 <./figures/vitruv_vsum.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 219--220
 
  []
@@ -2477,12 +2553,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
-<figures/seff_reconst_extension.png, id=595, 411.939pt x 452.28975pt>
+[37]
+<figures/seff_reconst_extension.png, id=655, 411.939pt x 452.28975pt>
 File: figures/seff_reconst_extension.png Graphic file (type png)
 <use figures/seff_reconst_extension.png>
 Package pdftex.def Info: figures/seff_reconst_extension.png  used on input line
  230.
 (pdftex.def)             Requested size: 389.23111pt x 427.35397pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2496,7 +2574,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 240--241
 
  []
 
-[35]
+
 Underfull \hbox (badness 10000) in paragraph at lines 242--243
 
  []
@@ -2506,11 +2584,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 244--245
 
  []
 
-<figures/approach_design.png, id=604, 482.40225pt x 180.675pt>
+[38]
+<figures/approach_design.png, id=666, 482.40225pt x 180.675pt>
 File: figures/approach_design.png Graphic file (type png)
 <use figures/approach_design.png>
 Package pdftex.def Info: figures/approach_design.png  used on input line 259.
 (pdftex.def)             Requested size: 389.23111pt x 145.78629pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2519,184 +2599,220 @@ Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
  []
 
-[36]
+
 Underfull \hbox (badness 10000) in paragraph at lines 269--271
 
  []
 
-<figures/instrumented_code.png, id=609, 714.2685pt x 498.06075pt>
-File: figures/instrumented_code.png Graphic file (type png)
-<use figures/instrumented_code.png>
-Package pdftex.def Info: figures/instrumented_code.png  used on input line 278.
-
-(pdftex.def)             Requested size: 389.23111pt x 271.41112pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+[39]
+Overfull \hbox (39.53386pt too wide) in paragraph at lines 283--284
+[][] 
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
+Overfull \hbox (4.71367pt too wide) in paragraph at lines 286--288
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (69.17424pt too wide) in paragraph at lines 295--296
+[][] 
+ []
+
+
+Overfull \hbox (78.81462pt too wide) in paragraph at lines 297--298
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (78.81462pt too wide) in paragraph at lines 302--303
+[][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 7667) has occurred while \output is active []
+
+ [40]
+Overfull \hbox (46.94395pt too wide) in paragraph at lines 303--304
+[][] 
+ []
+
+
+Overfull \hbox (56.58434pt too wide) in paragraph at lines 305--306
+[][][][][][][] 
+ []
+
+
+Class scrbook Warning: `\caption' outside float.
+(scrbook)              Seems you are using `\caption' outside a float.
+(scrbook)              Maybe you are using a package that uses `\@makecaption'
+(scrbook)              without setting `\@captype' before.
+(scrbook)              Because I cannot detect the caption type, I'm using
+(scrbook)              the empty one. on input line 323.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--289
+Underfull \hbox (badness 10000) in paragraph at lines 330--332
+
+ []
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 333--335
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--292
+Underfull \hbox (badness 10000) in paragraph at lines 337--339
 
  []
 
-[37]
-Underfull \hbox (badness 10000) in paragraph at lines 294--296
-
- []
-
-<figures/architecture.png, id=618, 428.802pt x 301.72725pt>
+<figures/architecture.png, id=736, 428.802pt x 301.72725pt>
 File: figures/architecture.png Graphic file (type png)
 <use figures/architecture.png>
-Package pdftex.def Info: figures/architecture.png  used on input line 299.
+Package pdftex.def Info: figures/architecture.png  used on input line 342.
 (pdftex.def)             Requested size: 389.23111pt x 273.89543pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--310
+Underfull \hbox (badness 10000) in paragraph at lines 351--353
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--313
+Underfull \hbox (badness 10000) in paragraph at lines 354--356
+
+ []
+
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 357--359
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--316
+Underfull \hbox (badness 10000) in paragraph at lines 360--362
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--319
-
- []
-
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 320--322
+Underfull \hbox (badness 10000) in paragraph at lines 363--365
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--324
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
 
  []
 
-<figures/instrumentation_process.png, id=627, 625.1355pt x 466.1415pt>
+[43]
+<figures/instrumentation_process.png, id=749, 625.1355pt x 466.1415pt>
 File: figures/instrumentation_process.png Graphic file (type png)
 <use figures/instrumentation_process.png>
 Package pdftex.def Info: figures/instrumentation_process.png  used on input lin
-e 333.
+e 376.
 (pdftex.def)             Requested size: 389.23111pt x 290.23523pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
 
  []
 
 
-Underfull \vbox (badness 4752) has occurred while \output is active []
-
- [39]
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--345
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
 
  []
 
-<figures/service_parameters.png, id=634, 461.3235pt x 279.444pt>
+<figures/service_parameters.png, id=752, 461.3235pt x 279.444pt>
 File: figures/service_parameters.png Graphic file (type png)
 <use figures/service_parameters.png>
-Package pdftex.def Info: figures/service_parameters.png  used on input line 349
+Package pdftex.def Info: figures/service_parameters.png  used on input line 392
 .
 (pdftex.def)             Requested size: 389.23111pt x 235.77603pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--361
+Underfull \hbox (badness 10000) in paragraph at lines 402--404
+
+ []
+
+[44]
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--363
+Underfull \hbox (badness 10000) in paragraph at lines 407--409
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--366
-
- []
-
-[40]
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
+Underfull \hbox (badness 10000) in paragraph at lines 410--411
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
+Underfull \hbox (badness 10000) in paragraph at lines 412--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 
  []
 
-) (sections/evaluation.tex [41] [42 <./figures/extended_vsum.png>] [43 <./figur
-es/seff_reconst_extension.png>] [44 <./figures/approach_design.png> <./figures/
-instrumented_code.png>] [45 <./figures/architecture.png>] [46 <./figures/instru
-mentation_process.png> <./figures/service_parameters.png>]
+) (sections/evaluation.tex [45] [46 <./figures/extended_vsum.png>] [47 <./figur
+es/seff_reconst_extension.png>] [48 <./figures/approach_design.png> <./figures/
+architecture.png>] [49 <./figures/instrumentation_process.png> <./figures/servi
+ce_parameters.png>] [50
+
+
+]
 chapter 5.
-) (sections/relatedwork.tex [47
-
-
-] [48
+) (sections/relatedwork.tex [51] [52
 
 
 ]
 chapter 6.
-) (sections/conclusion.tex [49] [50
+) (sections/conclusion.tex [53] [54
 
 
 ]
 chapter 7.
-) [51] [52
+) [55] [56
 
 
-] [53]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
- [54]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
+] [57]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
+ [58]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
  (Noureddine_thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
 Package rerunfilecheck Info: File `Noureddine_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A122CD3C7ABFBDDE7B6FC185BF4082C9;3498.
+(rerunfilecheck)             Checksum: C25184DD4170B9AF7C55C3F55BB1CAB7;3522.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2709,23 +2825,26 @@ Package logreq Info: Writing requests to 'Noureddine_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25176 strings out of 493305
- 467776 string characters out of 3138884
- 1055460 words of memory out of 3000000
- 27978 multiletter control sequences out of 15000+200000
- 105267 words of font info for 160 fonts, out of 3000000 for 9000
+ 27028 strings out of 493305
+ 492634 string characters out of 3138884
+ 1127009 words of memory out of 3000000
+ 29744 multiletter control sequences out of 15000+200000
+ 108891 words of font info for 163 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 63i,20n,88p,9099b,2269s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,20n,88p,9099b,3551s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/lm/lmb10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Noureddine_thesis.pdf (62 pages, 1346688 bytes).
+les/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
+/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmtt12.pfb>
+Output written on Noureddine_thesis.pdf (66 pages, 1401151 bytes).
 PDF statistics:
- 768 PDF objects out of 1000 (max. 8388607)
- 154 named destinations out of 1000 (max. 500000)
- 26105 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 909 PDF objects out of 1000 (max. 8388607)
+ 219 named destinations out of 1000 (max. 500000)
+ 27631 words of extra memory for PDF output out of 29859 (max. 10000000)
 

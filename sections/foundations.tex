@@ -13,6 +13,7 @@
 
 \chapter{Foundations}
 \label{ch:Foundations}
+In this section, we introduce the necessary foundations for this thesis. In section \ref{sec:The Palladio Component Model}, we present the Palladio Component Model (PCM) and it's models.In section \ref{sec: sec: SEFFs}, we describe briefly Service Effect Specification (SEFF) model of PCM. In section \ref{sec:Vitruvius}, we present the Vitruvius Framework. In section \ref{sec:Java Model Parser and printer}, we present Java Model Parser and Printer (JaMoPP). In section \ref{sec:Automated Coevolution of Source Code and Software Architecture Models}, we introduce the Coevolution approach of Langhammer. In section \ref{sec:Kieker Monitoring}, we present the Kieker Monitoring Framework. In section \ref{sec:Source Code Model eXtractor}, we give an overview of the reverse-engineering of the approach Source Code Model eXtractor (SoMoX). In section \ref{sec:Continuous Integration of Performance Model}, we bring in the approach Continuous Integration of Performance Model (CIPM). In section \ref{sec:Iterative Performance Model Parameter Estimation Considering Parametric Dependencies}, we summarize the master thesis of Jägers. In the last section \ref{sec:DevOps}, we introduce the development process DevOp.    
 
 \section{The Palladio Component Model}
 \label{sec:The Palladio Component Model}
@@ -21,6 +22,7 @@ Palladio Component Model (PCM) is a component-based software architecture approa
 \subsection{Palladio Models}
 \label{sec: Palladio Models}
 To allow the prediction of the Performance and the reliability of a software system, PCM defines four different roles to create four different models \ref{fig:PCM Models and transformations}. The Repository model, which is created by developers. Developers specify and implement components, interfaces, provided roles, required roles and signatures for the repository. In the context of PCM, a component is by definition a block of software, that can be composed, deployed and customized without requiring the understanding of its internals.  Moreover, the roles in PCM specify the relation between the components and the interfaces. Developers should also specify the internal behavior of the components in term of Service Effect Specification (SEFF). The Assembly model is created by software architects. Software architects use the existing components in repository to create the software system. The allocation model is created by system deployers.  Deployers are responsible for specifying the environment resource, like Servers, CPUs, HDDs and network connection. Afterwards, they decide which assembly can be deployed in which resource. The usage model is created by domain experts. Domain experts provide information about the interaction between the system and the users. Additionally, domain experts can define the relevant critical usage scenarios and the inputs parameters values. \\
+
 In the context of this thesis, we will use the information provided by SEFFs. Thus, we will explore the related concepts based on \cite{becker2009palladio} and \cite{koziolek2006parameter}.
 
 \subsubsection{SEFFs}
@@ -125,19 +127,27 @@ Using AOP to instrument the source code has the advantage of separating concerns
 \label{fig:kieker}
 \end{figure}
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.9\textwidth]{figures/kieker-probe-mixed-img}
-\caption{Example of manual instrumentation of source code}
-\label{fig:kieker manual instr}
-\end{figure}
+\begin{lstlisting}[caption={Example of manual instrumentation of source code},label={lst:kieker_manual_instr}, captionpos=b, language=java] 
+    final long tin = MONITORING_CONTROLLER.getTimeSource().getTime();
+    // call of the service
+    this.serviceA();
+    final long tout = MONITORING_CONTROLLER.getTimeSource().getTime();
+     // Create a new record and set values
+    final MyResponseTimeRecord e = new MyResponseTimeRecord(
+    "serviceA", tout, tin);
+    // Pass the record to the monitoring controller
+    MONITORING_CONTROLLER.newMonitoringRecord(e);
+\end{lstlisting}
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.9\textwidth]{figures/kieker-aop-img}
-\caption{Example of a Kieker Probe using AOP}
-\label{fig:kieker AOP instr}
-\end{figure}
+
+\begin{lstlisting}[caption={Example of a Kieker Probe using AOP},label={lst:kieker_aop_instr}, captionpos=b, language=java] 
+    @OperationExecutionMonitoringProbe
+    public void serviceA(){
+       /*
+        method content
+       */
+    }
+\end{lstlisting}
 
 
 \section{Source Code Model eXtractor}
@@ -178,7 +188,7 @@ The incremental SEFF reconstruction is integrated in the co-evolution approach t
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.9\textwidth]{figures/kieker-aop-img}
+\includegraphics[width=0.9\textwidth]{figures/inscremental_seff_reconst}
 \caption{Overview of the Incremental Reconstruction Process of SEFF}
 \label{fig:seff incremental reconst}
 \end{figure}
@@ -194,7 +204,7 @@ The activities in CIPM are represented by the Reaction Language (RL) routines. R
 
 The first activity in CIPM is responsible for updating the structure of the performance model, the usage model and the probes used in the activity two. The structure of the performance model is updated based on the work of Langhammer \cite{langhammer2015co}. The usage model is extracted incrementally from the test cases. For the probes generation CIPM specifies an Instrumentation Metamodel (IMM) and added it to VSUM. IMM contains and manages the instrumentation points and the weaving information based on Aspect-oriented Programming (AOP) \cite{kiczales1997j}. CIMP defines the consistency rules that keep the instrumentation model and the source code consistent. For example, a new probe can be added to the instrumentation model, when a part of the source code was added that corresponds to a new SEFF element. \\
 
-The second activity uses the probes from the first activity, instruments the source code and creates the monitoring data. For the monitoring data, CIPM specifies a Measurement Meta-model (MMM) and added it to VISUM. MMM describes the data structures of the different monitored data as well as the consistency rules to keep it consistent with the IMM. For example, after the monitoring phase is done, if a SEFF element had enough monitoring data, this element has to be deactivated in the instrumentation model. 
+The second activity uses the probes from the first activity, instruments the source code and creates the monitoring data. For the monitoring data, CIPM specifies a Measurement Meta-model (MMM) and added it to VSUM. MMM describes the data structures of the different monitored data as well as the consistency rules to keep it consistent with the IMM. For example, after the monitoring phase is done, if a SEFF element had enough monitoring data, this element has to be deactivated in the instrumentation model. 
 
 \begin{figure}[h]
 \centering

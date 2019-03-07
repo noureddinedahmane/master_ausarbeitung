@@ -13,15 +13,15 @@
 
 \chapter{An Approach for Adaptive Monitoring for Continuous Performance Model Integration}
 \label{ch:An Approach for Adaptive Monitoring for Continuous Performance Model Integration}
-In this chapter, we will introduce our approach for adaptive monitoring for continuous performance model integration. 
+In this chapter, we will introduce our approach for adaptive monitoring for continuous performance model integration. In section \ref{sec:Context of our approach}, we bring in the context of our approach. In section \ref{sec:Monitoring Probes}, we define the monitoring probes that we need for our monitoring approach. In section \ref{sec:Monitoring Records}, we define the monitoring records that we monitor. In section \ref{sec:Adaptive Instrumentation}, we clarify the adaptive instrumentation concept in our approach. In section \ref{sec:Instrumentation Model}, we define an instrumentation for saving the monitoring probes. In section \ref{sec:approach}, we give an overview approach an it's activities. In section \ref{sec:Monitoring Probes Generation Process}, we introduce the process that we used to generate iteratively the monitoring probes. In section \ref{sec:Adaptive Instrumentation Process}, we present our approach for adaptive instrumentation of the source code. 
 
 \section{Context of our approach}
-\label{sec: Context of our approach}
-As mentioned before, our approach is part of the CIPM vision (section 8) which extends the agile and DevOps process and provides them with iterative and incremental Performance Model. Moreover, the Performance Models in CIPM are enriched with Performance Model Parameters. In the following, we will briefly depict and describe the process and the context in which our approach takes place.\\
+\label{sec:Context of our approach}
+As mentioned before, our approach is part of the CIPM vision (Section \ref{sec:Continuous Integration of Performance Model}) which extends the agile and DevOps process and provides them with iterative and incremental Performance Model. Moreover, the Performance Models in CIPM are enriched with Performance Model Parameters. In the following, we will briefly depict and describe the process and the context in which our approach takes place.\\
 
-Figure \ref{fig:Context of our approach} shows the process in which our approach takes place. this process is based on Vitruvius (section 2) which means its elements are either models or transformations. The Java code in \ref{fig:Context of our approach} is represented by a JaMoPP model. When the developer commits changes on this model, two transformations will be triggered. The first one is the Coevolution process of Langhammer (section 5) which keeps the Source Code and the models in the Palladio Component Model consistent, mainly the repository and the SEFF Model. The second Transformation is our Transformation which is specified for keeping the Source Code and the Instrumentation Model consistent. We proposed the Instrumentation Model in order to persist the Probes that will be required for instrumenting the Source Code.\\
+Figure \ref{fig:Context of our approach} shows the process in which our approach takes place. this process is based on Vitruvius (Section \ref{sec:Vitruvius}) which means its elements are either models or transformations. The Java code in \ref{fig:Context of our approach} is represented by a JaMoPP model. When the developer commits changes on this model, two transformations will be triggered. The first one is the Coevolution process of Langhammer (Section \ref{sec:Automated Coevolution of Source Code and Software Architecture Models}) which keeps the Source Code and the models in the Palladio Component Model consistent, mainly the repository and the SEFF Model. The second Transformation is our Transformation which is specified for keeping the Source Code and the Instrumentation Model consistent. We proposed the Instrumentation Model in order to persist the Probes that will be required for instrumenting the Source Code.\\
 
-When the system under development is deployed, our Instrumentation Process will be triggered. This process receives as inputs the Probes from the Instrumentation Model and the Source Code of the System. It delivers afterwards the instrumented Source Code as a JaMoPP Model. After the instrumentation process has been finished, the instrumented Source code will be executed and monitored.  The information provided by monitoring are encapsulated in a Measurement Model which describes the needed monitoring records.  After the monitoring has been finished the Parameters Estimation Process (section 9) will be triggered. it uses the information in the Measurement Model to estimate the Performance Model Parameters and updates accordingly the SEFF Model in the Palladio Component Model. Afterwards, the user can use the updated Performance Model to simulate and evaluate the performance of the system. \\
+When the system under development is deployed, our Instrumentation Process will be triggered. This process receives as inputs the Probes from the Instrumentation Model and the Source Code of the System. It delivers afterwards the instrumented Source Code as a JaMoPP Model. After the instrumentation process has been finished, the instrumented Source code will be executed and monitored.  The information provided by monitoring are encapsulated in a Measurement Model which describes the needed monitoring records.  After the monitoring has been finished the Parameters Estimation Process (Section sec:Iterative Performance Model Parameter Estimation Considering Parametric Dependencies) can be triggered. it uses the information in the Measurement Model to estimate the Performance Model Parameters and updates accordingly the SEFF Model in the Palladio Component Model. Afterwards, the user can use the updated Performance Model to simulate and evaluate the performance of the system. \\
 
 
 \begin{figure}[h]
@@ -36,9 +36,9 @@ When the system under development is deployed, our Instrumentation Process will 
 \label{sec:Monitoring Probes}
 Monitoring Probes are responsible for collecting monitoring information from the system. Furthermore, they can be specified based on the needed monitoring information. For example, if we need to monitor the response time of a service and the number of execution of loops, we can specify two monitoring probes, one probe for the response time and the other for loops execution number. \\
 
-In our approach, we want to provide monitoring information for Palladio Performance Model which are described in terms of SEFF (section 1.2).   SEFF Model is composed from four main elements which inherit from the so-called Abstract Action, namely Internal Action, Branch Action, Loop Action and Service Call Action. In other words, we should specify probes that provide these elements with the needed monitoring information. Therefore, we defined a monitoring probe for each SEFF element Figure 2. The monitoring information that we need to produce for SEFF elements are described in (section 1.3) under monitoring records.  \\
+In our approach, we want to provide monitoring information for Palladio Performance Model which are described in terms of SEFF (Section \ref{sec: SEFFs}).   SEFF Model is composed from four main elements which inherit from the so-called Abstract Action, namely Internal Action, Branch Action, Loop Action and Service Call Action. In other words, we should specify probes that provide these elements with the needed monitoring information. Therefore, we defined a monitoring probe for each SEFF element Figure \ref{fig:Specified Monitoring Probes in our Approach}. The monitoring information that we need to produce for SEFF elements are described in (Section \ref{sec:Monitoring Records}) under monitoring records.  \\
 
-For the monitoring purpose, we used the Kieker Monitoring Framework (section 6) which offers the possibility to define new monitoring probes based on the needed monitoring records.\\
+For the monitoring purpose, we used the Kieker Monitoring Framework (Section \ref{sec:Kieker Monitoring}) which offers the possibility to define new monitoring probes based on the needed monitoring records.\\
 
 \begin{figure}[h]
 \centering
@@ -49,11 +49,11 @@ For the monitoring purpose, we used the Kieker Monitoring Framework (section 6) 
 
 \section{Monitoring Records}
 \label{sec:Monitoring Records}
-In order to create monitoring probes (section 1.2), one must define first of all   the needed monitoring information. in our case, we defined monitoring probes for SEFF model which are based on the monitoring records in Figure 3. \\
+In order to create monitoring probes (Section \ref{sec:Monitoring Probes}), one must define first of all the needed monitoring information. in our case, we defined monitoring probes for SEFF model which are based on the monitoring records in Figure \ref{fig:records}. \\
 
-Figure 3 shows an UML Class Diagram that describe the monitoring records. It provides extra information that are needed for the purpose of performance model parameters estimations. The abstract class RecordWithSession specifies a sessionID attribute that helps to identify the monitoring information based on sessions.  The abstract class ServiceContextRecord adds a serviceExecutionID attribute that helps to reference a ServiceCallRecord.\\
+Figure \ref{fig:records} shows an UML Class Diagram that describe the monitoring records. It provides extra information that are needed for the purpose of performance model parameters estimations. The abstract class RecordWithSession specifies a sessionID attribute that helps to identify the monitoring information based on sessions.  The abstract class ServiceContextRecord adds a serviceExecutionID attribute that helps to reference a ServiceCallRecord.\\
 
-All records are identified via their ids. The id of each record can be provided by the used monitoring framework. However, in order to be able to use these records for SEFF models we’ve used for each record the id of the corresponding SEFF element. \\
+All records are identified via their ids. The id of each record can be provided by the used monitoring framework. However, in order to be able to use these records for SEFF models we've used for each record the id of the corresponding SEFF element. \\
 
 For internal actions which express internal computation, we want to know the time consumed by them. Therefore, we need to log the id of the internal action, start time and stop time. \\
 
@@ -84,7 +84,7 @@ In order to keep the source code and the instrumentation model consistent, we've
 \label{sec:Adaptive Monitoring}
 Adaptive Monitoring means that the monitoring probes can be activated and deactivated based on the existing monitoring information. this is needed when we’ve collected enough monitoring information for some probes but they still can log monitoring information which is not needed and which can lead to monitoring and performance model parameters estimations overhead.  Therefore, adaptive monitoring can help to reduce the monitoring overhead by reducing the number of monitoring probes. \\
 
-In order to achieve Adaptive Monitoring in our approach, we’ve added an attribute for the monitoring probes that defines their activeness. That means, monitoring probes are checked during the monitoring phase and they can log monitoring information only if the are activated. The deactivation of the probes can be done for example, when we've realised that the current monitoring information for these probes are enough for the performance model parameters estimation.\\
+In order to achieve Adaptive Monitoring in our approach, we've added an attribute for the monitoring probes that defines their activeness. That means, monitoring probes are checked during the monitoring phase and they can log monitoring information only if the are activated. The deactivation of the probes can be done for example, when we've realised that the current monitoring information for these probes are enough for the performance model parameters estimation.\\
 
 \section{Instrumentation Model}
 \label{sec:Instrumentation Model}
@@ -132,18 +132,18 @@ In this section, we will introduce our approach for the monitoring probes genera
 
 \section{Terminology}
 \label{sec:Terminology}
-In this section, we present the terminologies and the concepts we use to achieve the goals of our approach. 
+In this section, we present the terminologies and the concepts we use to achieve the goals of our approach. In section \ref{sec:Source Code Decorator Model}, we present the Source Code Decorator Model. In section \ref{sec:Correspondence Meta-model}, we introduce the Correspondence Meta-model of the Vitruvius Framework. In section \ref{sec:Vitruvius VSUM}, we clarify the Virtual Single Underlying Model of Vitruvius. 
 
 \subsection{Source Code Decorator Model}
 \label{sec:Source Code Decorator Model}
 
-The Source Code Decorator Model (SCDM) has been presented within the SoMoX approach (section 7 in foundation).  SoMoX reverse-engineers the source code and can extracts the architecture models from it. Moreover, SoMoX can be used to extract the Palladio Component Model (PCM) from the Java Source Code. The SCDM is used to create trace links at the model level. The linking between the source code elements and the architecture model elements are needed in the reverse-engineering process. Therefore, the SCDM creates links between the source code elements and the PCM elements. Furthermore, due to the use of SCDM, the reverse-engineering process can be done without mixing the linking concerns with the domain specific language of the source code model and the architecture model.\\
+The Source Code Decorator Model (SCDM) has been presented within the SoMoX approach (section \ref{sec:Source Code Model eXtractor}).  SoMoX reverse-engineers the source code and can extracts the architecture models from it. Moreover, SoMoX can be used to extract the Palladio Component Model (PCM) from the Java Source Code. The SCDM is used to create trace links at the model level. The linking between the source code elements and the architecture model elements are needed in the reverse-engineering process. Therefore, the SCDM creates links between the source code elements and the PCM elements. Furthermore, due to the use of SCDM, the reverse-engineering process can be done without mixing the linking concerns with the domain specific language of the source code model and the architecture model.\\
 
-The SCDM was also used in the Coevolution approach (section 5 in foundation) which keeps automatically the Java Source Code and the PCM models consistent during the system development. The SCDM was used to contain the information, which source code element is reverse-engineered into which architectural model element. For example, it contains the information, which classes are mapped into which component.\\
+The SCDM was also used in the Coevolution approach (Section \ref{sec:Automated Coevolution of Source Code and Software Architecture Models}) which keeps automatically the Java Source Code and the PCM models consistent during the system development. The SCDM was used to contain the information, which source code element is reverse-engineered into which architectural model element. For example, it contains the information, which classes are mapped into which component.\\
 
 In our approach we will need the SCDM in order to map between the SEFF elements and the source code elements or the statements. As mentioned before, the instrumentation points in our approach are represented by the SEFF elements. Moreover, in order to insert the instrumentation code in the right location in the source code of the system, we need to know which SEFF elements corresponds to which source code statements. The SCDM offers this possibility by mapping between each SEFF element and the corresponding JaMoPP statements. \\
 
-In order to map between the SEFF elements and the JaMoPP statements, we do not need to implement this feature because it's done already in the Incremental SEFF Reconstruction Process (section 7.2 in foundation) in the Coevolution approach. This process can monitor the changes within the source code and reconstructs incrementally the SEFF models. Moreover, the execution of this process requires the execution of the SoMoX in order to reverse-engineer the changed parts of the source code. The execution of SoMoX creates the SCDM which maps between the SEFF elements (like Branch Actions, Internal Actions, etc.) and the JaMoPP statements Figure \ref{fig:seff jamopp}.
+In order to map between the SEFF elements and the JaMoPP statements, we do not need to implement this feature because it's done already in the Incremental SEFF Reconstruction Process (section \ref{sec:Incremental SEFF Reconstruction}) in the Coevolution approach. This process can monitor the changes within the source code and reconstructs incrementally the SEFF models. Moreover, the execution of this process requires the execution of the SoMoX in order to reverse-engineer the changed parts of the source code. The execution of SoMoX creates the SCDM which maps between the SEFF elements (like Branch Actions, Internal Actions, etc.) and the JaMoPP statements Figure \ref{fig:seff jamopp}.
 
 
 \begin{figure}[h]
@@ -191,7 +191,7 @@ Models consistency in Vitruvius can be preserved using Consistency preservation 
 \section{The Vitruvius VSUM of our approach}
 \label{sec:The Vitruvius VSUM of our approach}
 
-In this section, we will present the VSUM of our approach in order to generate the monitoring probes. We will precisely extend the VSUM Figure (VSUM in foundation) defined by the Coevolution approach.\\
+In this section, we will present the VSUM of our approach in order to generate the monitoring probes. We will precisely extend the VSUM Figure (Section \ref{fig:coevoloution approach}) defined by the Coevolution approach.\\
 
 As mentioned above, our approach extends the Coevolution approach, which keeps the source code and the architecture consistent. The VSUM in the Coevolution approach is composed from the following models:
 \begin{itemize}
@@ -199,9 +199,9 @@ As mentioned above, our approach extends the Coevolution approach, which keeps t
 \item JaMoPP Model: it represents the source code of the system.
 \item Correspondence Model: it links between diverse model elements.
 \end{itemize}
-Moreover, the steps that are used to keep these models consistent are described in (section 5 in foundation). \\
+Moreover, the steps that are used to keep these models consistent are described in (Section \ref{sec:Automated Coevolution of Source Code and Software Architecture Models}). \\
 
-In order to use Vitruvius for the adaptive monitoring purpose, we added an Instrumentation Meta-model (Section \ref{sec:Instrumentation Model}) that saves the monitoring probes and keeps them consistent with the source code. Figure \ref{fig:extended_vsum} shows our VSUM which is extended from the VSUM of the Coevolution approach. The steps described in (section 5 in foundation) are kept the same. However, we added a transformation (Section \ref{sec:Keeping the Source Code and the Instrumentation Consistent}) in the step (5) which keeps the Java source code and the instrumentation model consistent. 
+In order to use Vitruvius for the adaptive monitoring purpose, we added an Instrumentation Meta-model (Section \ref{sec:Instrumentation Model}) that saves the monitoring probes and keeps them consistent with the source code. Figure \ref{fig:extended_vsum} shows our VSUM which is extended from the VSUM of the Coevolution approach. The steps described in (Section \ref{sec:Automated Coevolution of Source Code and Software Architecture Models}) are kept the same. However, we added a transformation (Section \ref{sec:Keeping the Source Code and the Instrumentation Consistent}) in the step (5) which keeps the Java source code and the instrumentation model consistent. 
 
 \begin{figure}[h]
 \centering
@@ -220,9 +220,9 @@ In this section, we present the process used to collect information. this inform
 
 In order to execute our transformation, we need to know the new or the updated probes (SEFF elements).  For the Instrumentation Process we need the correspondence between the SEFF elements and corresponding JaMoPP statements. This information should be provided in each change of the source code. \\
 
-In order to get this information, we used the information provided by the Incremental Reconstruction Process of SEFF (section 7.2 in foundation). This process reconstructs incrementally the SEFF of a service if its source code has been changed. Moreover, the SEFF elements are linked with the corresponding services in the Correspondence Model and can be retrieved from our transformation.\\
+In order to get this information, we used the information provided by the Incremental Reconstruction Process of SEFF (Section \ref{sec:Incremental SEFF Reconstruction}). This process reconstructs incrementally the SEFF of a service if its source code has been changed. Moreover, the SEFF elements are linked with the corresponding services in the Correspondence Model and can be retrieved from our transformation.\\
 
-The second information that we need is the correspondence between the SEFF elements and source code. this information can be also provided by the SEFF reconstruction process. As described in (section 7.2 in foundation), the SoMoX is executed to reverse-engineer the changes service and creates its SEFF. SoMoX creates also the Source Code Decorator Model (SCDM) (Section \ref{sec:Source Code Decorator Model}) which contains links the SEFF elements of the service and the corresponding JaMoPP statements. Moreover, in order to make this information useful in our instrumentation process, we should make it accessible from outside of the SEFF reconstruction application. Therefore, we extended the SEFF reconstruction process with a new step that transforms the linking between the SEFF elements and the JaMoPP statements from SCDM into correspondences in the correspondence model Figure \ref{fig:seff_reconst_extension}. \\
+The second information that we need is the correspondence between the SEFF elements and source code. this information can be also provided by the SEFF reconstruction process. As described in (Section \ref{sec:Incremental SEFF Reconstruction}), the SoMoX is executed to reverse-engineer the changes service and creates its SEFF. SoMoX creates also the Source Code Decorator Model (SCDM) (Section \ref{sec:Source Code Decorator Model}) which contains links the SEFF elements of the service and the corresponding JaMoPP statements. Moreover, in order to make this information useful in our instrumentation process, we should make it accessible from outside of the SEFF reconstruction application. Therefore, we extended the SEFF reconstruction process with a new step that transforms the linking between the SEFF elements and the JaMoPP statements from SCDM into correspondences in the correspondence model Figure \ref{fig:seff_reconst_extension}. \\
 
 
 \begin{figure}[h]
@@ -245,13 +245,13 @@ The consistency preservation rules in our transformation are simple. When the so
 
 \section{Adaptive Instrumentation Process}
 \label{sec:Adaptive Instrumentation Process}
-bla bla bal
+As we described in (Section \ref{sec:approach}), our approach is composed from two main activities. the first activity is responsible for collecting the monitoring probes. The second activity is the instrumentation process, which uses the collected monitoring probes from the first activity to instrument the source code. In this section, we define our Instrumentation Process for adaptive instrumentation of the source code.
+ 
 \subsection{Design}
 \label{sec:Design}
-bla bla bal
+In this section, we give an overview from outside of our adaptive instrumentation process. In section \ref{sec:Inputs}, we define the inputs for this process. In section \ref{sec:output}, we discuss the alternative Outputs of our process and prove our decision. 
 \subsection{Inputs}
 \label{sec:Inputs}
-
 Figure \ref{fig:approach_design} shows an overview of the inputs and the output of our Instrumentation Process. It receives three Inputs. First of all, the source code of the system which we want to monitor. secondly, The Correspondence Model which contains correspondences between the services and their SEFFs as well as correspondences between the SEFF elements and the corresponding JaMoPP statements. Finally, the Instrumentation Model which contains the instrumentation points that we should use to instrument the source code. 
 
 \begin{figure}[h]
@@ -264,23 +264,66 @@ Figure \ref{fig:approach_design} shows an overview of the inputs and the output 
 \subsection{Output}
 \label{sec:output}
 
-The output of the Instrumentation process is an instrumented version of the source code of the system.  This instrumentation is based on the monitoring probes defined in (section Probes in the chapter approach). Moreover, there are two ways to instrument the source code. The first alternative consists of using the Aspect Oriented Programming which separate the instrumentation code from the source code of the system. The second alternative consists of mixing the instrumentation code with the source code of the system. Furthermore, we showed in (Section Kieker in  foundation) that the first alternative can not be used in our approach because of the fine-grained monitoring probes that we defined in our approach (section monitoring probes in the chapter approach). Therefore, we decided to use the second alternative in our instrumentation approach.\\
+The output of the Instrumentation process is an instrumented version of the source code of the system.  This instrumentation is based on the monitoring probes defined in (section Probes in the chapter approach). Moreover, there are two ways to instrument the source code. The first alternative consists of using the Aspect Oriented Programming which separate the instrumentation code from the source code of the system. The second alternative consists of mixing the instrumentation code with the source code of the system. Furthermore, we showed in (Section \ref{sec:Kieker Monitoring}) that the first alternative can not be used in our approach because of the fine-grained monitoring probes that we defined in our approach (section monitoring probes in the chapter approach). Therefore, we decided to use the second alternative in our instrumentation approach.\\
 
 \textbf{Alternative of the instrumentation process outputs}\\
 As mentioned above, in order to do the source code instrumentation, we decided to mix between the source code and the instrumentation logic.  Here, we distinguish also between two alternatives for instrumenting the source code of the system. The first alternative consists of instrumenting the original source code of the system. The second alternative consists of making a copy of the original source code of the system and instrument it. We decided to use the second alternative in our instrumentation process. \\
 
 \textbf{Instrumentation of a copy of the source code}\\
-The reason why we decided to use the second alternative to instrument the source code was due to the readability of the original source code. Moreover, if we instrumented the original source code of the system, we will reduce its readability and make the maintenance more difficult in the feature for programmers. Figure 2 shows an instrumented version of the source code in Figure( code in foundation). As we can see, the readability of the source code has become difficult and the maintenance will be also hard to do. Therefore, we decided the instrument a copy the original system in order to receive the monitoring information.
+The reason why we decided to use the second alternative to instrument the source code was due to the readability of the original source code. Moreover, if we instrumented the original source code of the system, we will reduce its readability and make the maintenance more difficult in the feature for programmers. Figure \ref{lst:instrumented_code} shows an instrumented version of the source code in Figure \ref{fig:Example of source code and SEFF}. As we can see, the readability of the source code has become difficult and the maintenance will be also hard to do. Therefore, we decided the instrument a copy the original system in order to receive the monitoring information.
 
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.9\textwidth]{figures/instrumented_code}
-\caption{Instrumented version of the source code in (Figure in foundation), the instrumentation is the result of the execution of our approach}
-\label{fig:instrumented_code}
-\end{figure}
+\begin{lstlisting}[caption={Instrumented version of the source code in Figure \ref{fig:Example of source code and SEFF}, the instrumentation is the result of the execution of our approach},label={lst:instrumented_code}, captionpos=b, language=java] 
+  class ComponentA{
+        private componentB; 
+        
+        void service(boolean condition,
+                       List array){        
+            ServiceParametersFactory serviceParametersFactory = new ServiceParametersFactoryImp();
+		    ServiceParameters __serviceParameters7b0c60ab_1116_477e_b9aa_6409dc557bb5 = serviceParametersFactory
+				.getServiceParameters(new Object[] { condition, array }, new String[] { "condition", "array" });
+		    ThreadMonitoringController.getInstance().enterService("_sPEbUDkyEembGJ6iNCoQDQ",
+				__serviceParameters7b0c60ab_1116_477e_b9aa_6409dc557bb5);
+                
+            // internal computation
+            final long __tin_f7087098_bbc8_4043_b1a3_e489deb8c13a = ThreadMonitoringController.getInstance().getTime();
+            innerMethod_1();
+            ThreadMonitoringController.getInstance().logResponseTime("_tWldADkyEembGJ6iNCoQDQ", "_oro4gG3fEdy4YaaT-RYrLQ",
+				__tin_f7087098_bbc8_4043_b1a3_e489deb8c13a);
+            
+            // Branch Action
+            String __executedBranch_91862b17_279e_4025_99c5_1610bb6dc5da = null;            
+            if(condition){
+                __executedBranch_91862b17_279e_4025_99c5_1610bb6dc5da = "_tXW5EDkyEembGJ6iNCoQDQ";
+                ThreadMonitoringController.getInstance().setCurrentCallerId("_tXeN0DkyEembGJ6iNCoQDQ");
+                componentB.service_1();
+            }
+            else{
+                __executedBranch_91862b17_279e_4025_99c5_1610bb6dc5da = "_tXW5EDkyEembGJ6iNCoQDQ";
+                long __counter_346b00f9_23d0_4e68_a582_15925d8a030a = 0;
+                for(item in array){
+                    __counter_346b00f9_23d0_4e68_a582_15925d8a030a++;
+                    ThreadMonitoringController.getInstance().setCurrentCallerId("_nXeN0DkyHdnbGJ6iNCoQDW");
+                    componentB.service_2();
+                }
+                ThreadMonitoringController.getInstance().logLoopIterationCount("_tXbKgDkyEembGJ6iNCoQDQ",
+					__counter_346b00f9_23d0_4e68_a582_15925d8a030a);
+            }
+            ThreadMonitoringController.getInstance().logBranchExecution("_tXVD4DkyEembGJ6iNCoQDQ",
+				__executedBranch_91862b17_279e_4025_99c5_1610bb6dc5da);
+            ThreadMonitoringController.getInstance().exitService();   
+        }
+        
+        private innerMethod_1(){
+            // internal computation
+            // ...
+        }
+        
+    } 
+\end{lstlisting}
 
-\section{Architecture}
+
+\subsection{Architecture}
 \label{sec:architecture}
 Figure \ref{fig:architecture} describes the architecture of our Instrumentation approach. The component diagram shows the dependencies between the components that we used to implement our approach. \\
 
@@ -301,7 +344,7 @@ This concern is related to the source code that has to be executed to log the mo
 \label{fig:architecture}
 \end{figure}
 
-\section{Call Sequence of the Instrumentation Process}
+\subsection{Call Sequence of the Instrumentation Process}
 \label{sec:Call Sequence of the Instrumentation Process}
 Figure \ref{fig:instrumentation_process} depicts the steps used in the Instrumentation Process to instrument the source code. we will describe each step in the following. \\
 
@@ -335,7 +378,7 @@ This step consists of the coarse-grained instrumentation of all services in the 
 \label{fig:instrumentation_process}
 \end{figure}
 
-\section{Service Parameters Extraction}
+\subsection{Service Parameters Extraction}
 \label{sec:Service Parameters Extraction}
 Manar and Koziolek showed in their approach \cite{mazkatli2018continuous} that Performance Model parameters can strongly depend on the parameters of the services. Therefore, we decided to enrich our monitoring information by extracting the service parameters and their values. \\
 
@@ -357,7 +400,7 @@ For service parameters extraction, we return for each parameter type only the pr
 In this section, we will present the limitation of our process for generation the monitoring probes.\\ 
 
 \textbf{Adaptive Instrumentation is limited to Service level}\\
-This limitation is due to the implementation of the SEFF Reconstruction Process (section 1.6 in  foundation) which recreates the whole SEFF of a service if a part of its source code has changed. That means, if only one element of the SEFF of the changed service has been changed, the process creates a new SEFF with new elements and replaces the old SEFF of the service. This will guide to delete the old elements of the SEFF and loose their estimated parameters, even tough they were not touched by the last changes. This limitation is reflected also on the adaptive instrumentation, the adaptive monitoring and the parameters estimation of SEFF models.\\ 
+This limitation is due to the implementation of the SEFF Reconstruction Process (Section \ref{sec:Incremental SEFF Reconstruction}) which recreates the whole SEFF of a service if a part of its source code has changed. That means, if only one element of the SEFF of the changed service has been changed, the process creates a new SEFF with new elements and replaces the old SEFF of the service. This will guide to delete the old elements of the SEFF and loose their estimated parameters, even tough they were not touched by the last changes. This limitation is reflected also on the adaptive instrumentation, the adaptive monitoring and the parameters estimation of SEFF models.\\ 
 
 Another level that can be achieved to prevent this limitation is the statement level. In this level, only the SEFF elements that was touched by the source code changes have to be updated. In such way, we can reduce the monitoring probes which reduces the overhead of the monitoring and parameters estimation of the performance model. This can be achieved for example by comparing the SEFF of the old service and the SEFF of the new service based on the source code statements. Using this comparison, we can deduce, which element of the old SEFF has been modified, new added or deleted.  \\
 

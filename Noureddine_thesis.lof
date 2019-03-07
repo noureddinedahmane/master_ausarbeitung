@@ -5,55 +5,49 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces PCM Models and transformations}}{6}{figure.2.1}
+\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces PCM Models and transformations}}{7}{figure.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Example of source code and SEFF}}{7}{figure.2.2}
+\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Example of source code and SEFF}}{8}{figure.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces The steps used in co-evolution approach to keep architecture models and the source code consistent}}{16}{figure.2.3}
+\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces The steps used in co-evolution approach to keep architecture models and the source code consistent}}{17}{figure.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces Overview of the Kieker's architecture}}{17}{figure.2.4}
+\contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces Overview of the Kieker's architecture}}{18}{figure.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.5}{\ignorespaces Example of manual instrumentation of source code}}{17}{figure.2.5}
+\contentsline {figure}{\numberline {\relax 2.5}{\ignorespaces Overview of the Incremental Reconstruction Process of SEFF}}{18}{figure.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.6}{\ignorespaces Example of a Kieker Probe using AOP}}{17}{figure.2.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.7}{\ignorespaces Overview of the Incremental Reconstruction Process of SEFF}}{18}{figure.2.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.8}{\ignorespaces CIMP activities}}{18}{figure.2.8}
+\contentsline {figure}{\numberline {\relax 2.6}{\ignorespaces CIMP activities}}{19}{figure.2.6}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Context of our approach}}{24}{figure.4.1}
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Context of our approach}}{26}{figure.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Specified Monitoring Probes in our Approach}}{25}{figure.4.2}
+\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Specified Monitoring Probes in our Approach}}{28}{figure.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces UML class diagram that shows the monitoring information required by SEFF models}}{26}{figure.4.3}
+\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces UML class diagram that shows the monitoring information required by SEFF models}}{29}{figure.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces UML Class Diagram that represents the Instrumentation Model}}{28}{figure.4.4}
+\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces UML Class Diagram that represents the Instrumentation Model}}{31}{figure.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Overview of our Approach Activities in DevOps context}}{30}{figure.4.5}
+\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Overview of our Approach Activities in DevOps context}}{32}{figure.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces Source Code Decorator Model (SCDM) maps between the SEFF Elements and the corresponding JaMoPP statements}}{32}{figure.4.6}
+\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces Source Code Decorator Model (SCDM) maps between the SEFF Elements and the corresponding JaMoPP statements}}{34}{figure.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.7}{\ignorespaces The Correspondence Meta-model of the Vitruvius Framework}}{33}{figure.4.7}
+\contentsline {figure}{\numberline {\relax 4.7}{\ignorespaces The Correspondence Meta-model of the Vitruvius Framework}}{35}{figure.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.8}{\ignorespaces Overview of the Vitruvius VSUM and how model instances can be kept consistent}}{34}{figure.4.8}
+\contentsline {figure}{\numberline {\relax 4.8}{\ignorespaces Overview of the Vitruvius VSUM and how model instances can be kept consistent}}{36}{figure.4.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.9}{\ignorespaces Overview of the Vitruvius VSUM of our approach, we extended the VSUM of the Coevolution approach}}{42}{figure.4.9}
+\contentsline {figure}{\numberline {\relax 4.9}{\ignorespaces Overview of the Vitruvius VSUM of our approach, we extended the VSUM of the Coevolution approach}}{46}{figure.4.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.10}{\ignorespaces The extended Incremental Reconstruction Process of SEFF}}{43}{figure.4.10}
+\contentsline {figure}{\numberline {\relax 4.10}{\ignorespaces The extended Incremental Reconstruction Process of SEFF}}{47}{figure.4.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.11}{\ignorespaces The inputs and the output of the instrumentation process, the output is an instrumented copy of the original source code of the system}}{44}{figure.4.11}
+\contentsline {figure}{\numberline {\relax 4.11}{\ignorespaces The inputs and the output of the instrumentation process, the output is an instrumented copy of the original source code of the system}}{48}{figure.4.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.12}{\ignorespaces Instrumented version of the source code in (Figure in foundation), the instrumentation is the result of the execution of our approach}}{44}{figure.4.12}
+\contentsline {figure}{\numberline {\relax 4.12}{\ignorespaces The Component Diagrams shows the dependencies between the components we used to implement our approach}}{48}{figure.4.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.13}{\ignorespaces The Component Diagrams shows the dependencies between the components we used to implement our approach}}{45}{figure.4.13}
+\contentsline {figure}{\numberline {\relax 4.13}{\ignorespaces Sequence Diagram that illustrates the activities of the Instrumentation Process}}{49}{figure.4.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.14}{\ignorespaces Sequence Diagram that illustrates the activities of the Instrumentation Process}}{46}{figure.4.14}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.15}{\ignorespaces Service parameters types and how they are extracted}}{46}{figure.4.15}
+\contentsline {figure}{\numberline {\relax 4.14}{\ignorespaces Service parameters types and how they are extracted}}{49}{figure.4.14}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
