@@ -41,12 +41,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Scientific challenges}{20}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Adaptive Monitoring for Continuous Performance Model Integration}{23}{chapter.4}
+\contentsline {chapter}{\numberline {4}An Approach for Adaptive Monitoring for Continuous Performance Model Integration}{23}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Evaluation}{25}{chapter.5}
+\contentsline {section}{\numberline {4.1}Context of our approach}{23}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}First Section}{25}{section.5.1}
+\contentsline {section}{\numberline {4.2}Monitoring Probes}{24}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Related Work}{27}{chapter.6}
+\contentsline {section}{\numberline {4.3}Monitoring Records}{25}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusions and Future Work}{29}{chapter.7}
+\contentsline {section}{\numberline {4.4}Adaptive Instrumentation}{27}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Adaptive Monitoring}{27}{section.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.6}Instrumentation Model}{28}{section.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.7}Approach}{29}{section.4.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Evaluation}{31}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}First Section}{31}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Related Work}{33}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Conclusions and Future Work}{35}{chapter.7}

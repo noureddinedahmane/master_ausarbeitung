@@ -17,8 +17,15 @@
 \BOOKMARK [0][-]{chapter.3}{Thesis Statement}{}% 17
 \BOOKMARK [1][-]{section.3.1}{Contribution}{chapter.3}% 18
 \BOOKMARK [1][-]{section.3.2}{Scientific challenges}{chapter.3}% 19
-\BOOKMARK [0][-]{chapter.4}{Adaptive Monitoring for Continuous Performance Model Integration}{}% 20
-\BOOKMARK [0][-]{chapter.5}{Evaluation}{}% 21
-\BOOKMARK [1][-]{section.5.1}{First Section}{chapter.5}% 22
-\BOOKMARK [0][-]{chapter.6}{Related Work}{}% 23
-\BOOKMARK [0][-]{chapter.7}{Conclusions and Future Work}{}% 24
+\BOOKMARK [0][-]{chapter.4}{An Approach for Adaptive Monitoring for Continuous Performance Model Integration}{}% 20
+\BOOKMARK [1][-]{section.4.1}{Context of our approach}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.2}{Monitoring Probes}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.3}{Monitoring Records}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.4}{Adaptive Instrumentation}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.5}{Adaptive Monitoring}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.6}{Instrumentation Model}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.7}{Approach}{chapter.4}% 27
+\BOOKMARK [0][-]{chapter.5}{Evaluation}{}% 28
+\BOOKMARK [1][-]{section.5.1}{First Section}{chapter.5}% 29
+\BOOKMARK [0][-]{chapter.6}{Related Work}{}% 30
+\BOOKMARK [0][-]{chapter.7}{Conclusions and Future Work}{}% 31

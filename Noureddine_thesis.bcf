@@ -1998,6 +1998,7 @@
     <bcf:citekey order="19">langhammer2015co</bcf:citekey>
     <bcf:citekey order="20">kiczales1997j</bcf:citekey>
     <bcf:citekey order="21">brunnert2015performance</bcf:citekey>
+    <bcf:citekey order="22">mazkatli2018continuous</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

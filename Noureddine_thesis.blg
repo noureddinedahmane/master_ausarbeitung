@@ -1,17 +1,17 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
-[1] Config.pm:305> INFO - Logfile is 'Noureddine_thesis.blg'
-[47] biber-MSWIN64:313> INFO - === 
-[82] Biber.pm:371> INFO - Reading 'Noureddine_thesis.bcf'
-[212] Biber.pm:857> INFO - Found 18 citekeys in bib section 0
-[233] Biber.pm:3976> INFO - Processing section 0
-[255] Biber.pm:4136> INFO - Looking for bibtex format file 'thesis.bib' for section 0
-[259] bibtex.pm:1500> INFO - LaTeX decoding ...
-[299] bibtex.pm:1316> INFO - Found BibTeX data source 'thesis.bib'
-[303] Utils.pm:193> WARN - Duplicate entry key: 'langhammer2017automated' in file 'thesis.bib', skipping ...
-[499] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[500] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[500] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[501] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[531] bbl.pm:617> INFO - Writing 'Noureddine_thesis.bbl' with encoding 'UTF-8'
-[542] bbl.pm:720> INFO - Output to Noureddine_thesis.bbl
-[543] Biber.pm:110> INFO - WARNINGS: 1
+[0] Config.pm:305> INFO - Logfile is 'Noureddine_thesis.blg'
+[52] biber-MSWIN64:313> INFO - === 
+[97] Biber.pm:371> INFO - Reading 'Noureddine_thesis.bcf'
+[266] Biber.pm:857> INFO - Found 18 citekeys in bib section 0
+[300] Biber.pm:3976> INFO - Processing section 0
+[327] Biber.pm:4136> INFO - Looking for bibtex format file 'thesis.bib' for section 0
+[332] bibtex.pm:1500> INFO - LaTeX decoding ...
+[416] bibtex.pm:1316> INFO - Found BibTeX data source 'thesis.bib'
+[420] Utils.pm:193> WARN - Duplicate entry key: 'langhammer2017automated' in file 'thesis.bib', skipping ...
+[709] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[709] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[710] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[710] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[761] bbl.pm:617> INFO - Writing 'Noureddine_thesis.bbl' with encoding 'UTF-8'
+[777] bbl.pm:720> INFO - Output to Noureddine_thesis.bbl
+[778] Biber.pm:110> INFO - WARNINGS: 1
