@@ -124,7 +124,251 @@ In the monitoring phase, the instrumented system can be executed in order to log
 \label{fig:devops_approach}
 \end{figure}
 
+\section{Monitoring Probes Generation Process}
+\label{sec:Monitoring Probes Generation Process}
+As mentioned before, we used the Vitruvius Framework and change-driven approach to create the probes in order to achieve the adaptive instrumentation. Moreover, we showed that the generation of the monitoring probes is equivalent to keeping the source code model and the instrumentation model consistent. the consistency between these models is realised within Vitruvius.\\
 
+In this section, we will introduce our approach for the monitoring probes generation as well as the collection of the information that is needed for the instrumentation process. In section \ref{sec:Terminology}, we introduce the concepts that are used in our approach. In section \ref{sec:The Vitruvius VSUM of our approach}, we present the Vitruvius VSUM of our approach. In section \ref{sec:Collecting Information for the Transformation}, we describe how we collect the information that we need in our approach and the transformation that keeps the source code and the instrumentation model consistent. In section \ref{sec:Limitation}, we provided an overview of the limitation of our approach.\\
+
+\section{Terminology}
+\label{sec:Terminology}
+In this section, we present the terminologies and the concepts we use to achieve the goals of our approach. 
+
+\subsection{Source Code Decorator Model}
+\label{sec:Source Code Decorator Model}
+
+The Source Code Decorator Model (SCDM) has been presented within the SoMoX approach (section 7 in foundation).  SoMoX reverse-engineers the source code and can extracts the architecture models from it. Moreover, SoMoX can be used to extract the Palladio Component Model (PCM) from the Java Source Code. The SCDM is used to create trace links at the model level. The linking between the source code elements and the architecture model elements are needed in the reverse-engineering process. Therefore, the SCDM creates links between the source code elements and the PCM elements. Furthermore, due to the use of SCDM, the reverse-engineering process can be done without mixing the linking concerns with the domain specific language of the source code model and the architecture model.\\
+
+The SCDM was also used in the Coevolution approach (section 5 in foundation) which keeps automatically the Java Source Code and the PCM models consistent during the system development. The SCDM was used to contain the information, which source code element is reverse-engineered into which architectural model element. For example, it contains the information, which classes are mapped into which component.\\
+
+In our approach we will need the SCDM in order to map between the SEFF elements and the source code elements or the statements. As mentioned before, the instrumentation points in our approach are represented by the SEFF elements. Moreover, in order to insert the instrumentation code in the right location in the source code of the system, we need to know which SEFF elements corresponds to which source code statements. The SCDM offers this possibility by mapping between each SEFF element and the corresponding JaMoPP statements. \\
+
+In order to map between the SEFF elements and the JaMoPP statements, we do not need to implement this feature because it's done already in the Incremental SEFF Reconstruction Process (section 7.2 in foundation) in the Coevolution approach. This process can monitor the changes within the source code and reconstructs incrementally the SEFF models. Moreover, the execution of this process requires the execution of the SoMoX in order to reverse-engineer the changed parts of the source code. The execution of SoMoX creates the SCDM which maps between the SEFF elements (like Branch Actions, Internal Actions, etc.) and the JaMoPP statements Figure \ref{fig:seff jamopp}.
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/seff_jamopp}
+\caption{Source Code Decorator Model (SCDM) maps between the SEFF Elements and the corresponding JaMoPP statements}
+\label{fig:seff jamopp}
+\end{figure}
+
+
+
+\subsection{Correspondence Meta-model}
+\label{sec:Correspondence Meta-model}
+The Correspondence Metamodel (CMM) is used within Vitruvius in order to describe the corresponding elements of two meta-models. Moreover, Vitruvius one instance of CMM can be used for each Vitruvius application. A Vitruvius application can have one or many meta-models instances.  In our approach, we use one CMM instance which has been created and used in the Coevolution approach. Furthermore, for the process of probes generation we will use the existing information in this instance that have been saved the Coevolution approach and add new information to it by extending the Coevolution approach.\\
+
+Figure \ref{fig:correspondence_model} shows the Vitruvius Correspondence Meta-model. It's basically composed from two classes. The root class Correspondences contains the list of Correspondence. The class Correspondence is composed from two list of identifier references. The first list contains identifiers that reference models in one meta-model, while the second list contains identifiers that reference models in the other meta-model.\\
+
+CMM is a generic and can be used for diverse meta-models. Therefore, in order to identify an element, the reference in the Correspondence has to be unique because only one concrete element needs to be identified for a given ID. For this purpose, the CMM uses the so-called Temporarily Unique Identifier (TUID) mechanism. TUID is a string that can identifies an element. It has to be calculated based on the properties of the element that it represents. The TUID is also used when an element needs to be retrieved from the correspondence model.    
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/correspondence_model}
+\caption{The Correspondence Meta-model of the Vitruvius Framework}
+\label{fig:correspondence_model}
+\end{figure}
+
+
+
+\subsection{Vitruvius VSUM}
+\label{sec:Vitruvius VSUM}
+In order to keep models instances consistent, Vitruvius approach uses the so-called Virtual Single Underlying Model (VSUM) which contains all information that represents the system Figure \ref{fig:vitruv_vsum}. The models in VSUM are accessible using views. Views are instances of view types and they can be used to manipulate model instances. Moreover, there are two kinds of view types, namely projectional view types or combining view types \cite{burger2013flexible}. Projectional view types allows to show information from one meta-model solely. Combining view types can be used to show information from diverse meta-models.\\
+
+Models consistency in Vitruvius can be preserved using Consistency preservation rules. They describe how changes in one model should be transferred into changes in another model. Moreover, the Consistency Preservation Process uses these rules to create the models transformation that preserves the consistency.\\
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/vitruv_vsum}
+\caption{Overview of the Vitruvius VSUM and how model instances can be kept consistent}
+\label{fig:vitruv_vsum}
+\end{figure}
+
+
+
+\section{The Vitruvius VSUM of our approach}
+\label{sec:The Vitruvius VSUM of our approach}
+
+In this section, we will present the VSUM of our approach in order to generate the monitoring probes. We will precisely extend the VSUM Figure (VSUM in foundation) defined by the Coevolution approach.\\
+
+As mentioned above, our approach extends the Coevolution approach, which keeps the source code and the architecture consistent. The VSUM in the Coevolution approach is composed from the following models:
+\begin{itemize}
+\item Palladio Component Model: it represents the architecture models.
+\item JaMoPP Model: it represents the source code of the system.
+\item Correspondence Model: it links between diverse model elements.
+\end{itemize}
+Moreover, the steps that are used to keep these models consistent are described in (section 5 in foundation). \\
+
+In order to use Vitruvius for the adaptive monitoring purpose, we added an Instrumentation Meta-model (Section \ref{sec:Instrumentation Model}) that saves the monitoring probes and keeps them consistent with the source code. Figure \ref{fig:extended_vsum} shows our VSUM which is extended from the VSUM of the Coevolution approach. The steps described in (section 5 in foundation) are kept the same. However, we added a transformation (Section \ref{sec:Keeping the Source Code and the Instrumentation Consistent}) in the step (5) which keeps the Java source code and the instrumentation model consistent. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/extended_vsum}
+\caption{Overview of the Vitruvius VSUM of our approach, we extended the VSUM of the Coevolution approach}
+\label{fig:extended_vsum}
+\end{figure}
+
+\section{Monitoring probes generation}
+\label{sec:Monitoring probes generation}
+In this section, we will introduce the process that we used to create the monitoring probes based on the Vitruvius Framework. This process is divided into two steps. The first step consists of collection the information that is useful for our transformation that keeps the source code and the Instrumentation Model consistent. the second step is the execution of this transformation.
+
+\subsection{Collecting Information for the Transformation}
+\label{sec:Collecting Information for the Transformation}
+In this section, we present the process used to collect information. this information is can be used in the Instrumentation Process and for executing the transformation that generates the monitoring probes and keeps the source code and the instrumentation model consistent.\\
+
+In order to execute our transformation, we need to know the new or the updated probes (SEFF elements).  For the Instrumentation Process we need the correspondence between the SEFF elements and corresponding JaMoPP statements. This information should be provided in each change of the source code. \\
+
+In order to get this information, we used the information provided by the Incremental Reconstruction Process of SEFF (section 7.2 in foundation). This process reconstructs incrementally the SEFF of a service if its source code has been changed. Moreover, the SEFF elements are linked with the corresponding services in the Correspondence Model and can be retrieved from our transformation.\\
+
+The second information that we need is the correspondence between the SEFF elements and source code. this information can be also provided by the SEFF reconstruction process. As described in (section 7.2 in foundation), the SoMoX is executed to reverse-engineer the changes service and creates its SEFF. SoMoX creates also the Source Code Decorator Model (SCDM) (Section \ref{sec:Source Code Decorator Model}) which contains links the SEFF elements of the service and the corresponding JaMoPP statements. Moreover, in order to make this information useful in our instrumentation process, we should make it accessible from outside of the SEFF reconstruction application. Therefore, we extended the SEFF reconstruction process with a new step that transforms the linking between the SEFF elements and the JaMoPP statements from SCDM into correspondences in the correspondence model Figure \ref{fig:seff_reconst_extension}. \\
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/seff_reconst_extension}
+\caption{The extended Incremental Reconstruction Process of SEFF}
+\label{fig:seff_reconst_extension}
+\end{figure}
+
+
+\subsection{Keeping the Source Code and the Instrumentation Consistent}
+\label{sec:Keeping the Source Code and the Instrumentation Consistent}
+In this section, we present our transformation that keeps the source code and the Instrumentation Model (Section \ref{sec:Instrumentation Model}) consistent.\\
+
+In order to generate the monitoring probes in our approach, we should preserve the consistency of the source code and the instrumentation model. Therefore, we created a transformation that transfers changes in the source code into changes in the instrumentation model. This transformation is executed when the source code has been changed.\\
+
+In order to execute our transformation, we need to know the old service and its SEFF elements as well as the new service and its SEFF elements. This information can be obtained from the Correspondence Model after the Coevolution has been executed. Therefore, the Coevolution approach and our transformation are executed asynchronously. That means, we execute firstly the Coevolution approach in order to collect the information for our transformation then we execute our transformation based on this information.\\
+
+The consistency preservation rules in our transformation are simple. When the source code has been changed and the changes are relevant, we delete the old probes of the old service from the instrumentation model and we add the new probes of the new service in the instrumentation model. Moreover, the new added probes are by default activated (Section \ref{sec:Monitoring Probes}). \\
+
+\section{Adaptive Instrumentation Process}
+\label{sec:Adaptive Instrumentation Process}
+bla bla bal
+\subsection{Design}
+\label{sec:Design}
+bla bla bal
+\subsection{Inputs}
+\label{sec:Inputs}
+
+Figure \ref{fig:approach_design} shows an overview of the inputs and the output of our Instrumentation Process. It receives three Inputs. First of all, the source code of the system which we want to monitor. secondly, The Correspondence Model which contains correspondences between the services and their SEFFs as well as correspondences between the SEFF elements and the corresponding JaMoPP statements. Finally, the Instrumentation Model which contains the instrumentation points that we should use to instrument the source code. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/approach_design}
+\caption{The inputs and the output of the instrumentation process, the output is an instrumented copy of the original source code of the system}
+\label{fig:approach_design}
+\end{figure}
+
+\subsection{Output}
+\label{sec:output}
+
+The output of the Instrumentation process is an instrumented version of the source code of the system.  This instrumentation is based on the monitoring probes defined in (section Probes in the chapter approach). Moreover, there are two ways to instrument the source code. The first alternative consists of using the Aspect Oriented Programming which separate the instrumentation code from the source code of the system. The second alternative consists of mixing the instrumentation code with the source code of the system. Furthermore, we showed in (Section Kieker in  foundation) that the first alternative can not be used in our approach because of the fine-grained monitoring probes that we defined in our approach (section monitoring probes in the chapter approach). Therefore, we decided to use the second alternative in our instrumentation approach.\\
+
+\textbf{Alternative of the instrumentation process outputs}\\
+As mentioned above, in order to do the source code instrumentation, we decided to mix between the source code and the instrumentation logic.  Here, we distinguish also between two alternatives for instrumenting the source code of the system. The first alternative consists of instrumenting the original source code of the system. The second alternative consists of making a copy of the original source code of the system and instrument it. We decided to use the second alternative in our instrumentation process. \\
+
+\textbf{Instrumentation of a copy of the source code}\\
+The reason why we decided to use the second alternative to instrument the source code was due to the readability of the original source code. Moreover, if we instrumented the original source code of the system, we will reduce its readability and make the maintenance more difficult in the feature for programmers. Figure 2 shows an instrumented version of the source code in Figure( code in foundation). As we can see, the readability of the source code has become difficult and the maintenance will be also hard to do. Therefore, we decided the instrument a copy the original system in order to receive the monitoring information.
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/instrumented_code}
+\caption{Instrumented version of the source code in (Figure in foundation), the instrumentation is the result of the execution of our approach}
+\label{fig:instrumented_code}
+\end{figure}
+
+\section{Architecture}
+\label{sec:architecture}
+Figure \ref{fig:architecture} describes the architecture of our Instrumentation approach. The component diagram shows the dependencies between the components that we used to implement our approach. \\
+
+\textbf{Two Main Concerns}\\
+We distinguish between two main concerns, which are executed in diverse contexts. The first concern is related to the instrumentation of the source code. The second concern consists of the logic used to extract the services parameters and to log the monitoring information.  \\
+
+\textbf{The Source Code Instrumentation Concern}\\
+In order to instrument the source code, we provided an instrumentation process which is implemented in the component \textit{Source Code Instrumentation}. This component depends on the component \textit{Probes Provider}, which provides the fine-grained probes (Section \ref{sec:Monitoring Probes}) we defined for our instrumentation approach. The component \textit{Source Code Instrumentation} uses these probes in combination with information from the Correspondence Model(Section \ref{sec:Correspondence Meta-model})to accomplish the instrumentation of the source code. we provide more details on the instrumentation process can be found in (Section \ref{sec:Call Sequence of the Instrumentation Process}.\\
+
+
+\textbf{The Monitoring Source Code Concern}\\
+This concern is related to the source code that has to be executed to log the monitoring information. it can be divided into two tasks. The first one consists of the extraction of the service parameters. This task is implemented by the components \textit{Service Parameters Extractor} and \textit{Service Parameters Factory}. The first component is responsible for extracting the service parameters values and their names and pass them to the second component. The second component receives the services parameters and put them in a defined format, currently it produces a JSON file, which contains the service parameters names as the keys that their values as the values of the keys. The second task consists of the logic used to collect and log the monitoring information, which is implemented in the component \textit{Monitoring}. The component \textit{Source Code of the System} represents the source code that we want to instrument, it has dependencies to the components \textit{Monitoring} and \textit{Service Parameters Factory}.\\ 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/architecture}
+\caption{The Component Diagrams shows the dependencies between the components we used to implement our approach}
+\label{fig:architecture}
+\end{figure}
+
+\section{Call Sequence of the Instrumentation Process}
+\label{sec:Call Sequence of the Instrumentation Process}
+Figure \ref{fig:instrumentation_process} depicts the steps used in the Instrumentation Process to instrument the source code. we will describe each step in the following. \\
+
+\textbf{Step (1): Execute the Instrumentation Process}\\
+This step consists of starting the instrumentation process. Developers can execute this process at any time. Once the process is executed, it takes the probes from the Instrumentation Model (Section \ref{sec:Instrumentation Model}) and accomplish the instrumentation of the source code. \\
+
+\textbf{Step (2): Copying the Source Code of the System}\\
+Here, we create a copy of the source code, which we will instrument. As we showed in (Section \ref{sec:output}), we decided to instrument a copy of the source but not the original source code. Moreover, since we used Eclipse for our development purpose, we created a functionality that clones the original project of the system with its dependencies and properties. Therefore, the instrumentation will find place in cloned project. \\ 
+
+\textbf{Step (4): Parse the Copied Source Code via JaMoPP}\\
+In this step, we create the Java model of the source code that we want to instrument, which is the copied source code. For parsing the Java source code, we used JaMoPP (section JaMoPP). Moreover, the parsing of the source code will give us the possibility to manipulate it, like referencing the corresponding statements of a probe or the insertion of the instrumentation code in a defined position in the source code.\\
+
+\textbf{Step (5): Returning the Monitoring Probes}\\
+In this step, the Instrumentation Process calls the component Probes Provider to receive the probes that we want for the instrumentation.\\
+
+\textbf{Step (6): Finding the Probes Statements}\\
+As we mentioned before, we will instrument a copy of the source code, which means we will need find the statements in the copied source code that correspond to our probes. However, the inputs that we have for the Instrumentation Process at this stage are the probes and the corresponding statements in the original source code. That means, in order to instrument the copied source code, we will need to search the corresponding statements of the probes in the copied source code. To do this, we compared the statements of the probes in the original source code with the statements of the copied source code. \\
+
+In order to optimize the searching for corresponding statements of the probes in the copied source code, we used three parameters to identify equal statements. The first parameter is the service in which statement is written. The second parameter is the class in which the statement find place. The third parameter is the location of the statement in the source code. The combination of these parameters is unique for every statement in the source code. Therefore, it can be used to search for the probes statements in the copied source code based on probes statements in original source code. \\
+
+\textbf{Step (7): Instrument the Source Code}\\
+In this step, the copied source code will be instrumented based on the probes and their corresponding statements that has been mapped in the previous step. Moreover, the probes are injected in the source code based on their types (section Probe).  Here, we distinguish between two kind of instrumentation, namely coarse-grained instrumentation and fine-grained instrumentation. Fine-grained instrumentation is based on the probes that are represented by the SEFF elements that we defined in (Section \ref{sec:Monitoring Probes}). Coarse-grained instrumentation consists of instrumenting the whole service without taking into account the its fine-grained probes. In this step, we execute both fine-grained and coarse-grained instrumentation. 
+
+\textbf{Step (8): Coarse-grained Instrumentation}\\
+This step consists of the coarse-grained instrumentation of all services in the source code that have been not instrumented in the previous step.  This step is required because of the adaptive instrumentation approach. As we mentioned before, in adaptive instrumentation, we collect probes only for the changed parts of the source code in the current iteration. That means, services that have been not changed in the current iteration will not be related to any probes. Thus, they will not be instrumented in the previous step. However, even tough they have been not changed in the current iteration, if they are called in the changed parts of the source code, we will need their monitoring information. Therefore, we finalized our instrumentation process by the coarse-grained instrumentation of the rest of the services of the system.  
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/instrumentation_process}
+\caption{Sequence Diagram that illustrates the activities of the Instrumentation Process}
+\label{fig:instrumentation_process}
+\end{figure}
+
+\section{Service Parameters Extraction}
+\label{sec:Service Parameters Extraction}
+Manar and Koziolek showed in their approach \cite{mazkatli2018continuous} that Performance Model parameters can strongly depend on the parameters of the services. Therefore, we decided to enrich our monitoring information by extracting the service parameters and their values. \\
+
+Figure \ref{fig:service_parameters} shows our approach for extracting the service parameters. We limited our approach to five parameter types, namely the type Map, Collection, Array, Primitive and Data Types. Data Types are the types that are defined by the user and are given as parameters to a service. For example, a DataType can be Java Bean Class named FileType, which contains the attributes file name of type string and file content of type Array of byte.\\
+
+For service parameters extraction, we return for each parameter type only the property that has impact on the performance model. For collections and maps we extract their size. The same thing for arrays, we return their length. As for primitive types, we return the value of the parameter. Furthermore, Data types are handled via Reflection. In Data types we use reflection to search for attributes of the types Map, Collection, Array or Primitive in order to extract their defined properties. \\
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/service_parameters}
+\caption{Service parameters types and how they are extracted}
+\label{fig:service_parameters}
+\end{figure}
+
+
+\section{Limitation}
+\label{sec:Limitation}
+In this section, we will present the limitation of our process for generation the monitoring probes.\\ 
+
+\textbf{Adaptive Instrumentation is limited to Service level}\\
+This limitation is due to the implementation of the SEFF Reconstruction Process (section 1.6 in  foundation) which recreates the whole SEFF of a service if a part of its source code has changed. That means, if only one element of the SEFF of the changed service has been changed, the process creates a new SEFF with new elements and replaces the old SEFF of the service. This will guide to delete the old elements of the SEFF and loose their estimated parameters, even tough they were not touched by the last changes. This limitation is reflected also on the adaptive instrumentation, the adaptive monitoring and the parameters estimation of SEFF models.\\ 
+
+Another level that can be achieved to prevent this limitation is the statement level. In this level, only the SEFF elements that was touched by the source code changes have to be updated. In such way, we can reduce the monitoring probes which reduces the overhead of the monitoring and parameters estimation of the performance model. This can be achieved for example by comparing the SEFF of the old service and the SEFF of the new service based on the source code statements. Using this comparison, we can deduce, which element of the old SEFF has been modified, new added or deleted.  \\
+
+\textbf{Probes with small response time must be ignored}\\
+This limitation is related to service calls and internal actions. Basically, probes with response time that do not influence the performance model must be ignored. For example, an internal action that corresponds solely to a variable declaration will clearly log response time that does not affect the performance model.\\
+ 
+We identify basically two approaches to find out if a probe with a given response time can be accepted or ignored. The First approach consists of analyzing the statements of the source code in order to decide if the probe can affect the performance model. This approach is efficient in terms of reducing the computation resources for the instrumentation, the monitoring and the parameters estimation.  However, we do not know if it's possible to apply it for all cases.\\
+
+The second approach, which we've implemented in our approach is the filtering of the monitoring records under a defined response time value. However, this approach is applied after monitoring phase and is less efficient then the first approach because we apply the computation resources in the monitoring of probes that are not relevant. \\
+
+If the first approach can not cover all cases, it can be used in combination with the second approach in order to improve the efficiency of the monitoring. In the first step, the first approach can be used to remove probes that has a defined number and types of statements. In the second step, the second approach will remove the records with a defined response tine value, which could not be judged by the first approach.\\
 
 
  

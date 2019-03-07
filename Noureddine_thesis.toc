@@ -57,10 +57,44 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.7}Approach}{29}{section.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Evaluation}{31}{chapter.5}
+\contentsline {section}{\numberline {4.8}Monitoring Probes Generation Process}{29}{section.4.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}First Section}{31}{section.5.1}
+\contentsline {section}{\numberline {4.9}Terminology}{30}{section.4.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Related Work}{33}{chapter.6}
+\contentsline {subsection}{\numberline {4.9.1}Source Code Decorator Model}{31}{subsection.4.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusions and Future Work}{35}{chapter.7}
+\contentsline {subsection}{\numberline {4.9.2}Correspondence Meta-model}{31}{subsection.4.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.9.3}Vitruvius VSUM}{32}{subsection.4.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.10}The Vitruvius VSUM of our approach}{33}{section.4.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.11}Monitoring probes generation}{35}{section.4.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.11.1}Collecting Information for the Transformation}{35}{subsection.4.11.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.11.2}Keeping the Source Code and the Instrumentation Consistent}{35}{subsection.4.11.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.12}Adaptive Instrumentation Process}{36}{section.4.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.12.1}Design}{36}{subsection.4.12.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.12.2}Inputs}{36}{subsection.4.12.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.12.3}Output}{36}{subsection.4.12.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.13}Architecture}{37}{section.4.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.14}Call Sequence of the Instrumentation Process}{38}{section.4.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.15}Service Parameters Extraction}{40}{section.4.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.16}Limitation}{40}{section.4.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Evaluation}{47}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}First Section}{47}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Related Work}{49}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Conclusions and Future Work}{51}{chapter.7}

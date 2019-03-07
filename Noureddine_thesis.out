@@ -25,7 +25,24 @@
 \BOOKMARK [1][-]{section.4.5}{Adaptive Monitoring}{chapter.4}% 25
 \BOOKMARK [1][-]{section.4.6}{Instrumentation Model}{chapter.4}% 26
 \BOOKMARK [1][-]{section.4.7}{Approach}{chapter.4}% 27
-\BOOKMARK [0][-]{chapter.5}{Evaluation}{}% 28
-\BOOKMARK [1][-]{section.5.1}{First Section}{chapter.5}% 29
-\BOOKMARK [0][-]{chapter.6}{Related Work}{}% 30
-\BOOKMARK [0][-]{chapter.7}{Conclusions and Future Work}{}% 31
+\BOOKMARK [1][-]{section.4.8}{Monitoring Probes Generation Process}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.9}{Terminology}{chapter.4}% 29
+\BOOKMARK [2][-]{subsection.4.9.1}{Source Code Decorator Model}{section.4.9}% 30
+\BOOKMARK [2][-]{subsection.4.9.2}{Correspondence Meta-model}{section.4.9}% 31
+\BOOKMARK [2][-]{subsection.4.9.3}{Vitruvius VSUM}{section.4.9}% 32
+\BOOKMARK [1][-]{section.4.10}{The Vitruvius VSUM of our approach}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.11}{Monitoring probes generation}{chapter.4}% 34
+\BOOKMARK [2][-]{subsection.4.11.1}{Collecting Information for the Transformation}{section.4.11}% 35
+\BOOKMARK [2][-]{subsection.4.11.2}{Keeping the Source Code and the Instrumentation Consistent}{section.4.11}% 36
+\BOOKMARK [1][-]{section.4.12}{Adaptive Instrumentation Process}{chapter.4}% 37
+\BOOKMARK [2][-]{subsection.4.12.1}{Design}{section.4.12}% 38
+\BOOKMARK [2][-]{subsection.4.12.2}{Inputs}{section.4.12}% 39
+\BOOKMARK [2][-]{subsection.4.12.3}{Output}{section.4.12}% 40
+\BOOKMARK [1][-]{section.4.13}{Architecture}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.14}{Call Sequence of the Instrumentation Process}{chapter.4}% 42
+\BOOKMARK [1][-]{section.4.15}{Service Parameters Extraction}{chapter.4}% 43
+\BOOKMARK [1][-]{section.4.16}{Limitation}{chapter.4}% 44
+\BOOKMARK [0][-]{chapter.5}{Evaluation}{}% 45
+\BOOKMARK [1][-]{section.5.1}{First Section}{chapter.5}% 46
+\BOOKMARK [0][-]{chapter.6}{Related Work}{}% 47
+\BOOKMARK [0][-]{chapter.7}{Conclusions and Future Work}{}% 48
