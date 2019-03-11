@@ -17,7 +17,7 @@
 \BOOKMARK [0][-]{chapter.3}{Thesis Statement}{}% 17
 \BOOKMARK [1][-]{section.3.1}{Contribution}{chapter.3}% 18
 \BOOKMARK [1][-]{section.3.2}{Scientific challenges}{chapter.3}% 19
-\BOOKMARK [0][-]{chapter.4}{An Approach for Adaptive Monitoring for Continuous Performance Model Integration}{}% 20
+\BOOKMARK [0][-]{chapter.4}{Adaptive Monitoring for Continuous Performance Model Integration}{}% 20
 \BOOKMARK [1][-]{section.4.1}{Context of our approach}{chapter.4}% 21
 \BOOKMARK [1][-]{section.4.2}{Monitoring Probes}{chapter.4}% 22
 \BOOKMARK [1][-]{section.4.3}{Monitoring Records}{chapter.4}% 23
@@ -42,7 +42,13 @@
 \BOOKMARK [2][-]{subsection.4.12.5}{Call Sequence of the Instrumentation Process}{section.4.12}% 42
 \BOOKMARK [2][-]{subsection.4.12.6}{Service Parameters Extraction}{section.4.12}% 43
 \BOOKMARK [1][-]{section.4.13}{Limitation}{chapter.4}% 44
-\BOOKMARK [0][-]{chapter.5}{Evaluation}{}% 45
-\BOOKMARK [1][-]{section.5.1}{First Section}{chapter.5}% 46
-\BOOKMARK [0][-]{chapter.6}{Related Work}{}% 47
-\BOOKMARK [0][-]{chapter.7}{Conclusions and Future Work}{}% 48
+\BOOKMARK [1][-]{section.4.14}{Extending the Incremental SEFF Reconstruction Process}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.14.1}{Objective}{section.4.14}% 46
+\BOOKMARK [2][-]{subsection.4.14.2}{Method}{section.4.14}% 47
+\BOOKMARK [2][-]{subsection.4.14.3}{Scientific Challenges}{section.4.14}% 48
+\BOOKMARK [2][-]{subsection.4.14.4}{SEFF Comparison}{section.4.14}% 49
+\BOOKMARK [2][-]{subsection.4.14.5}{Approach}{section.4.14}% 50
+\BOOKMARK [0][-]{chapter.5}{Evaluation}{}% 51
+\BOOKMARK [1][-]{section.5.1}{First Section}{chapter.5}% 52
+\BOOKMARK [0][-]{chapter.6}{Related Work}{}% 53
+\BOOKMARK [0][-]{chapter.7}{Conclusions and Future Work}{}% 54

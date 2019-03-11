@@ -411,6 +411,31 @@
       \field{pages}{220\bibrangedash 242}
       \range{pages}{23}
     \endentry
+    \entry{klatt2016consolidation}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4fc3ac04a50e787b3c72fec0472cabff}{%
+           family={Klatt},
+           familyi={K\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {KIT Scientific Publishing}%
+      }
+      \strng{namehash}{4fc3ac04a50e787b3c72fec0472cabff}
+      \strng{fullhash}{4fc3ac04a50e787b3c72fec0472cabff}
+      \strng{bibnamehash}{4fc3ac04a50e787b3c72fec0472cabff}
+      \strng{authorbibnamehash}{4fc3ac04a50e787b3c72fec0472cabff}
+      \strng{authornamehash}{4fc3ac04a50e787b3c72fec0472cabff}
+      \strng{authorfullhash}{4fc3ac04a50e787b3c72fec0472cabff}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Consolidation of customized product copies into software product lines}
+      \field{volume}{16}
+      \field{year}{2016}
+    \endentry
     \entry{koziolek2006parameter}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=ba7ecc5039717e22ccf225ab7421719b}{%
@@ -510,6 +535,45 @@
       \field{volume}{4}
       \field{year}{2012}
     \endentry
+    \entry{krogmann2010using}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ea463e7d98843baebb721149834e04e4}{%
+           family={Krogmann},
+           familyi={K\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b73d24ba6569f0d9aec84f56bc1a30c6}{%
+           family={Kuperberg},
+           familyi={K\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4e41ac50a44ea2d2e0fbdd12c485c1b2}{%
+           family={Reussner},
+           familyi={R\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{a06ad5b38a2fdf2a001ec0a44554e64c}
+      \strng{fullhash}{a06ad5b38a2fdf2a001ec0a44554e64c}
+      \strng{bibnamehash}{a06ad5b38a2fdf2a001ec0a44554e64c}
+      \strng{authorbibnamehash}{a06ad5b38a2fdf2a001ec0a44554e64c}
+      \strng{authornamehash}{a06ad5b38a2fdf2a001ec0a44554e64c}
+      \strng{authorfullhash}{a06ad5b38a2fdf2a001ec0a44554e64c}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Software Engineering}
+      \field{number}{6}
+      \field{title}{Using genetic search for reverse engineering of parametric behavior models for performance prediction}
+      \field{volume}{36}
+      \field{year}{2010}
+      \field{pages}{865\bibrangedash 877}
+      \range{pages}{13}
+    \endentry
     \entry{langhammer2017automated}{article}{}
       \name{author}{1}{}{%
         {{hash=634b19e19b8a647e0679ec4aeac2d8c5}{%
@@ -528,7 +592,7 @@
       \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Automated Coevolution of Source Code and So ware Architecture Models}
+      \field{title}{Automated Coevolution of Source Code and Software Architecture Models}
       \field{year}{2017}
     \endentry
     \entry{langhammer2015co}{inproceedings}{}
@@ -616,6 +680,43 @@
       \field{pages}{25\bibrangedash 31}
       \range{pages}{7}
     \endentry
+    \entry{spinner2016reference}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=6cf0aaf958c05abe00a443b2cbf3e11e}{%
+           family={Spinner},
+           familyi={S\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=efdad3bd6a0f846562021fcd0a4e437c}{%
+           family={Walter},
+           familyi={W\bibinitperiod},
+           given={J{ü}rgen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4de0f4299be144a65505410b920314e7}{%
+           family={Kounev},
+           familyi={K\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{46313d1bd5d67894bc3d8747b7d9cc47}
+      \strng{fullhash}{46313d1bd5d67894bc3d8747b7d9cc47}
+      \strng{bibnamehash}{46313d1bd5d67894bc3d8747b7d9cc47}
+      \strng{authorbibnamehash}{46313d1bd5d67894bc3d8747b7d9cc47}
+      \strng{authornamehash}{46313d1bd5d67894bc3d8747b7d9cc47}
+      \strng{authorfullhash}{46313d1bd5d67894bc3d8747b7d9cc47}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Companion Publication for ACM/SPEC on International Conference on Performance Engineering}
+      \field{title}{A reference architecture for online performance model extraction in virtualized environments}
+      \field{year}{2016}
+      \field{pages}{57\bibrangedash 62}
+      \range{pages}{6}
+    \endentry
     \entry{steinberg2008emf}{book}{}
       \name{author}{4}{}{%
         {{hash=122b4e099dc38ce376f0c1ce73c50fa6}{%
@@ -654,6 +755,48 @@
       \field{labeltitlesource}{title}
       \field{title}{EMF: eclipse modeling framework}
       \field{year}{2008}
+    \endentry
+    \entry{walter2017expandable}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=efdad3bd6a0f846562021fcd0a4e437c}{%
+           family={Walter},
+           familyi={W\bibinitperiod},
+           given={J{ü}rgen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=55f55dcbede7bfdae65f7c6112b02a64}{%
+           family={Stier},
+           familyi={S\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ba7ecc5039717e22ccf225ab7421719b}{%
+           family={Koziolek},
+           familyi={K\bibinitperiod},
+           given={Heiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4de0f4299be144a65505410b920314e7}{%
+           family={Kounev},
+           familyi={K\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{7b16123041cbef927e57be6ace2760d4}
+      \strng{fullhash}{5c37ecc9d87db6ca243c865193ccd9b6}
+      \strng{bibnamehash}{7b16123041cbef927e57be6ace2760d4}
+      \strng{authorbibnamehash}{7b16123041cbef927e57be6ace2760d4}
+      \strng{authornamehash}{7b16123041cbef927e57be6ace2760d4}
+      \strng{authorfullhash}{5c37ecc9d87db6ca243c865193ccd9b6}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 8th ACM/SPEC on International Conference on Performance Engineering Companion}
+      \field{title}{An expandable extraction framework for architectural performance models}
+      \field{year}{2017}
+      \field{pages}{165\bibrangedash 170}
+      \range{pages}{6}
     \endentry
   \enddatalist
 \endrefsection

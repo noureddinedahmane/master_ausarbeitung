@@ -13,4 +13,26 @@
 \chapter{Related Work}
 \label{ch:Related Work}
 
-bla bla
+None of the existing approaches that deal with the automatic extraction of performance
+model considers the parametric dependencies of performance models, the adaptive
+monitoring and the incremental execution of the whole process at the same time. Moreover,
+existing approaches do not support the adaptive monitoring for performance model continuous
+integration.
+
+Walter et al. \cite{walter2017expandable} provided an expandable approach for automated extraction of
+architectural performance model. He presents a framework for the extraction of
+the architectural performance models based on monitoring files generalizing over
+the target architectural model language. This framework can be used to create
+an extraction tool for a specific modeling formalism. He implemented his approach
+in so called Performance Model Extractor (PMX) tool and provided it as a web service.
+
+Krogmann et al. \cite{krogmann2012reconstruction, krogmann2010using} used genetic programming to estimate parametric dependencies between inputs and the number of execution for each byte code instruction.
+Depending on input data he could find control flow dependencies between required
+and provided services.
+
+Spinner et al. \cite{spinner2016reference} predicted the system performance at run time under varying work
+loads and system configuration. He proposed an approach for obtaining architectural-level model performance in virtualized environment.
+
+Langhammer \cite{langhammer2017automated} introduced two approaches to extract the static and the dynamic
+behavior of the source code. Furthermore, he proposed an approach that keeps the source code and the 
+architecture consistent during development. 

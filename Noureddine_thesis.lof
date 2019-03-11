@@ -37,17 +37,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 4.8}{\ignorespaces Overview of the Vitruvius VSUM and how model instances can be kept consistent}}{36}{figure.4.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.9}{\ignorespaces Overview of the Vitruvius VSUM of our approach, we extended the VSUM of the Coevolution approach}}{46}{figure.4.9}
+\contentsline {figure}{\numberline {\relax 4.9}{\ignorespaces Overview of the Vitruvius VSUM of our approach, we extended the VSUM of the Coevolution approach}}{49}{figure.4.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.10}{\ignorespaces The extended Incremental Reconstruction Process of SEFF}}{47}{figure.4.10}
+\contentsline {figure}{\numberline {\relax 4.10}{\ignorespaces The extended Incremental Reconstruction Process of SEFF}}{50}{figure.4.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.11}{\ignorespaces The inputs and the output of the instrumentation process, the output is an instrumented copy of the original source code of the system}}{48}{figure.4.11}
+\contentsline {figure}{\numberline {\relax 4.11}{\ignorespaces The inputs and the output of the instrumentation process, the output is an instrumented copy of the original source code of the system}}{51}{figure.4.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.12}{\ignorespaces The Component Diagrams shows the dependencies between the components we used to implement our approach}}{48}{figure.4.12}
+\contentsline {figure}{\numberline {\relax 4.12}{\ignorespaces The Component Diagrams shows the dependencies between the components we used to implement our approach}}{51}{figure.4.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.13}{\ignorespaces Sequence Diagram that illustrates the activities of the Instrumentation Process}}{49}{figure.4.13}
+\contentsline {figure}{\numberline {\relax 4.13}{\ignorespaces Sequence Diagram that illustrates the activities of the Instrumentation Process}}{52}{figure.4.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.14}{\ignorespaces Service parameters types and how they are extracted}}{49}{figure.4.14}
+\contentsline {figure}{\numberline {\relax 4.14}{\ignorespaces Service parameters types and how they are extracted}}{52}{figure.4.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.15}{\ignorespaces UML class diagram that models the matching between the old and the new SEFF}}{53}{figure.4.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.16}{\ignorespaces The activities in blue color shows our contribution to the Incremental SEFF Reconstruction Process \ref {sec:Incremental SEFF Reconstruction}}}{54}{figure.4.16}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

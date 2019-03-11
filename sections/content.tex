@@ -11,8 +11,8 @@
 %% Version 1.3.2, 2017-08-01
 
 
-\chapter{An Approach for Adaptive Monitoring for Continuous Performance Model Integration}
-\label{ch:An Approach for Adaptive Monitoring for Continuous Performance Model Integration}
+\chapter{Adaptive Monitoring for Continuous Performance Model Integration}
+\label{ch:Adaptive Monitoring for Continuous Performance Model Integration}
 In this chapter, we will introduce our approach for adaptive monitoring for continuous performance model integration. In section \ref{sec:Context of our approach}, we bring in the context of our approach. In section \ref{sec:Monitoring Probes}, we define the monitoring probes that we need for our monitoring approach. In section \ref{sec:Monitoring Records}, we define the monitoring records that we monitor. In section \ref{sec:Adaptive Instrumentation}, we clarify the adaptive instrumentation concept in our approach. In section \ref{sec:Instrumentation Model}, we define an instrumentation for saving the monitoring probes. In section \ref{sec:approach}, we give an overview approach an it's activities. In section \ref{sec:Monitoring Probes Generation Process}, we introduce the process that we used to generate iteratively the monitoring probes. In section \ref{sec:Adaptive Instrumentation Process}, we present our approach for adaptive instrumentation of the source code. 
 
 \section{Context of our approach}
@@ -399,12 +399,12 @@ For service parameters extraction, we return for each parameter type only the pr
 \label{sec:Limitation}
 In this section, we will present the limitation of our process for generation the monitoring probes.\\ 
 
-\textbf{Adaptive Instrumentation is limited to Service level}\\
+\textbf{Limitation (1): adaptive Instrumentation is limited to Service level}\\
 This limitation is due to the implementation of the SEFF Reconstruction Process (Section \ref{sec:Incremental SEFF Reconstruction}) which recreates the whole SEFF of a service if a part of its source code has changed. That means, if only one element of the SEFF of the changed service has been changed, the process creates a new SEFF with new elements and replaces the old SEFF of the service. This will guide to delete the old elements of the SEFF and loose their estimated parameters, even tough they were not touched by the last changes. This limitation is reflected also on the adaptive instrumentation, the adaptive monitoring and the parameters estimation of SEFF models.\\ 
 
 Another level that can be achieved to prevent this limitation is the statement level. In this level, only the SEFF elements that was touched by the source code changes have to be updated. In such way, we can reduce the monitoring probes which reduces the overhead of the monitoring and parameters estimation of the performance model. This can be achieved for example by comparing the SEFF of the old service and the SEFF of the new service based on the source code statements. Using this comparison, we can deduce, which element of the old SEFF has been modified, new added or deleted.  \\
 
-\textbf{Probes with small response time must be ignored}\\
+\textbf{Limitation (2): probes with small response time must be ignored}\\
 This limitation is related to service calls and internal actions. Basically, probes with response time that do not influence the performance model must be ignored. For example, an internal action that corresponds solely to a variable declaration will clearly log response time that does not affect the performance model.\\
  
 We identify basically two approaches to find out if a probe with a given response time can be accepted or ignored. The First approach consists of analyzing the statements of the source code in order to decide if the probe can affect the performance model. This approach is efficient in terms of reducing the computation resources for the instrumentation, the monitoring and the parameters estimation.  However, we do not know if it's possible to apply it for all cases.\\
@@ -413,5 +413,75 @@ The second approach, which we've implemented in our approach is the filtering of
 
 If the first approach can not cover all cases, it can be used in combination with the second approach in order to improve the efficiency of the monitoring. In the first step, the first approach can be used to remove probes that has a defined number and types of statements. In the second step, the second approach will remove the records with a defined response tine value, which could not be judged by the first approach.\\
 
+\section{Extending the Incremental SEFF Reconstruction Process}
+\label{sec:extend the incremental SEFF reconstruction process}
+In this section, we will introduce our contribution in the Incremental SEFF Reconstruction Process (Section \ref{sec:Incremental SEFF Reconstruction}). The objective of our contribution is to increase the level of incrementation of the SEFF reconstruction process. Moreover, our contribution aims to reduce the high overhead caused by the monitoring of large systems.\\
 
+Our motivation for introducing this contribution was due to the shortcoming of the Incremental SEFF Reconstruction Process that we highlighted in limitation (2) (Section \ref{sec:Limitation}). Furthermore, the incremental SEFF generation of the services is limited to service level. That means, if the source code that corresponds to one element of the SEFF elements of the service has changed, the process will create a new SEFF for the service and the remove its old SEFF. This includes removing the old elements of the SEFF even though they did not change. As consequence, we will need to repeat the monitoring for all elements of the SEFF. In respect to this, the overhead of the monitoring will increase.
+
+\subsection{Objective}
+\label{sec:objective}
+In our contribution to the Incremental SEFF Reconstruction Process, we will propose an approach that resolve the limitation presented above. We will precisely extend this process by updating only the SEFF elements that have been affected by the service changes. This will prevent the recreation of the whole SEFF of the service and spare untouched SEFF elements. As results, we can minimize the overhead of the monitoring. 
+
+\subsection{Method}
+\label{sec:Method}
+In order to achieve the objective presented above, we will base our approach on comparing the old and the new SEFF of the service. The old SEFF of the service can be obtained from Correspondence Model. The new SEFF of the service corresponds to the new source code of the service. The new SEFF of the service can be returned by executing the SoMoX on the new source code of the service. \\
+
+When the source code of the service changes, we return its old SEFF and we run the SoMoX on it in order to receive the SEFF of the new source code of the service. The comparison of the old SEFF and the new SEFF of the service will provide a difference that can by analyzed in order to updated the old SEFF of the service.  
+
+\subsection{Scientific Challenges}
+\label{sec:Scientific Challenges}
+In this section, we introduce the challenges that we need to solve in order to achieve the objective (Section \ref{sec:objective}) of our contribution. 
+
+\begin{itemize}
+\item How can we compare the old and the new SEFF?
+\item How can we calculate the difference between the old and the new SEFF?
+\item How can we update the old SEFF based on the difference between the old and the new SEFF?
+\end{itemize}
+
+
+\subsection{SEFF Comparison}
+\label{sec:SEFF Comparison}
+As mentioned above, our approach is based on the comparison of the old and the new SEFF of the service. In order to compare the SEFF elements we proposed to use their corresponding JaMoPP (section) statements in the source code. Moreover, each SEFF element is represented by a set of statements in the source code, which means, in order to compare two SEFF elements we can simply compare their statements.\\
+
+\textbf{SPLevo: Diffing JaMoPP Cartridge}\\
+In order to compare the JaMoPP statements, we used the software development tool SPLevo \cite{klatt2016consolidation}. SPLevo provides the Diffing JaMoPP functionality, which can compare between JaMoPP models. We used this functionality to compare between JaMoPP statements, which we need, in order to compare SEFFs.
+
+\subsection{Approach}
+\label{sec:approach}
+Figure \ref{fig:seff_reconst_extension_level2} shows our contribution to the Incremental SEFF Reconstruction Process. The original process is described in (section in foundation). In the following we will describe the activities that we added to the process in order to achieve our objectives (Section \ref{sec:objective}). Furthermore, the activities in the blue color represent our contribution.
+
+\textbf{Step (1): Remove all abstract actions of the old method from the correspondence model}\\
+This activity is responsible for clearing the correspondence model from the old method and its correspondences. This is required because the old method will be replaced by the new method and we will need create new correspondences for the new method.\\
+
+\textbf{Step (2): Return the Old Resource Demanding Behaviour}\\
+In this step, we use the old method reference to return its SEFF from the correspondence model.\\
+
+\textbf{Step (3): Run SoMoX to find the New Resource Demanding Behavior}\\
+In this step, we run the SoMoX on the new method in order to return its SEFF. \\
+
+\textbf{Step (4): Find the Matching of the New and the Old Resource Demanding Behavior}\\
+In this step, we compute the matching between the old SEFF and the new SEFF. The matching possibilities are represented by the UML class diagram in Figure \ref{fig:seffmachting}.  The output of this step is a list of the matching between the old SEFF elements and the new SEFF elements. The enumeration \textit{MatchingType} describes the matching types, which define if two SEFF elements are totally equal or not. Two SEFF elements are total equal if their statements match completely. \\
+
+A matching of type modified means that the source code of the old SEFF element has changed but it has a matching in the new SEFF. This type of matching will inform us, if an SEFF element has been modified.\\
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/seffmachting}
+\caption{UML class diagram that models the matching between the old and the new SEFF}
+\label{fig:seffmachting}
+\end{figure}
+
+
+\textbf{Step (5): Find the Difference between the New and the Old Resource Demanding Behavior}\\
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/seff_reconst_extension_level2}
+\caption{The activities in blue color shows our contribution to the Incremental SEFF Reconstruction Process \ref{sec:Incremental SEFF Reconstruction}}
+\label{fig:seff_reconst_extension_level2}
+\end{figure}
+
+ 
+ 
  

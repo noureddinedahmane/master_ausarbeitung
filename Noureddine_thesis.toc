@@ -41,7 +41,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Scientific challenges}{22}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}An Approach for Adaptive Monitoring for Continuous Performance Model Integration}{25}{chapter.4}
+\contentsline {chapter}{\numberline {4}Adaptive Monitoring for Continuous Performance Model Integration}{25}{chapter.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Context of our approach}{25}{section.4.1}
 \defcounter {refsection}{0}\relax 
@@ -91,10 +91,22 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.13}Limitation}{44}{section.4.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Evaluation}{51}{chapter.5}
+\contentsline {section}{\numberline {4.14}Extending the Incremental SEFF Reconstruction Process}{45}{section.4.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}First Section}{51}{section.5.1}
+\contentsline {subsection}{\numberline {4.14.1}Objective}{46}{subsection.4.14.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Related Work}{53}{chapter.6}
+\contentsline {subsection}{\numberline {4.14.2}Method}{46}{subsection.4.14.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusions and Future Work}{55}{chapter.7}
+\contentsline {subsection}{\numberline {4.14.3}Scientific Challenges}{46}{subsection.4.14.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.14.4}SEFF Comparison}{47}{subsection.4.14.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.14.5}Approach}{47}{subsection.4.14.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Evaluation}{55}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}First Section}{55}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Related Work}{57}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Conclusions and Future Work}{59}{chapter.7}

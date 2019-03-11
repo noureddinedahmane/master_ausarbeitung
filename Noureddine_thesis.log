@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.4)  7 MAR 2019 20:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.4)  11 MAR 2019 20:32
 entering extended mode
 **./Noureddine_thesis.tex
 (Noureddine_thesis.tex
@@ -1651,14 +1651,17 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count329
 \@quotereset=\count330
-(Noureddine_thesis.aux)
+(Noureddine_thesis.aux
+
+LaTeX Warning: Label `sec:approach' multiply defined.
+
+)
 \openout1 = `Noureddine_thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 108.
 LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 10
 8.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\newtx\omlnxlmi.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\newtx\omlnxlmi.fd"
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
 LaTeX Font Info:    ... okay on input line 108.
@@ -1798,7 +1801,7 @@ Package biblatex Info: ... file 'Noureddine_thesis.bbl' found.
  (Noureddine_thesis.bbl)
 Package biblatex Info: Reference section=0 on input line 108.
 Package biblatex Info: Reference segment=0 on input line 108.
-<logos/kitlogo_en_cmyk.pdf, id=195, 198.7425pt x 92.345pt>
+<logos/kitlogo_en_cmyk.pdf, id=219, 198.7425pt x 92.345pt>
 File: logos/kitlogo_en_cmyk.pdf Graphic file (type pdf)
 <use logos/kitlogo_en_cmyk.pdf>
 Package pdftex.def Info: logos/kitlogo_en_cmyk.pdf  used on input line 115.
@@ -1871,7 +1874,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7.9> on input line 115.
 Missing character: There is no ¹ in font lmsy10!
-<title-background.pdf, id=196, 597.50786pt x 845.04686pt>
+<title-background.pdf, id=220, 597.50786pt x 845.04686pt>
 File: title-background.pdf Graphic file (type pdf)
 <use title-background.pdf>
 Package pdftex.def Info: title-background.pdf  used on input line 115.
@@ -1955,10 +1958,7 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              a package that still implements the
 (scrbook)              deprecated \float@addtolist interface .
 
-) (sections/foundations.tex [3] [4
-
-
-]
+[3]) (sections/foundations.tex [4]
 chapter 2.
 
 LaTeX Warning: Reference `sec: sec: SEFFs' on page 5 undefined on input line 16
@@ -1977,12 +1977,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-[5]
+[5
+
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 30--34
 
  []
 
-<figures/pcmmodels.png, id=375, 711.8595pt x 324.61275pt>
+<figures/pcmmodels.png, id=427, 711.8595pt x 324.61275pt>
 File: figures/pcmmodels.png Graphic file (type png)
 <use figures/pcmmodels.png>
 Package pdftex.def Info: figures/pcmmodels.png  used on input line 37.
@@ -1990,7 +1993,7 @@ Package pdftex.def Info: figures/pcmmodels.png  used on input line 37.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/code_seff.png, id=377, 592.01175pt x 381.22424pt>
+<figures/code_seff.png, id=429, 592.01175pt x 381.22424pt>
 File: figures/code_seff.png Graphic file (type png)
 <use figures/code_seff.png>
 Package pdftex.def Info: figures/code_seff.png  used on input line 44.
@@ -2054,7 +2057,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
-<figures/coevolution_approach.png, id=421, 326.4195pt x 540.8205pt>
+<figures/coevolution_approach.png, id=471, 326.4195pt x 540.8205pt>
 File: figures/coevolution_approach.png Graphic file (type png)
 <use figures/coevolution_approach.png>
 Package pdftex.def Info: figures/coevolution_approach.png  used on input line 1
@@ -2100,7 +2103,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
-<figures/kieker.png, id=431, 439.04025pt x 194.52675pt>
+<figures/kieker.png, id=481, 439.04025pt x 194.52675pt>
 File: figures/kieker.png Graphic file (type png)
 <use figures/kieker.png>
 Package pdftex.def Info: figures/kieker.png  used on input line 125.
@@ -2176,7 +2179,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--188
  []
 
 [13]
-<figures/inscremental_seff_reconst.png, id=471, 459.51675pt x 398.08725pt>
+<figures/inscremental_seff_reconst.png, id=521, 459.51675pt x 398.08725pt>
 File: figures/inscremental_seff_reconst.png Graphic file (type png)
 <use figures/inscremental_seff_reconst.png>
 Package pdftex.def Info: figures/inscremental_seff_reconst.png  used on input l
@@ -2207,7 +2210,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--206
  []
 
 [14]
-<figures/cipm.png, id=483, 651.03226pt x 249.3315pt>
+<figures/cipm.png, id=532, 651.03226pt x 249.3315pt>
 File: figures/cipm.png Graphic file (type png)
 <use figures/cipm.png>
 Package pdftex.def Info: figures/cipm.png  used on input line 211.
@@ -2293,7 +2296,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
  []
 
 [25]
-<figures/approach_context.png, id=552, 435.42674pt x 435.42674pt>
+<figures/approach_context.png, id=601, 435.42674pt x 435.42674pt>
 File: figures/approach_context.png Graphic file (type png)
 <use figures/approach_context.png>
 Package pdftex.def Info: figures/approach_context.png  used on input line 29.
@@ -2316,7 +2319,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
-<figures/probes.png, id=562, 446.8695pt x 395.076pt>
+<figures/probes.png, id=611, 446.8695pt x 395.076pt>
 File: figures/probes.png Graphic file (type png)
 <use figures/probes.png>
 Package pdftex.def Info: figures/probes.png  used on input line 45.
@@ -2354,7 +2357,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-<figures/records.png, id=570, 578.76225pt x 342.68025pt>
+<figures/records.png, id=619, 578.76225pt x 342.68025pt>
 File: figures/records.png Graphic file (type png)
 <use figures/records.png>
 Package pdftex.def Info: figures/records.png  used on input line 66.
@@ -2410,7 +2413,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
-<figures/im.png, id=586, 229.45724pt x 207.174pt>
+<figures/im.png, id=635, 229.45724pt x 207.174pt>
 File: figures/im.png Graphic file (type png)
 <use figures/im.png>
 Package pdftex.def Info: figures/im.png  used on input line 101.
@@ -2447,7 +2450,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--118
  []
 
 [31 <./figures/im.png>]
-<figures/devops_approach.png, id=597, 514.92375pt x 451.6875pt>
+<figures/devops_approach.png, id=646, 514.92375pt x 451.6875pt>
 File: figures/devops_approach.png Graphic file (type png)
 <use figures/devops_approach.png>
 Package pdftex.def Info: figures/devops_approach.png  used on input line 122.
@@ -2478,7 +2481,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--145
  []
 
 [33]
-<figures/seff_jamopp.png, id=618, 452.892pt x 316.18124pt>
+<figures/seff_jamopp.png, id=667, 452.892pt x 316.18124pt>
 File: figures/seff_jamopp.png Graphic file (type png)
 <use figures/seff_jamopp.png>
 Package pdftex.def Info: figures/seff_jamopp.png  used on input line 151.
@@ -2494,7 +2497,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--163
  []
 
 [34 <./figures/seff_jamopp.png>]
-<figures/correspondence_model.png, id=625, 222.23026pt x 186.09525pt>
+<figures/correspondence_model.png, id=674, 222.23026pt x 186.09525pt>
 File: figures/correspondence_model.png Graphic file (type png)
 <use figures/correspondence_model.png>
 Package pdftex.def Info: figures/correspondence_model.png  used on input line 1
@@ -2510,7 +2513,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
-<figures/vitruv_vsum.png, id=634, 419.76825pt x 348.1005pt>
+<figures/vitruv_vsum.png, id=683, 419.76825pt x 348.1005pt>
 File: figures/vitruv_vsum.png Graphic file (type png)
 <use figures/vitruv_vsum.png>
 Package pdftex.def Info: figures/vitruv_vsum.png  used on input line 184.
@@ -2525,7 +2528,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
-<figures/extended_vsum.png, id=646, 384.2355pt x 484.81125pt>
+<figures/extended_vsum.png, id=695, 384.2355pt x 484.81125pt>
 File: figures/extended_vsum.png Graphic file (type png)
 <use figures/extended_vsum.png>
 Package pdftex.def Info: figures/extended_vsum.png  used on input line 208.
@@ -2554,7 +2557,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 225--226
  []
 
 [37]
-<figures/seff_reconst_extension.png, id=655, 411.939pt x 452.28975pt>
+<figures/seff_reconst_extension.png, id=704, 411.939pt x 452.28975pt>
 File: figures/seff_reconst_extension.png Graphic file (type png)
 <use figures/seff_reconst_extension.png>
 Package pdftex.def Info: figures/seff_reconst_extension.png  used on input line
@@ -2585,7 +2588,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 244--245
  []
 
 [38]
-<figures/approach_design.png, id=666, 482.40225pt x 180.675pt>
+<figures/approach_design.png, id=715, 482.40225pt x 180.675pt>
 File: figures/approach_design.png Graphic file (type png)
 <use figures/approach_design.png>
 Package pdftex.def Info: figures/approach_design.png  used on input line 259.
@@ -2670,7 +2673,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 337--339
 
  []
 
-<figures/architecture.png, id=736, 428.802pt x 301.72725pt>
+<figures/architecture.png, id=785, 428.802pt x 301.72725pt>
 File: figures/architecture.png Graphic file (type png)
 <use figures/architecture.png>
 Package pdftex.def Info: figures/architecture.png  used on input line 342.
@@ -2714,7 +2717,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 366--367
  []
 
 [43]
-<figures/instrumentation_process.png, id=749, 625.1355pt x 466.1415pt>
+<figures/instrumentation_process.png, id=798, 625.1355pt x 466.1415pt>
 File: figures/instrumentation_process.png Graphic file (type png)
 <use figures/instrumentation_process.png>
 Package pdftex.def Info: figures/instrumentation_process.png  used on input lin
@@ -2739,7 +2742,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 387--388
 
  []
 
-<figures/service_parameters.png, id=752, 461.3235pt x 279.444pt>
+<figures/service_parameters.png, id=801, 461.3235pt x 279.444pt>
 File: figures/service_parameters.png Graphic file (type png)
 <use figures/service_parameters.png>
 Package pdftex.def Info: figures/service_parameters.png  used on input line 392
@@ -2783,36 +2786,103 @@ Underfull \hbox (badness 10000) in paragraph at lines 414--415
 
  []
 
-) (sections/evaluation.tex [45] [46 <./figures/extended_vsum.png>] [47 <./figur
-es/seff_reconst_extension.png>] [48 <./figures/approach_design.png> <./figures/
-architecture.png>] [49 <./figures/instrumentation_process.png> <./figures/servi
-ce_parameters.png>] [50
+
+Underfull \hbox (badness 10000) in paragraph at lines 418--419
+
+ []
+
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
+
+ []
 
 
-]
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
+
+ []
+
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 454--456
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--459
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--462
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--465
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
+
+ []
+
+<figures/seffmachting.png, id=822, 269.808pt x 310.15875pt>
+File: figures/seffmachting.png Graphic file (type png)
+<use figures/seffmachting.png>
+Package pdftex.def Info: figures/seffmachting.png  used on input line 470.
+(pdftex.def)             Requested size: 389.23111pt x 447.48486pt.
+[47]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
+
+ []
+
+<figures/seff_reconst_extension_level2.png, id=829, 339.06676pt x 552.26324pt>
+File: figures/seff_reconst_extension_level2.png Graphic file (type png)
+<use figures/seff_reconst_extension_level2.png>
+Package pdftex.def Info: figures/seff_reconst_extension_level2.png  used on inp
+ut line 480.
+(pdftex.def)             Requested size: 389.23111pt x 633.9686pt.
+
+LaTeX Warning: Float too large for page by 23.96858pt on input line 483.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (sections/evaluation.tex [48] [49 <./figures/extended_vsum.png>] [50 <./figur
+es/seff_reconst_extension.png>] [51 <./figures/approach_design.png> <./figures/
+architecture.png>] [52 <./figures/instrumentation_process.png> <./figures/servi
+ce_parameters.png>] [53 <./figures/seffmachting.png>] [54 <./figures/seff_recon
+st_extension_level2.png>]
 chapter 5.
-) (sections/relatedwork.tex [51] [52
+) (sections/relatedwork.tex [55
+
+
+] [56
 
 
 ]
 chapter 6.
-) (sections/conclusion.tex [53] [54
+) (sections/conclusion.tex [57] [58
 
 
 ]
 chapter 7.
-) [55] [56
+) [59] [60
 
 
-] [57]
+] [61]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
- [58]
+ [62]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
  (Noureddine_thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
 Package rerunfilecheck Info: File `Noureddine_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: C25184DD4170B9AF7C55C3F55BB1CAB7;3522.
+(rerunfilecheck)             Checksum: 71A53919AEB62FD561AA23CE3DB5A250;3952.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2820,16 +2890,19 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'Noureddine_thesis.run.xml'.
 \openout1 = `Noureddine_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27028 strings out of 493305
- 492634 string characters out of 3138884
- 1127009 words of memory out of 3000000
- 29744 multiletter control sequences out of 15000+200000
- 108891 words of font info for 163 fonts, out of 3000000 for 9000
+ 27081 strings out of 493305
+ 493998 string characters out of 3138884
+ 1128015 words of memory out of 3000000
+ 29773 multiletter control sequences out of 15000+200000
+ 109278 words of font info for 166 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  63i,20n,88p,9099b,3551s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
@@ -2842,9 +2915,9 @@ s/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
 rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/lm/lmtt12.pfb>
-Output written on Noureddine_thesis.pdf (66 pages, 1401151 bytes).
+Output written on Noureddine_thesis.pdf (70 pages, 1494649 bytes).
 PDF statistics:
- 909 PDF objects out of 1000 (max. 8388607)
- 219 named destinations out of 1000 (max. 500000)
- 27631 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1000 PDF objects out of 1000 (max. 8388607)
+ 235 named destinations out of 1000 (max. 500000)
+ 27689 words of extra memory for PDF output out of 29859 (max. 10000000)
 
