@@ -105,7 +105,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Evaluation}{55}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}First Section}{55}{section.5.1}
+\contentsline {section}{\numberline {5.1}Case Study}{55}{section.5.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Related Work}{57}{chapter.6}
 \defcounter {refsection}{0}\relax 
