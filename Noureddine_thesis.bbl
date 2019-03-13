@@ -195,32 +195,37 @@
       \field{title}{Performance-oriented DevOps: A research agenda}
       \field{year}{2015}
     \endentry
-    \entry{burger2013flexible}{inproceedings}{}
+    \entry{burger2013flexible}{thesis}{}
       \name{author}{1}{}{%
-        {{hash=9afe40ae228febe360fd974fb38fc565}{%
+        {{hash=3e06bb0fa0071643497a324850780e6e}{%
            family={Burger},
            familyi={B\bibinitperiod},
-           given={Erik\bibnamedelima Johannes},
-           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
       }
-      \list{organization}{1}{%
-        {ACM}%
+      \list{institution}{1}{%
+        {Karlsruhe Institute of Technology}%
       }
-      \strng{namehash}{9afe40ae228febe360fd974fb38fc565}
-      \strng{fullhash}{9afe40ae228febe360fd974fb38fc565}
-      \strng{bibnamehash}{9afe40ae228febe360fd974fb38fc565}
-      \strng{authorbibnamehash}{9afe40ae228febe360fd974fb38fc565}
-      \strng{authornamehash}{9afe40ae228febe360fd974fb38fc565}
-      \strng{authorfullhash}{9afe40ae228febe360fd974fb38fc565}
+      \list{location}{1}{%
+        {Karlsruhe, Germany}%
+      }
+      \list{publisher}{1}{%
+        {KIT Scientific Publishing}%
+      }
+      \strng{namehash}{3e06bb0fa0071643497a324850780e6e}
+      \strng{fullhash}{3e06bb0fa0071643497a324850780e6e}
+      \strng{bibnamehash}{3e06bb0fa0071643497a324850780e6e}
+      \strng{authorbibnamehash}{3e06bb0fa0071643497a324850780e6e}
+      \strng{authornamehash}{3e06bb0fa0071643497a324850780e6e}
+      \strng{authorfullhash}{3e06bb0fa0071643497a324850780e6e}
       \field{sortinit}{B}
       \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 18th international doctoral symposium on Components and architecture}
-      \field{title}{Flexible views for view-based model-driven development}
-      \field{year}{2013}
-      \field{pages}{25\bibrangedash 30}
-      \range{pages}{6}
+      \field{series}{The Karlsruhe Series on Software Design and Quality}
+      \field{title}{{Flexible Views for View-based Model-driven Development}}
+      \field{type}{phdthesis}
+      \field{year}{2014}
     \endentry
     \entry{goldschmidt2012view}{inproceedings}{}
       \name{author}{3}{}{%
@@ -343,8 +348,8 @@
       \field{pages}{114\bibrangedash 129}
       \range{pages}{16}
     \endentry
-    \entry{van2009continuous}{article}{}
-      \name{author}{7}{}{%
+    \entry{van2009continuous}{inproceedings}{}
+      \name{author}{3}{}{%
         {{hash=529b033b2b49b24fc325b55c6d332cd1}{%
            family={Hoorn},
            familyi={H\bibinitperiod},
@@ -352,52 +357,40 @@
            giveni={A\bibinitperiod},
            prefix={van},
            prefixi={v\bibinitperiod}}}%
-        {{hash=7d7398f33841172258dd4e2bb4867024}{%
-           family={Rohr},
-           familyi={R\bibinitperiod},
-           given={Matthias},
-           giveni={M\bibinitperiod}}}%
-        {{hash=131b9781ee9671d87bd60771bd41a0bc}{%
-           family={Hasselbring},
-           familyi={H\bibinitperiod},
-           given={Wilhelm},
-           giveni={W\bibinitperiod}}}%
         {{hash=03b5b06f02fbcb1efe5bbdfdbb426cc8}{%
            family={Waller},
            familyi={W\bibinitperiod},
            given={Jan},
            giveni={J\bibinitperiod}}}%
-        {{hash=85ba4124084f97d0ccad1546b7d2ead0}{%
-           family={Ehlers},
-           familyi={E\bibinitperiod},
-           given={Jens},
-           giveni={J\bibinitperiod}}}%
-        {{hash=2a5ff4bb2e440a0603814bc0b41cf905}{%
-           family={Frey},
-           familyi={F\bibinitperiod},
-           given={S{ö}ren},
-           giveni={S\bibinitperiod}}}%
-        {{hash=9e3b8fe507882527d608b715337ef49b}{%
-           family={Kieselhorst},
-           familyi={K\bibinitperiod},
-           given={Dennis},
-           giveni={D\bibinitperiod}}}%
+        {{hash=131b9781ee9671d87bd60771bd41a0bc}{%
+           family={Hasselbring},
+           familyi={H\bibinitperiod},
+           given={Wilhelm},
+           giveni={W\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Department of Computer Science, Kiel University, Germany}%
+        {ACM}%
       }
-      \strng{namehash}{cbd89949318dd9a4e2955deddb315789}
-      \strng{fullhash}{f551830325721b9550f6529960ff6230}
-      \strng{bibnamehash}{cbd89949318dd9a4e2955deddb315789}
-      \strng{authorbibnamehash}{cbd89949318dd9a4e2955deddb315789}
-      \strng{authornamehash}{cbd89949318dd9a4e2955deddb315789}
-      \strng{authorfullhash}{f551830325721b9550f6529960ff6230}
+      \strng{namehash}{230d1df5cdb39ba2ef66d80b92bc316d}
+      \strng{fullhash}{230d1df5cdb39ba2ef66d80b92bc316d}
+      \strng{bibnamehash}{230d1df5cdb39ba2ef66d80b92bc316d}
+      \strng{authorbibnamehash}{230d1df5cdb39ba2ef66d80b92bc316d}
+      \strng{authornamehash}{230d1df5cdb39ba2ef66d80b92bc316d}
+      \strng{authorfullhash}{230d1df5cdb39ba2ef66d80b92bc316d}
       \field{sortinit}{H}
       \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Continuous monitoring of software services: Design and application of the Kieker framework}
-      \field{year}{2009}
+      \field{booktitle}{Proceedings of the 3rd ACM/SPEC International Conference on Performance Engineering}
+      \field{title}{Kieker: A Framework for Application Performance Monitoring and Dynamic Software Analysis}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb http://doi.acm.org/10.1145/2188286.2188326
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/2188286.2188326
+      \endverb
+      \keyw{application performance monitoring,dynamic software analysis,kieker framework}
     \endentry
     \entry{jung2013instrumentation}{report}{}
       \name{author}{1}{}{%
@@ -512,10 +505,10 @@
     \endentry
     \entry{kramer2013view}{inproceedings}{}
       \name{author}{3}{}{%
-        {{hash=cabd85ca8546ac2e0b809e48abdbf453}{%
+        {{hash=5cb87803d385692c13674a31dc9791c1}{%
            family={Kramer},
            familyi={K\bibinitperiod},
-           given={Max\bibnamedelima E},
+           given={Max\bibnamedelima E.},
            giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
         {{hash=3e06bb0fa0071643497a324850780e6e}{%
            family={Burger},
@@ -528,15 +521,15 @@
            given={Michael},
            giveni={M\bibinitperiod}}}%
       }
-      \list{organization}{1}{%
+      \list{publisher}{1}{%
         {ACM}%
       }
-      \strng{namehash}{7aacf7e8e1b81b7a2c694ca295ed1c2c}
-      \strng{fullhash}{7aacf7e8e1b81b7a2c694ca295ed1c2c}
-      \strng{bibnamehash}{7aacf7e8e1b81b7a2c694ca295ed1c2c}
-      \strng{authorbibnamehash}{7aacf7e8e1b81b7a2c694ca295ed1c2c}
-      \strng{authornamehash}{7aacf7e8e1b81b7a2c694ca295ed1c2c}
-      \strng{authorfullhash}{7aacf7e8e1b81b7a2c694ca295ed1c2c}
+      \strng{namehash}{f4161f0226aff59b89d6aa53888278ab}
+      \strng{fullhash}{f4161f0226aff59b89d6aa53888278ab}
+      \strng{bibnamehash}{f4161f0226aff59b89d6aa53888278ab}
+      \strng{authorbibnamehash}{f4161f0226aff59b89d6aa53888278ab}
+      \strng{authornamehash}{f4161f0226aff59b89d6aa53888278ab}
+      \strng{authorfullhash}{f4161f0226aff59b89d6aa53888278ab}
       \field{sortinit}{K}
       \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
       \field{labelnamesource}{author}
@@ -544,8 +537,12 @@
       \field{booktitle}{Proceedings of the 1st Workshop on View-Based, Aspect-Oriented and Orthographic Software Modelling}
       \field{title}{View-centric engineering with synchronized heterogeneous models}
       \field{year}{2013}
-      \field{pages}{5}
-      \range{pages}{1}
+      \verb{urlraw}
+      \verb http://doi.acm.org/10.1145/2489861.2489864
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/2489861.2489864
+      \endverb
     \endentry
     \entry{krogmann2012reconstruction}{book}{}
       \name{author}{1}{}{%
@@ -611,13 +608,19 @@
       \field{pages}{865\bibrangedash 877}
       \range{pages}{13}
     \endentry
-    \entry{langhammer2017automated}{article}{}
+    \entry{langhammer2017automated}{thesis}{}
       \name{author}{1}{}{%
         {{hash=634b19e19b8a647e0679ec4aeac2d8c5}{%
            family={Langhammer},
            familyi={L\bibinitperiod},
            given={Michael},
            giveni={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Karlsruhe Institute of Technology (KIT)}%
+      }
+      \list{location}{1}{%
+        {Karlsruhe, Germany}%
       }
       \strng{namehash}{634b19e19b8a647e0679ec4aeac2d8c5}
       \strng{fullhash}{634b19e19b8a647e0679ec4aeac2d8c5}
@@ -629,8 +632,19 @@
       \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{pagetotal}{259}
       \field{title}{Automated Coevolution of Source Code and Software Architecture Models}
+      \field{type}{phdthesis}
       \field{year}{2017}
+      \verb{file}
+      \verb 4146687:https\://publikationen.bibliothek.kit.edu/1000069366/4146687:PDF
+      \endverb
+      \verb{urlraw}
+      \verb http://nbn-resolving.org/urn:nbn:de:swb:90-693666
+      \endverb
+      \verb{url}
+      \verb http://nbn-resolving.org/urn:nbn:de:swb:90-693666
+      \endverb
     \endentry
     \entry{langhammer2015co}{inproceedings}{}
       \name{author}{2}{}{%
@@ -692,30 +706,61 @@
       \field{pages}{153\bibrangedash 158}
       \range{pages}{6}
     \endentry
-    \entry{schmidt2006erzeugung}{inproceedings}{}
-      \name{author}{1}{}{%
-        {{hash=68c838da618763ad153823dc10bc7ab3}{%
-           family={Schmidt.},
-           familyi={S\bibinitperiod},
-           given={D.C.},
-           giveni={D\bibinitperiod}}}%
+    \entry{reussner2016modeling}{article}{}
+      \name{author}{8}{}{%
+        {{hash=0b6ec9db4ceefa1a4db763681020e21f}{%
+           family={Reussner},
+           familyi={R\bibinitperiod},
+           given={Ralf\bibnamedelima H},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=8deefb02d038861e0dd2e38fd1500e03}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=043027b1c88b24970aaf5b61b3bde1ce}{%
+           family={Happe},
+           familyi={H\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3560bc0cad59a19a23274e4da94b8d57}{%
+           family={Heinrich},
+           familyi={H\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c3aaf4ee46b2c36357c970d426e834d2}{%
+           family={Koziolek},
+           familyi={K\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ba7ecc5039717e22ccf225ab7421719b}{%
+           family={Koziolek},
+           familyi={K\bibinitperiod},
+           given={Heiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c0bc9698d9c8a454c3fc68cf95c815ef}{%
+           family={Kramer},
+           familyi={K\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ea463e7d98843baebb721149834e04e4}{%
+           family={Krogmann},
+           familyi={K\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
       }
-      \strng{namehash}{68c838da618763ad153823dc10bc7ab3}
-      \strng{fullhash}{68c838da618763ad153823dc10bc7ab3}
-      \strng{bibnamehash}{68c838da618763ad153823dc10bc7ab3}
-      \strng{authorbibnamehash}{68c838da618763ad153823dc10bc7ab3}
-      \strng{authornamehash}{68c838da618763ad153823dc10bc7ab3}
-      \strng{authorfullhash}{68c838da618763ad153823dc10bc7ab3}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \strng{namehash}{86b153b7b0db1618f29525a512b162fe}
+      \strng{fullhash}{894a20092a86e4eeaccf7f3544f824c1}
+      \strng{bibnamehash}{86b153b7b0db1618f29525a512b162fe}
+      \strng{authorbibnamehash}{86b153b7b0db1618f29525a512b162fe}
+      \strng{authornamehash}{86b153b7b0db1618f29525a512b162fe}
+      \strng{authorfullhash}{894a20092a86e4eeaccf7f3544f824c1}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{In: Computer 39.2}
-      \field{title}{Guest Editor’s Introduction: ModelDriven Engineering}
-      \field{volume}{303}
-      \field{year}{2006}
-      \field{pages}{25\bibrangedash 31}
-      \range{pages}{7}
+      \field{title}{Modeling and Simulating Software Architectures: The Palladio Approach (MIT Press)}
+      \field{year}{2016}
     \endentry
     \entry{spinner2016reference}{inproceedings}{}
       \name{author}{3}{}{%
@@ -836,6 +881,7 @@
       \range{pages}{6}
     \endentry
   \enddatalist
+  \missing{j\IeC {\"a}gers2018}
 \endrefsection
 \endinput
 

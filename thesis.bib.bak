@@ -21,23 +21,24 @@
 }
 
 % [3]
-@inproceedings{burger2013flexible,
-  title={Flexible views for view-based model-driven development},
-  author={Burger, Erik Johannes},
-  booktitle={Proceedings of the 18th international doctoral symposium on Components and architecture},
-  pages={25--30},
-  year={2013},
-  organization={ACM}
+@PhdThesis{burger2013flexible,
+  author    = {Erik Burger},
+  title     = {{Flexible Views for View-based Model-driven Development}},
+  year      = {2014},
+  address   = {Karlsruhe, Germany},
+  publisher = {KIT Scientific Publishing},
+  school    = {Karlsruhe Institute of Technology},
+  series    = {The Karlsruhe Series on Software Design and Quality},
 }
 
 % [4]
-@inproceedings{kramer2013view,
-  title={View-centric engineering with synchronized heterogeneous models},
-  author={Kramer, Max E and Burger, Erik and Langhammer, Michael},
-  booktitle={Proceedings of the 1st Workshop on View-Based, Aspect-Oriented and Orthographic Software Modelling},
-  pages={5},
-  year={2013},
-  organization={ACM}
+@InProceedings{kramer2013view,
+  author    = {Kramer, Max E. and Burger, Erik and Langhammer, Michael},
+  title     = {View-centric engineering with synchronized heterogeneous models},
+  booktitle = {Proceedings of the 1st Workshop on View-Based, Aspect-Oriented and Orthographic Software Modelling},
+  year      = {2013},
+  publisher = {ACM},
+  url       = {http://doi.acm.org/10.1145/2489861.2489864},
 }
 
 % [5]
@@ -78,10 +79,15 @@
 }
 
 % [9]
-@article{langhammer2017automated,
-  title={Automated Coevolution of Source Code and Software Architecture Models},
-  author={Langhammer, Michael},
-  year={2017}
+@PhdThesis{langhammer2017automated,
+  author    = {Michael Langhammer},
+  title     = {Automated Coevolution of Source Code and Software Architecture Models},
+  school    = {Karlsruhe Institute of Technology (KIT)},
+  year      = {2017},
+  address   = {Karlsruhe, Germany},
+  file      = {4146687:https\://publikationen.bibliothek.kit.edu/1000069366/4146687:PDF},
+  pagetotal = {259 },
+  url       = {http://nbn-resolving.org/urn:nbn:de:swb:90-693666},
 }
 
 % [10]
@@ -113,12 +119,17 @@
 }
 
 % [13]
-@article{van2009continuous,
-  title={Continuous monitoring of software services: Design and application of the Kieker framework},
-  author={van Hoorn, Andr{\'e} and Rohr, Matthias and Hasselbring, Wilhelm and Waller, Jan and Ehlers, Jens and Frey, S{\"o}ren and Kieselhorst, Dennis},
-  year={2009},
-  publisher={Department of Computer Science, Kiel University, Germany}
+@InProceedings{van2009continuous,
+  author    = {van Hoorn, Andr{\'e} and Waller, Jan and Hasselbring, Wilhelm},
+  title     = {Kieker: A Framework for Application Performance Monitoring and Dynamic Software Analysis},
+  booktitle = {Proceedings of the 3rd ACM/SPEC International Conference on Performance Engineering},
+  year      = {2012},
+  publisher = {ACM},
+  url       = {http://doi.acm.org/10.1145/2188286.2188326},
+  acmid     = {2188326},
+  keywords  = {application performance monitoring, dynamic software analysis, kieker framework},
 }
+
 
 % [14]
 @techreport{jung2013instrumentation,
@@ -146,13 +157,6 @@
   publisher={KIT Scientific Publishing}
 }
 
-% [17]
-
-@Article{Langhammer2017,
-  author = {Langhammer, Michael},
-  title  = {Automated Coevolution of Source Code and So ware Architecture Models},
-  year   = {2017},
-}
 
 % [18]
 @inproceedings{mazkatli2018continuous,
@@ -223,11 +227,17 @@
   organization={ICST (Institute for Computer Sciences, Social-Informatics and~…}
 }
 
-@MastersThesis{,
-  author = {Jan-Philipp Jägers},
-  title  = {Iterative Performance Model Parameter Estimation Considering Parametric Dependencies},
-  school = {kit},
-  year   = {2018},
+@article{reussner2016modeling,
+  title={Modeling and Simulating Software Architectures: The Palladio Approach (MIT Press)},
+  author={Reussner, Ralf H and Becker, Steffen and Happe, Jens and Heinrich, Robert and Koziolek, Anne and Koziolek, Heiko and Kramer, Max and Krogmann, Klaus},
+  year={2016}
 }
 
-@Comment{jabref-meta: databaseType:bibtex;}
+@MastersThesis{jägers2018,
+  author = {Jan-Philipp Jägers},
+  title  = {Iterative Performance Model Parameter Estimation Considering Parametric Dependencies},
+  school = {KIT},
+  year   = {2018}
+  }
+
+

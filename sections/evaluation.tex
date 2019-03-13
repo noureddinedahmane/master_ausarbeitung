@@ -89,9 +89,9 @@ In the second level of our evaluation, we evaluate the monitoring information th
 
 Our monitoring information is defined in records (Section records), which are four types, namely response time record, loop record, branch record, and service call record. 
 
-In order to make sure that we generate the right records, we've instrumented our case study and executed the instrumented source code to generate the monitoring records for all types of records that we defined in our approach. Then, we used our monitoring records and the performance model parameters approach of Jägers [ref] to estimate the parameters for the Palladio Performance Model.
+In order to make sure that we generate the right records, we've instrumented our case study and executed the instrumented source code to generate the monitoring records for all types of records that we defined in our approach. Then, we used our monitoring records and the performance model parameters approach of Jägers \cite{jägers2018} to estimate the parameters for the Palladio Performance Model.
 
-Figure 2 shows the SEFF that corresponds to the service \textit{guiSequetialSearch}. The estimated parameters of this model have been done based on our monitoring records. Moreover, the case study contains all the record types that we defined, which gives us the possibility make sure that all the records that we defined can be used in the palladio performance model parameters estimation.
+Figure \ref{fig:guiSequentialSearch_seff} shows the SEFF that corresponds to the service \textit{guiSequetialSearch}. The estimated parameters of this model have been done based on our monitoring records. Moreover, the case study contains all the record types that we defined, which gives us the possibility make sure that all the records that we defined can be used in the palladio performance model parameters estimation.
 
 
 \begin{figure}[h]
