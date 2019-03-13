@@ -223,7 +223,7 @@
   organization={ICST (Institute for Computer Sciences, Social-Informatics and~…}
 }
 
-@MastersThesis{Jägers2018,
+@MastersThesis{,
   author = {Jan-Philipp Jägers},
   title  = {Iterative Performance Model Parameter Estimation Considering Parametric Dependencies},
   school = {kit},

@@ -50,5 +50,9 @@
 \BOOKMARK [2][-]{subsection.4.14.5}{Approach}{section.4.14}% 50
 \BOOKMARK [0][-]{chapter.5}{Evaluation}{}% 51
 \BOOKMARK [1][-]{section.5.1}{Case Study}{chapter.5}% 52
-\BOOKMARK [0][-]{chapter.6}{Related Work}{}% 53
-\BOOKMARK [0][-]{chapter.7}{Conclusions and Future Work}{}% 54
+\BOOKMARK [1][-]{section.5.2}{Adaptive Instrumentation}{chapter.5}% 53
+\BOOKMARK [2][-]{subsection.5.2.1}{Incremental Instrumentation}{section.5.2}% 54
+\BOOKMARK [2][-]{subsection.5.2.2}{Monitoring Information}{section.5.2}% 55
+\BOOKMARK [1][-]{section.5.3}{Adaptive Monitoring}{chapter.5}% 56
+\BOOKMARK [0][-]{chapter.6}{Related Work}{}% 57
+\BOOKMARK [0][-]{chapter.7}{Conclusions and Future Work}{}% 58

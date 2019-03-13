@@ -28,11 +28,15 @@ in so called Performance Model Extractor (PMX) tool and provided it as a web ser
 
 Krogmann et al. \cite{krogmann2012reconstruction, krogmann2010using} used genetic programming to estimate parametric dependencies between inputs and the number of execution for each byte code instruction.
 Depending on input data he could find control flow dependencies between required
-and provided services.
+and provided services. However, for receiving monitoring information, he instruments the whole system in each iteration, which causes a monitoring overhead. 
 
 Spinner et al. \cite{spinner2016reference} predicted the system performance at run time under varying work
 loads and system configuration. He proposed an approach for obtaining architectural-level model performance in virtualized environment.
 
 Langhammer \cite{langhammer2017automated} introduced two approaches to extract the static and the dynamic
 behavior of the source code. Furthermore, he proposed an approach that keeps the source code and the 
-architecture consistent during development. 
+architecture consistent during development. Furthermore, he could generate the performance model incrementally. However, he did not use an adaptive monitoring approach, which means he instruments the whole system in each iteration. Therefore, the monitoring overhead could not be reduced.
+
+Brosig et. al \cite{brosig2009automated} introduce an approach that the Palladio Component Models of of Java EE applications based on the monitoring data collected during operation. However, he did take into account the adaptive monitoring, which means he monitor the whole source code in each iteration. Therefore, monitoring huge Java EE applications will lead to monitoring overhead.    
+
+Jägers has also introduced in his master thesis an approach that estimates incrementally the performance model parameters considering parametric dependencies. Moreover, he used fine-grained monitoring information for the estimation. However, he instrumented the source code manually. 

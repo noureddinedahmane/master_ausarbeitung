@@ -85,6 +85,43 @@
       \field{pages}{3\bibrangedash 22}
       \range{pages}{20}
     \endentry
+    \entry{brosig2009automated}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=d60f5fb635b12d36d9eb2df590525a99}{%
+           family={Brosig},
+           familyi={B\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=4de0f4299be144a65505410b920314e7}{%
+           family={Kounev},
+           familyi={K\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ea463e7d98843baebb721149834e04e4}{%
+           family={Krogmann},
+           familyi={K\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ICST (Institute for Computer Sciences, Social-Informatics and~…}%
+      }
+      \strng{namehash}{167fcd9ebc2c1d103fc77734c1c15c0b}
+      \strng{fullhash}{167fcd9ebc2c1d103fc77734c1c15c0b}
+      \strng{bibnamehash}{167fcd9ebc2c1d103fc77734c1c15c0b}
+      \strng{authorbibnamehash}{167fcd9ebc2c1d103fc77734c1c15c0b}
+      \strng{authornamehash}{167fcd9ebc2c1d103fc77734c1c15c0b}
+      \strng{authorfullhash}{167fcd9ebc2c1d103fc77734c1c15c0b}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Fourth International ICST Conference on Performance Evaluation Methodologies and Tools}
+      \field{title}{Automated extraction of palladio component models from running enterprise Java applications}
+      \field{year}{2009}
+      \field{pages}{10}
+      \range{pages}{1}
+    \endentry
     \entry{brunnert2015performance}{article}{}
       \true{moreauthor}
       \true{morelabelname}

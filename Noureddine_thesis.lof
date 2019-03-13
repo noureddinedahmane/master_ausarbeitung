@@ -57,6 +57,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Component diagram of our case study}}{56}{figure.5.1}
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces difference between the probes in the instrumentation mode and in the monitoring, information is empty in the first and the second iteration, which means our instrumentation for the case study has been done incrementally}}{58}{figure.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces shows the SEFF of the service \textit {guiSequentialSearch} and its estimated parameters based on our records that received from monitoring this service}}{59}{figure.5.3}
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

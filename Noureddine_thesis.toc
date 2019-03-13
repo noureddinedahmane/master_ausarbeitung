@@ -107,6 +107,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}Case Study}{55}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Related Work}{57}{chapter.6}
+\contentsline {section}{\numberline {5.2}Adaptive Instrumentation}{56}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusions and Future Work}{59}{chapter.7}
+\contentsline {subsection}{\numberline {5.2.1}Incremental Instrumentation}{56}{subsection.5.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.2}Monitoring Information}{57}{subsection.5.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Adaptive Monitoring}{58}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Related Work}{61}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Conclusions and Future Work}{63}{chapter.7}
