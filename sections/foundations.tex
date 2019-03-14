@@ -13,7 +13,7 @@
 
 \chapter{Foundations}
 \label{ch:Foundations}
-In this section, we introduce the necessary foundations for this thesis. In section \ref{sec:The Palladio Component Model}, we present the Palladio Component Model (PCM) and it's models. In section \ref{sec: sec: SEFFs}, we describe briefly Service Effect Specification (SEFF) model of PCM. In section \ref{sec:Vitruvius}, we present the Vitruvius Framework. In section \ref{sec:Java Model Parser and printer}, we present Java Model Parser and Printer (JaMoPP). In section \ref{sec:Automated Coevolution of Source Code and Software Architecture Models}, we introduce the Coevolution approach \cite{langhammer2015co}. In section \ref{sec:Kieker Monitoring}, we present the Kieker Monitoring Framework. In section \ref{sec:Source Code Model eXtractor}, we give an overview of the reverse-engineering of the approach Source Code Model eXtractor (SoMoX). In section \ref{sec:Continuous Integration of Performance Model}, we bring in the approach Continuous Integration of Performance Model (CIPM). In section \ref{sec:Iterative Performance Model Parameter Estimation Considering Parametric Dependencies}, we summarize the master thesis of Jägers. In the last section \ref{sec:DevOps}, we introduce the development process DevOps.
+In this section, we introduce the necessary foundations for this thesis. In section \ref{sec:The Palladio Component Model}, we present the Palladio Component Model (PCM) and it's models. In section \ref{sec: SEFFs}, we describe briefly the Service Effect Specification (SEFF) model of PCM. In section \ref{sec:Vitruvius}, we present the Vitruvius Framework. In section \ref{sec:Java Model Parser and printer}, we present Java Model Parser and Printer (JaMoPP). In section \ref{sec:Automated Coevolution of Source Code and Software Architecture Models}, we introduce the Coevolution approach \cite{langhammer2015co}. In section \ref{sec:Kieker Monitoring}, we present the Kieker Monitoring Framework. In section \ref{sec:Source Code Model eXtractor}, we give an overview of the reverse-engineering of the approach Source Code Model eXtractor (SoMoX). In section \ref{sec:Continuous Integration of Performance Model}, we bring in the approach Continuous Integration of Performance Model (CIPM). In section \ref{sec:Iterative Performance Model Parameter Estimation Considering Parametric Dependencies}, we summarize the master thesis of Jägers. In the last section \ref{sec:DevOps}, we introduce the development process DevOps.
 
 \section{Eclipse Modeling Framework}
 \label{sec:Eclipse Modeling Framework}
@@ -139,14 +139,14 @@ When it comes to an automatic update of SEFF in step (5), the co-evolution appro
 
 \subsection{Incremental SEFF Reconstruction}
 \label{sec:Incremental SEFF Reconstruction}
-Langhammer has proposed in his Co-evolution approach an incremental SEFF reconstruction approach Figure \ref{Incremental SEFF Reconstruction} which can build the SEFFs for only the changed parts of the source code. In contrast to SoMoX, the incremental SEFF reconstruction neither require the parsing of the complete project source code nor the SCDM. Moreover, the SEFF of the smallest unit that can be currently incrementally reconstructed is the SEFF of a method. 
+Langhammer has proposed in his Co-evolution approach an incremental SEFF reconstruction approach Figure \ref{fig:seff incremental reconst} which can build the SEFFs for only the changed parts of the source code. In contrast to SoMoX, the incremental SEFF reconstruction neither require the parsing of the complete project source code nor the SCDM. Moreover, the SEFF of the smallest unit that can be currently incrementally reconstructed is the SEFF of a method. 
 
 The incremental SEFF reconstruction is integrated in the co-evolution approach that means it can use functionalities and information provides by Vitruvius. Moreover, the incremental SEFF reconstruction is done in change-driven way, that means change that happened in the source code are captured in a Vitruvius change model instance and can be treated in order to regenerate the SEFF of the method in which they belong. To classify the method calls which is necessary for SEFF reconstruction, Langhammer uses the current preservation rules and information from the Vitruvius correspondence model. More details on this step can be found in his thesis \cite{langhammer2017automated}.
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.9\textwidth]{figures/inscremental_seff_reconst}
-\caption{Overview of the Incremental Reconstruction Process of SEFF}
+\caption{Overview of the incremental reconstruction process of SEFF}
 \label{fig:seff incremental reconst}
 \end{figure}
 
@@ -159,7 +159,7 @@ The monitoring component is responsible for source code instrumentation, data co
 
 A monitoring Record represents the measurement data gathered in a single measurement. Kieker provides the possibility to store different types of records for different types of probes. Kieker offers the possibility to create customized probes. We can create new probes either manually by extending the interface IKiekerMonitoringProbe or automatically by using the Instrumentation Record Language (IRL) \cite{jung2013instrumentation}. For example, in one record, we can store the signature and the response time of a method, in another record, we can persist the response time of specific number of statements inside a method.
 
-A monitoring Probe represents the monitoring logic used to collect measurement data from the application. There are two ways to use probe within Kieker.  There is the manually instrumentation, which consists of mixing the instrumentation logic with the business logic of the application. Figure \ref{fig:kieker manual instr} show an example, in which the monitoring probe is implemented by mixing monitoring logic with business logic, in this example we create a probe that logs the name of the called service, the start time and end time. Kieker includes also probes based on Aspect Oriented Programming (AOP) \cite{kiczales1997j}, which helps to separates the instrumentation logic from the business logic. Kieker defines AOP based monitoring probes like OperationExecutionAspectAnnotation and OperationExecutionAspectAnnotationServlet. Figure \ref{fig:kieker AOP instr} shows how the instrumentation looks like, when using AOP for probes implementation.
+A monitoring Probe represents the monitoring logic used to collect measurement data from the application. There are two ways to use probe within Kieker.  There is the manually instrumentation, which consists of mixing the instrumentation logic with the business logic of the application. Figure \ref{lst:kieker_manual_instr} show an example, in which the monitoring probe is implemented by mixing monitoring logic with business logic, in this example we create a probe that logs the name of the called service, the start time and end time. Kieker includes also probes based on Aspect Oriented Programming (AOP) \cite{kiczales1997j}, which helps to separates the instrumentation logic from the business logic. Kieker defines AOP based monitoring probes like OperationExecutionAspectAnnotation and OperationExecutionAspectAnnotationServlet. Figure \ref{lst:kieker_aop_instr} shows how the instrumentation looks like, when using AOP for probes implementation.
 
 Using AOP to instrument the source code has the advantage of separating concerns. However, this technique has a limitation, when it comes to the monitoring of certain statements of inside a method, like monitoring the number of executions of a loop or the probability of a branch execution, because the annotation possibilities on these cases are out of box. 
 
@@ -216,7 +216,7 @@ The reconstruction of SEFFs which aims to reverse-engineer the statical behaviou
 \subsection{Source Code Decorator Model}
 \label{sec:Source Code Decorator Model}
 
-The Source Code Decorator Model (SCDM) has been presented within the SoMoX approach (section \ref{sec:Source Code Model eXtractor}).  SoMoX reverse-engineers the source code and can extracts the architecture models from it. Moreover, SoMoX can be used to extract the Palladio Component Model (PCM) from the Java Source Code. The SCDM is used to create trace links at the model level. The linking between the source code elements and the architecture model elements are needed in the reverse-engineering process. Therefore, the SCDM creates links between the source code elements and the PCM elements. Furthermore, due to the use of SCDM, the reverse-engineering process can be done without mixing the linking concerns with the domain specific language of the source code model and the architecture model.
+The Source Code Decorator Model (SCDM) has been presented within the SoMoX approach (Section \ref{sec:Source Code Model eXtractor}).  SoMoX reverse-engineers the source code and can extracts the architecture models from it. Moreover, SoMoX can be used to extract the Palladio Component Model (PCM) from the Java Source Code. The SCDM is used to create trace links at the model level. The linking between the source code elements and the architecture model elements are needed in the reverse-engineering process. Therefore, the SCDM creates links between the source code elements and the PCM elements. Furthermore, due to the use of SCDM, the reverse-engineering process can be done without mixing the linking concerns with the domain specific language of the source code model and the architecture model.
 
 The SCDM was also used in the Coevolution approach (Section \ref{sec:Automated Coevolution of Source Code and Software Architecture Models}) which keeps automatically the Java Source Code and the PCM models consistent during the system development. The SCDM was used to contain the information, which source code element is reverse-engineered into which architectural model element. For example, it contains the information, which classes are mapped into which component.
 
@@ -228,7 +228,7 @@ In order to map between the SEFF elements and the JaMoPP statements, we do not n
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.9\textwidth]{figures/seff_jamopp}
-\caption{Source Code Decorator Model (SCDM) maps between the SEFF Elements and the corresponding JaMoPP statements}
+\caption{Source Code Decorator Model (SCDM) maps between the SEFF elements and the corresponding JaMoPP statements}
 \label{fig:seff jamopp}
 \end{figure}
 

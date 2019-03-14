@@ -17,11 +17,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 2.5}{\ignorespaces The steps used in co-evolution approach to keep architecture models and the source code consistent \cite {langhammer2015co}}}{16}{figure.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.6}{\ignorespaces Overview of the Incremental Reconstruction Process of SEFF}}{17}{figure.2.6}
+\contentsline {figure}{\numberline {\relax 2.6}{\ignorespaces Overview of the incremental reconstruction process of SEFF}}{17}{figure.2.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 2.7}{\ignorespaces Overview of the Kieker's architecture \cite {van2009continuous}}}{17}{figure.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.8}{\ignorespaces Source Code Decorator Model (SCDM) maps between the SEFF Elements and the corresponding JaMoPP statements}}{18}{figure.2.8}
+\contentsline {figure}{\numberline {\relax 2.8}{\ignorespaces Source Code Decorator Model (SCDM) maps between the SEFF elements and the corresponding JaMoPP statements}}{18}{figure.2.8}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 2.9}{\ignorespaces CIMP activities \cite {mazkatli2018continuous}}}{18}{figure.2.9}
 \defcounter {refsection}{0}\relax 
@@ -31,29 +31,29 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Context of our approach}}{24}{figure.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Specified Monitoring Probes in our Approach}}{26}{figure.4.2}
+\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Specified monitoring probes in our approach}}{25}{figure.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces UML class diagram that shows the monitoring information required by SEFF models}}{27}{figure.4.3}
+\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces UML class diagram that shows the monitoring information required by SEFF models}}{26}{figure.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces UML Class Diagram that represents the Instrumentation Model}}{28}{figure.4.4}
+\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Overview of our approach activities in DevOps context}}{29}{figure.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Overview of our Approach Activities in DevOps context}}{29}{figure.4.5}
+\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Overview of the Vitruvius VSUM of our approach, we extended the VSUM of the Coevolution approach}}{42}{figure.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces Overview of the Vitruvius VSUM of our approach, we extended the VSUM of the Coevolution approach}}{42}{figure.4.6}
+\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces UML Class Diagram that represents the Instrumentation Meta-model (IMM)}}{43}{figure.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.7}{\ignorespaces The extended Incremental Reconstruction Process of SEFF}}{43}{figure.4.7}
+\contentsline {figure}{\numberline {\relax 4.7}{\ignorespaces The extended Incremental Reconstruction Process of SEFF}}{44}{figure.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.8}{\ignorespaces The inputs and the output of the instrumentation process, the output is an instrumented copy of the original source code of the system}}{44}{figure.4.8}
+\contentsline {figure}{\numberline {\relax 4.8}{\ignorespaces The inputs and the output of the instrumentation process, the output is an instrumented copy of the original source code of the system}}{45}{figure.4.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.9}{\ignorespaces The Component Diagrams shows the dependencies between the components we used to implement our approach}}{44}{figure.4.9}
+\contentsline {figure}{\numberline {\relax 4.9}{\ignorespaces The Component Diagrams shows the dependencies between the components we used to implement our approach}}{45}{figure.4.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.10}{\ignorespaces Sequence Diagram that illustrates the activities of the Instrumentation Process}}{45}{figure.4.10}
+\contentsline {figure}{\numberline {\relax 4.10}{\ignorespaces Sequence Diagram that illustrates the activities of the Instrumentation Process}}{46}{figure.4.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.11}{\ignorespaces Service parameters types and how they are extracted}}{45}{figure.4.11}
+\contentsline {figure}{\numberline {\relax 4.11}{\ignorespaces Service parameters types and how they are extracted}}{46}{figure.4.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.12}{\ignorespaces UML class diagram that models the matching between the old and the new SEFF}}{46}{figure.4.12}
+\contentsline {figure}{\numberline {\relax 4.12}{\ignorespaces UML class diagram that models the matching between the old and the new SEFF}}{47}{figure.4.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.13}{\ignorespaces The activities in blue color shows our contribution to the Incremental SEFF Reconstruction Process \ref {sec:Incremental SEFF Reconstruction}}}{47}{figure.4.13}
+\contentsline {figure}{\numberline {\relax 4.13}{\ignorespaces The activities in blue color shows our contribution to the Incremental SEFF Reconstruction Process \ref {sec:Incremental SEFF Reconstruction}}}{48}{figure.4.13}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

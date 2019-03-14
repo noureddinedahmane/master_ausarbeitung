@@ -1,15 +1,15 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
-[0] Config.pm:305> INFO - Logfile is 'Noureddine_thesis.blg'
-[53] biber-MSWIN64:313> INFO - === 
-[93] Biber.pm:371> INFO - Reading 'Noureddine_thesis.bcf'
-[253] Biber.pm:857> INFO - Found 24 citekeys in bib section 0
-[277] Biber.pm:3976> INFO - Processing section 0
-[298] Biber.pm:4136> INFO - Looking for bibtex format file 'thesis.bib' for section 0
-[301] bibtex.pm:1500> INFO - LaTeX decoding ...
-[359] bibtex.pm:1316> INFO - Found BibTeX data source 'thesis.bib'
-[659] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[659] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[659] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[659] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[712] bbl.pm:617> INFO - Writing 'Noureddine_thesis.bbl' with encoding 'UTF-8'
-[730] bbl.pm:720> INFO - Output to Noureddine_thesis.bbl
+[1] Config.pm:305> INFO - Logfile is 'Noureddine_thesis.blg'
+[48] biber-MSWIN64:313> INFO - === 
+[87] Biber.pm:371> INFO - Reading 'Noureddine_thesis.bcf'
+[237] Biber.pm:857> INFO - Found 24 citekeys in bib section 0
+[261] Biber.pm:3976> INFO - Processing section 0
+[291] Biber.pm:4136> INFO - Looking for bibtex format file 'thesis.bib' for section 0
+[296] bibtex.pm:1500> INFO - LaTeX decoding ...
+[363] bibtex.pm:1316> INFO - Found BibTeX data source 'thesis.bib'
+[668] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[668] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[668] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[668] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[728] bbl.pm:617> INFO - Writing 'Noureddine_thesis.bbl' with encoding 'UTF-8'
+[744] bbl.pm:720> INFO - Output to Noureddine_thesis.bbl

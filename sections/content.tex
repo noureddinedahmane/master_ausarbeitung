@@ -13,15 +13,15 @@
 
 \chapter{Adaptive Monitoring for Continuous Performance Model Integration}
 \label{ch:Adaptive Monitoring for Continuous Performance Model Integration}
-In this chapter, we will introduce our approach for adaptive monitoring for continuous performance model integration. In section \ref{sec:Context of our approach}, we bring in the context of our approach. In section \ref{sec:Monitoring Probes}, we define the monitoring probes that we need for our monitoring approach. In section \ref{sec:Monitoring Records}, we define the monitoring records that we monitor. In section \ref{sec:Adaptive Instrumentation}, we clarify the adaptive instrumentation concept in our approach. In section \ref{sec:Instrumentation Model}, we define an instrumentation for saving the monitoring probes. In section \ref{sec:approach}, we give an overview approach an it's activities. In section \ref{sec:Monitoring Probes Generation Process}, we introduce the process that we used to generate iteratively the monitoring probes. In section \ref{sec:Adaptive Instrumentation Process}, we present our approach for adaptive instrumentation of the source code. 
+In this chapter, we will introduce our approach for adaptive monitoring for continuous performance model integration. In section \ref{sec:Context of our approach}, we bring in the context of our approach. In section \ref{sec:Monitoring Probes}, we define the monitoring probes that we need for our monitoring approach. In section \ref{sec:Monitoring Records}, we define the monitoring records that we monitor. In section \ref{sec:Adaptive Instrumentation}, we clarify the adaptive instrumentation concept in our approach. In section \ref{sec:Instrumentation Model}, we define an instrumentation for saving the monitoring probes. In section \ref{sec:approach}, we give an overview approach an it's activities. In section \ref{sec:Monitoring probes generation}, we introduce the process that we used to generate iteratively the monitoring probes. In section \ref{sec:Adaptive Instrumentation Process}, we present our approach for adaptive instrumentation of the source code. 
 
-\section{Context of our approach}
-\label{sec:Context of our approach}
+\section{Context of our Approach}
+\label{sec:Context of our Approach}
 As mentioned before, our approach is part of the CIPM vision (Section \ref{sec:Continuous Integration of Performance Model}) which extends the agile and DevOps process and provides them with iterative and incremental Performance Model. Moreover, the Performance Models in CIPM are enriched with Performance Model Parameters. In the following, we will briefly depict and describe the process and the context in which our approach takes place.
 
 Figure \ref{fig:Context of our approach} shows the process in which our approach takes place. this process is based on Vitruvius (Section \ref{sec:Vitruvius}) which means its elements are either models or transformations. The Java code in \ref{fig:Context of our approach} is represented by a JaMoPP model. When the developer commits changes on this model, two transformations will be triggered. The first one is the Coevolution process of Langhammer (Section \ref{sec:Automated Coevolution of Source Code and Software Architecture Models}) which keeps the Source Code and the models in the Palladio Component Model consistent, mainly the repository and the SEFF Model. The second Transformation is our Transformation which is specified for keeping the Source Code and the Instrumentation Model consistent. We proposed the Instrumentation Model in order to persist the Probes that will be required for instrumenting the Source Code.
 
-When the system under development is deployed, our Instrumentation Process will be triggered. This process receives as inputs the Probes from the Instrumentation Model and the Source Code of the System. It delivers afterwards the instrumented Source Code as a JaMoPP Model. After the instrumentation process has been finished, the instrumented Source code will be executed and monitored.  The information provided by monitoring are encapsulated in a Measurement Model which describes the needed monitoring records.  After the monitoring has been finished the Parameters Estimation Process (Section sec:Iterative Performance Model Parameter Estimation Considering Parametric Dependencies) can be triggered. it uses the information in the Measurement Model to estimate the Performance Model Parameters and updates accordingly the SEFF Model in the Palladio Component Model. Afterwards, the user can use the updated Performance Model to simulate and evaluate the performance of the system. 
+When the system under development is deployed, our Instrumentation Process will be triggered. This process receives as inputs the Probes from the Instrumentation Model and the Source Code of the System. It delivers afterwards the instrumented Source Code as a JaMoPP Model. After the instrumentation process has been finished, the instrumented Source code will be executed and monitored.  The information provided by monitoring are encapsulated in a Measurement Model which describes the needed monitoring records.  After the monitoring has been finished the Parameters Estimation Process (Section \ref{sec:Iterative Performance Model Parameter Estimation Considering Parametric Dependencies}) can be triggered. it uses the information in the Measurement Model to estimate the Performance Model Parameters and updates accordingly the SEFF Model in the Palladio Component Model. Afterwards, the user can use the updated Performance Model to simulate and evaluate the performance of the system. 
 
 
 \begin{figure}[h]
@@ -46,7 +46,7 @@ For the monitoring purpose, we used the Kieker Monitoring Framework (Section \re
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.9\textwidth]{figures/probes}
-\caption{Specified Monitoring Probes in our Approach}
+\caption{Specified monitoring probes in our approach}
 \label{fig:Specified Monitoring Probes in our Approach}
 \end{figure}
 
@@ -71,7 +71,7 @@ As to service calls, we need to locate them in which service are called, we need
 \label{fig:records}
 \end{figure}
 
-\subsection{Adaptive Instrumentation }
+\subsection{Adaptive Instrumentation}
 \label{sec:Adaptive Instrumentation}
 In this section, we will introduce the meaning of Adaptive Instrumentation in our approach as well as the main concepts used in order to achieve that.
 
@@ -89,33 +89,17 @@ Adaptive Monitoring means that the monitoring probes can be activated and deacti
 
 In order to achieve Adaptive Monitoring in our approach, we've added an attribute for the monitoring probes that defines their activeness. That means, monitoring probes are checked during the monitoring phase and they can log monitoring information only if the are activated. The deactivation of the probes can be done for example, when we've realised that the current monitoring information for these probes are enough for the performance model parameters estimation.
 
-\section{Instrumentation Model}
-\label{sec:Instrumentation Model}
-The Instrumentation Model was originally presented in the approach of Manar and Koziolek \cite{mazkatli2018continuous} on which we based our approach. 
-
-The Instrumentation Model (IM) Figure \ref{fig:im} is one of the Contribution of this thesis in Vitruvius. IM is responsible for describing and managing the instrumentation points. Moreover, we've defined IM in order to achieve the Adaptive Instrumentation (Section \ref{sec:Adaptive Instrumentation}) and Adaptive Monitoring (Section \ref{sec:Adaptive Monitoring}).
-
-IM is composed from two elements, AppProbes which represents the model root and the element Probe which represents an instrumentation point. The element Probe corresponds to a SEFF abstract action which can be an Internal Action, a Branch Action, a Loop Action or a Service Call Action.
-
-As mentioned before, we’ve used Vitruvius in order to keep the source code and the IM consistent. We've also extended the Coevolution approach which uses also Vitruvius to keep the Java source code and the architecture models consistent. The Coevolution approach uses an instance of the SEFF model in which our probes are stored. Therefore, in order to avoid redundant information within Vitruvius, we've decided to store only the Ids of these probes which give us the possibility to return them when they are needed. Moreover, since the probes represent concretely the four above mentioned abstract actions of SEFF, the id of a probes is named abstractActionID. Furthermore, we've added a boolean attribute to the monitoring probes in order to enable to adaptive monitoring. 
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.5\textwidth]{figures/im}
-\caption{UML Class Diagram that represents the Instrumentation Model}
-\label{fig:im}
-\end{figure}
 
 
 \section{Approach}
 \label{sec:approach}
-In this section we will briefly introduce our approach as well as the context in which our activities will be executed. Further details on these activities will be presented in the next chapters.
+In this section we will briefly introduce our approach as well as the context in which our activities will be executed. Further details on these activities will be presented in the next sections.
 
 our approach is developed in the context of the iterative development process DevOps. Therefore, Figure \ref{fig:devops_approach} gives an overview of the activities of our approach and in which DevOps phase they can be executed. The green color indicates processes or model in which our algorithms are executed. 
 
-In our approach we've defined to main processes. The first one is responsible for collecting the instrumentation points or the probes. It must be executed during the development phase. It uses information from Vitruvius and it's based on the Coevolution approach. The Coevolution approach keeps the source code and the SEFF model consistent and provides us with information that help to gather the probes. Vitruvius is used to keep the source code model and the Instrumentation Model consistent. The generated probes are saved and managed in the Instrumentation Model. For more details on the probes generation process, look at the chapter (Probes Generation Process).
+In our approach we've defined to main processes. The first one is responsible for collecting the instrumentation points or the probes. It must be executed during the development phase. It uses information from Vitruvius and it's based on the Coevolution approach. The Coevolution approach keeps the source code and the SEFF model consistent and provides us with information that help to gather the probes. Vitruvius is used to keep the source code model and the Instrumentation Model consistent. The generated probes are saved and managed in the Instrumentation Model. For more details on the probes generation process, look at the section \ref{sec:Monitoring probes generation}.
 
-The second process is the instrumentation process which can be executed at any time. Once it's executed, it takes the probes from the Instrumentation Model and insert the instrumentation source code in the source code of the system based on the types of the probes (Figure 2). However, if the monitoring will be firstly done in the monitoring phase of DevOps, this process can be automatically triggered at the Continuous Deployment phase. For more details on our instrumentation process look at the chapter (Source Code Instrumentation Process).
+The second process is the instrumentation process which can be executed at any time. Once it's executed, it takes the probes from the Instrumentation Model and insert the instrumentation source code in the source code of the system based on the types of the probes (Section \ref{sec:Monitoring Probes}). However, if the monitoring will be firstly done in the monitoring phase of DevOps, this process can be automatically triggered at the Continuous Deployment phase. For more details on our instrumentation process look at the Section \ref{sec:Adaptive Instrumentation Process}.
 
 In the monitoring phase, the instrumented system can be executed in order to log monitoring information. Moreover, in order to achieve an adaptive monitoring, the monitoring probes execute a self-checking for their activeness. Therefore, the monitoring code uses information from the Instrumentation Model in order to check if probes are activated of deactivated and thus if they can log or not. 
 
@@ -123,17 +107,12 @@ In the monitoring phase, the instrumented system can be executed in order to log
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.9\textwidth]{figures/devops_approach}
-\caption{Overview of our Approach Activities in DevOps context}
+\caption{Overview of our approach activities in DevOps context}
 \label{fig:devops_approach}
 \end{figure}
 
-\section{Probes Generation Process}
-\label{sec:Monitoring Probes Generation Process}
-As mentioned before, we used the Vitruvius Framework and change-driven approach to create the probes in order to achieve the adaptive instrumentation. Moreover, we showed that the generation of the monitoring probes is equivalent to keeping the source code model and the instrumentation model consistent. the consistency between these models is realised within Vitruvius.
 
-In this section, we will introduce our approach for the monitoring probes generation as well as the collection of the information that is needed for the instrumentation process. In section \ref{sec:Terminology}, we introduce the concepts that are used in our approach. In section \ref{sec:The Vitruvius VSUM of our approach}, we present the Vitruvius VSUM of our approach. In section \ref{sec:Collecting Information for the Transformation}, we describe how we collect the information that we need in our approach and the transformation that keeps the source code and the instrumentation model consistent. In section \ref{sec:Limitation}, we provided an overview of the limitation of our approach.
-
-\section{The Vitruvius VSUM of our approach}
+\section{The Vitruvius VSUM of our Approach}
 \label{sec:The Vitruvius VSUM of our approach}
 
 In this section, we will present the VSUM of our approach in order to generate the monitoring probes. We will precisely extend the VSUM Figure (Section \ref{fig:coevoloution approach}) defined by the Coevolution approach.
@@ -155,7 +134,24 @@ In order to use Vitruvius for the adaptive monitoring purpose, we added an Instr
 \label{fig:extended_vsum}
 \end{figure}
 
-\section{Monitoring probes generation}
+\section{Instrumentation Meta-model}
+\label{sec:Instrumentation Model}
+The Instrumentation Meta-model was originally presented in the approach of Manar and Koziolek \cite{mazkatli2018continuous} on which we based our approach. 
+
+The Instrumentation Meta-model(IMM) Figure \ref{fig:im} is one of the Contribution of this thesis in Vitruvius. IMM is responsible for describing and managing the instrumentation points. Moreover, we've defined IMM in order to achieve the Adaptive Instrumentation (Section \ref{sec:Adaptive Instrumentation}) and Adaptive Monitoring (Section \ref{sec:Adaptive Monitoring}).
+
+IM is composed from two elements, AppProbes which represents the model root and the element Probe which represents an instrumentation point. The element Probe corresponds to a SEFF abstract action which can be an Internal Action, a Branch Action, a Loop Action or a Service Call Action.
+
+As mentioned before, we’ve used Vitruvius in order to keep the source code and the IMM consistent. We've also extended the Coevolution approach which uses also Vitruvius to keep the Java source code and the architecture models consistent. The Coevolution approach uses an instance of the SEFF model in which our probes are stored. Therefore, in order to avoid redundant information within Vitruvius, we've decided to store only the Ids of these probes which give us the possibility to return them when they are needed. Moreover, since the probes represent concretely the four above mentioned abstract actions of SEFF, the id of a probes is named abstractActionID. Furthermore, we've added a boolean attribute to the monitoring probes in order to enable to adaptive monitoring. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{figures/im}
+\caption{UML Class Diagram that represents the Instrumentation Meta-model (IMM)}
+\label{fig:im}
+\end{figure}
+
+\section{Probes Generation}
 \label{sec:Monitoring probes generation}
 In this section, we will introduce the process that we used to create the monitoring probes based on the Vitruvius Framework. This process is divided into two steps. The first step consists of collection the information that is useful for our transformation that keeps the source code and the Instrumentation Model consistent. the second step is the execution of this transformation.
 
@@ -209,7 +205,7 @@ Figure \ref{fig:approach_design} shows an overview of the inputs and the output 
 \subsection{Output}
 \label{sec:output}
 
-The output of the Instrumentation process is an instrumented version of the source code of the system.  This instrumentation is based on the monitoring probes defined in (section Probes in the chapter approach). Moreover, there are two ways to instrument the source code. The first alternative consists of using the Aspect Oriented Programming which separate the instrumentation code from the source code of the system. The second alternative consists of mixing the instrumentation code with the source code of the system. Furthermore, we showed in (Section \ref{sec:Kieker Monitoring}) that the first alternative can not be used in our approach because of the fine-grained monitoring probes that we defined in our approach (section monitoring probes in the chapter approach). Therefore, we decided to use the second alternative in our instrumentation approach.
+The output of the Instrumentation process is an instrumented version of the source code of the system.  This instrumentation is based on the monitoring probes defined in (Section \ref{sec:Monitoring Probes}). Moreover, there are two ways to instrument the source code. The first alternative consists of using the Aspect Oriented Programming which separate the instrumentation code from the source code of the system. The second alternative consists of mixing the instrumentation code with the source code of the system. Furthermore, we showed in (Section \ref{sec:Kieker Monitoring}) that the first alternative can not be used in our approach because of the fine-grained monitoring probes that we defined in our approach (Section \ref{sec:Monitoring Probes}). Therefore, we decided to use the second alternative in our instrumentation approach.
 
 \textbf{Alternative of the instrumentation process outputs}
 As mentioned above, in order to do the source code instrumentation, we decided to mix between the source code and the instrumentation logic.  Here, we distinguish also between two alternatives for instrumenting the source code of the system. The first alternative consists of instrumenting the original source code of the system. The second alternative consists of making a copy of the original source code of the system and instrument it. We decided to use the second alternative in our instrumentation process. 
@@ -300,7 +296,7 @@ This step consists of starting the instrumentation process. Developers can execu
 Here, we create a copy of the source code, which we will instrument. As we showed in (Section \ref{sec:output}), we decided to instrument a copy of the source but not the original source code. Moreover, since we used Eclipse for our development purpose, we created a functionality that clones the original project of the system with its dependencies and properties. Therefore, the instrumentation will find place in cloned project.  
 
 \textbf{Step (4): Parse the Copied Source Code via JaMoPP}
-In this step, we create the Java model of the source code that we want to instrument, which is the copied source code. For parsing the Java source code, we used JaMoPP (section JaMoPP). Moreover, the parsing of the source code will give us the possibility to manipulate it, like referencing the corresponding statements of a probe or the insertion of the instrumentation code in a defined position in the source code.
+In this step, we create the Java model of the source code that we want to instrument, which is the copied source code. For parsing the Java source code, we used JaMoPP (Section \ref{sec:Java Model Parser and printer}). Moreover, the parsing of the source code will give us the possibility to manipulate it, like referencing the corresponding statements of a probe or the insertion of the instrumentation code in a defined position in the source code.
 
 \textbf{Step (5): Returning the Monitoring Probes}
 In this step, the Instrumentation Process calls the component Probes Provider to receive the probes that we want for the instrumentation.
@@ -311,7 +307,7 @@ As we mentioned before, we will instrument a copy of the source code, which mean
 In order to optimize the searching for corresponding statements of the probes in the copied source code, we used three parameters to identify equal statements. The first parameter is the service in which statement is written. The second parameter is the class in which the statement find place. The third parameter is the location of the statement in the source code. The combination of these parameters is unique for every statement in the source code. Therefore, it can be used to search for the probes statements in the copied source code based on probes statements in original source code. 
 
 \textbf{Step (7): Instrument the Source Code}
-In this step, the copied source code will be instrumented based on the probes and their corresponding statements that has been mapped in the previous step. Moreover, the probes are injected in the source code based on their types (section Probe).  Here, we distinguish between two kind of instrumentation, namely coarse-grained instrumentation and fine-grained instrumentation. Fine-grained instrumentation is based on the probes that are represented by the SEFF elements that we defined in (Section \ref{sec:Monitoring Probes}). Coarse-grained instrumentation consists of instrumenting the whole service without taking into account the its fine-grained probes. In this step, we execute both fine-grained and coarse-grained instrumentation. 
+In this step, the copied source code will be instrumented based on the probes and their corresponding statements that has been mapped in the previous step. Moreover, the probes are injected in the source code based on their types (Section \ref{sec:Monitoring Probes}).  Here, we distinguish between two kind of instrumentation, namely coarse-grained instrumentation and fine-grained instrumentation. Fine-grained instrumentation is based on the probes that are represented by the SEFF elements that we defined in (Section \ref{sec:Monitoring Probes}). Coarse-grained instrumentation consists of instrumenting the whole service without taking into account the its fine-grained probes. In this step, we execute both fine-grained and coarse-grained instrumentation. 
 
 \textbf{Step (8): Coarse-grained Instrumentation}
 This step consists of the coarse-grained instrumentation of all services in the source code that have been not instrumented in the previous step.  This step is required because of the adaptive instrumentation approach. As we mentioned before, in adaptive instrumentation, we collect probes only for the changed parts of the source code in the current iteration. That means, services that have been not changed in the current iteration will not be related to any probes. Thus, they will not be instrumented in the previous step. However, even tough they have been not changed in the current iteration, if they are called in the changed parts of the source code, we will need their monitoring information. Therefore, we finalized our instrumentation process by the coarse-grained instrumentation of the rest of the services of the system.  
@@ -387,7 +383,7 @@ In this section, we introduce the challenges that we need to solve in order to a
 
 \subsection{SEFF Comparison}
 \label{sec:SEFF Comparison}
-As mentioned above, our approach is based on the comparison of the old and the new SEFF of the service. In order to compare the SEFF elements we proposed to use their corresponding JaMoPP (Section \ref{sec:sec:Java Model Parser and printer}) statements in the source code. Moreover, each SEFF element is represented by a set of statements in the source code, which means, in order to compare two SEFF elements we can simply compare their statements.\\
+As mentioned above, our approach is based on the comparison of the old and the new SEFF of the service. In order to compare the SEFF elements we proposed to use their corresponding JaMoPP (Section \ref{sec:Java Model Parser and printer}) statements in the source code. Moreover, each SEFF element is represented by a set of statements in the source code, which means, in order to compare two SEFF elements we can simply compare their statements.\\
 
 \textbf{SPLevo: Diffing JaMoPP Cartridge}
 In order to compare the JaMoPP statements, we used the software development tool SPLevo \cite{klatt2016consolidation}. SPLevo provides the Diffing JaMoPP functionality, which can compare between JaMoPP models. We used this functionality to compare between JaMoPP statements, which we need, in order to compare SEFFs.

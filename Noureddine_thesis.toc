@@ -53,61 +53,59 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Adaptive Monitoring for Continuous Performance Model Integration}{23}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Context of our approach}{23}{section.4.1}
+\contentsline {section}{\numberline {4.1}Context of our Approach}{23}{section.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Terminology}{24}{section.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.1}Monitoring Probes}{25}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Monitoring Records}{25}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.2}Monitoring Records}{26}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.3}Adaptive Instrumentation}{26}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.4}Adaptive Monitoring}{27}{subsection.4.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Instrumentation Model}{27}{section.4.3}
+\contentsline {section}{\numberline {4.3}Approach}{27}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Approach}{28}{section.4.4}
+\contentsline {section}{\numberline {4.4}The Vitruvius VSUM of our Approach}{28}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Probes Generation Process}{30}{section.4.5}
+\contentsline {section}{\numberline {4.5}Instrumentation Meta-model}{29}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}The Vitruvius VSUM of our approach}{30}{section.4.6}
+\contentsline {section}{\numberline {4.6}Probes Generation}{30}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Monitoring probes generation}{30}{section.4.7}
+\contentsline {subsection}{\numberline {4.6.1}Collecting Information for the Transformation}{30}{subsection.4.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7.1}Collecting Information for the Transformation}{31}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.6.2}Keeping the Source Code and the Instrumentation Consistent}{30}{subsection.4.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7.2}Keeping the Source Code and the Instrumentation Consistent}{31}{subsection.4.7.2}
+\contentsline {section}{\numberline {4.7}Adaptive Instrumentation Process}{31}{section.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.8}Adaptive Instrumentation Process}{32}{section.4.8}
+\contentsline {subsection}{\numberline {4.7.1}Design}{31}{subsection.4.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.8.1}Design}{32}{subsection.4.8.1}
+\contentsline {subsection}{\numberline {4.7.2}Inputs}{31}{subsection.4.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.8.2}Inputs}{32}{subsection.4.8.2}
+\contentsline {subsection}{\numberline {4.7.3}Output}{32}{subsection.4.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.8.3}Output}{32}{subsection.4.8.3}
+\contentsline {subsection}{\numberline {4.7.4}Architecture}{34}{subsection.4.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.8.4}Architecture}{35}{subsection.4.8.4}
+\contentsline {subsection}{\numberline {4.7.5}Call Sequence of the Instrumentation Process}{35}{subsection.4.7.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.8.5}Call Sequence of the Instrumentation Process}{35}{subsection.4.8.5}
+\contentsline {subsection}{\numberline {4.7.6}Service Parameters Extraction}{36}{subsection.4.7.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.8.6}Service Parameters Extraction}{37}{subsection.4.8.6}
+\contentsline {section}{\numberline {4.8}Limitation}{36}{section.4.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.9}Limitation}{37}{section.4.9}
+\contentsline {section}{\numberline {4.9}Extending the Incremental SEFF Reconstruction Process}{37}{section.4.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.10}Extending the Incremental SEFF Reconstruction Process}{38}{section.4.10}
+\contentsline {subsection}{\numberline {4.9.1}Objective}{38}{subsection.4.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.10.1}Objective}{38}{subsection.4.10.1}
+\contentsline {subsection}{\numberline {4.9.2}Method}{38}{subsection.4.9.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.10.2}Method}{39}{subsection.4.10.2}
+\contentsline {subsection}{\numberline {4.9.3}Scientific Challenges}{38}{subsection.4.9.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.10.3}Scientific Challenges}{39}{subsection.4.10.3}
+\contentsline {subsection}{\numberline {4.9.4}SEFF Comparison}{38}{subsection.4.9.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.10.4}SEFF Comparison}{39}{subsection.4.10.4}
+\contentsline {subsection}{\numberline {4.9.5}Approach}{39}{subsection.4.9.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.10.5}Approach}{40}{subsection.4.10.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.10.6}Implementation Limitation}{41}{subsection.4.10.6}
+\contentsline {subsection}{\numberline {4.9.6}Implementation Limitation}{41}{subsection.4.9.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Evaluation}{49}{chapter.5}
 \defcounter {refsection}{0}\relax 
