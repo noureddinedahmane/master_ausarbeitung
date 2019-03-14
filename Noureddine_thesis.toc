@@ -21,110 +21,110 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Vitruvius}{6}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Java Model Parser and printer}{6}{section.2.4}
+\contentsline {subsection}{\numberline {2.3.1}Vitruvius VSUM}{6}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Automated Coevolution of Source Code and Software Architecture Models}{7}{section.2.5}
+\contentsline {subsection}{\numberline {2.3.2}Correspondence Meta-model}{7}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.1}Incremental SEFF Reconstruction}{8}{subsection.2.5.1}
+\contentsline {section}{\numberline {2.4}Java Model Parser and printer}{8}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Kieker Monitoring Framework}{8}{section.2.6}
+\contentsline {section}{\numberline {2.5}Automated Coevolution of Source Code and Software Architecture Models}{8}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Source Code Model eXtractor}{10}{section.2.7}
+\contentsline {subsection}{\numberline {2.5.1}Incremental SEFF Reconstruction}{10}{subsection.2.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7.1}SoMoX SEFFs Reconstruction}{11}{subsection.2.7.1}
+\contentsline {section}{\numberline {2.6}Kieker Monitoring Framework}{10}{section.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.8}DevOps}{11}{section.2.8}
+\contentsline {section}{\numberline {2.7}Source Code Model eXtractor}{12}{section.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.9}Continuous Integration of Performance Model}{11}{section.2.9}
+\contentsline {subsection}{\numberline {2.7.1}Source Code Decorator Model}{12}{subsection.2.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.9.1}Iterative Performance Model Parameter Estimation Considering Parametric Dependencies}{12}{subsection.2.9.1}
+\contentsline {subsection}{\numberline {2.7.2}SoMoX SEFFs Reconstruction}{13}{subsection.2.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Thesis Statement}{17}{chapter.3}
+\contentsline {section}{\numberline {2.8}DevOps}{14}{section.2.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Contribution}{17}{section.3.1}
+\contentsline {section}{\numberline {2.9}Continuous Integration of Performance Model}{14}{section.2.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Scientific challenges}{18}{section.3.2}
+\contentsline {subsection}{\numberline {2.9.1}Iterative Performance Model Parameter Estimation Considering Parametric Dependencies}{15}{subsection.2.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Adaptive Monitoring for Continuous Performance Model Integration}{21}{chapter.4}
+\contentsline {chapter}{\numberline {3}Thesis Statement}{19}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Context of our approach}{21}{section.4.1}
+\contentsline {section}{\numberline {3.1}Contribution}{19}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Monitoring Probes}{22}{section.4.2}
+\contentsline {section}{\numberline {3.2}Scientific challenges}{20}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Monitoring Records}{24}{section.4.3}
+\contentsline {chapter}{\numberline {4}Adaptive Monitoring for Continuous Performance Model Integration}{23}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Adaptive Instrumentation}{24}{section.4.4}
+\contentsline {section}{\numberline {4.1}Context of our approach}{23}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Adaptive Monitoring}{25}{section.4.5}
+\contentsline {section}{\numberline {4.2}Terminology}{24}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Instrumentation Model}{25}{section.4.6}
+\contentsline {subsection}{\numberline {4.2.1}Monitoring Probes}{25}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Approach}{26}{section.4.7}
+\contentsline {subsection}{\numberline {4.2.2}Monitoring Records}{25}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.8}Probes Generation Process}{28}{section.4.8}
+\contentsline {subsection}{\numberline {4.2.3}Adaptive Instrumentation}{26}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.9}Terminology}{28}{section.4.9}
+\contentsline {subsection}{\numberline {4.2.4}Adaptive Monitoring}{27}{subsection.4.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.9.1}Source Code Decorator Model}{28}{subsection.4.9.1}
+\contentsline {section}{\numberline {4.3}Instrumentation Model}{27}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.9.2}Correspondence Meta-model}{29}{subsection.4.9.2}
+\contentsline {section}{\numberline {4.4}Approach}{28}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.9.3}Vitruvius VSUM}{30}{subsection.4.9.3}
+\contentsline {section}{\numberline {4.5}Probes Generation Process}{30}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.10}The Vitruvius VSUM of our approach}{31}{section.4.10}
+\contentsline {section}{\numberline {4.6}The Vitruvius VSUM of our approach}{30}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.11}Monitoring probes generation}{32}{section.4.11}
+\contentsline {section}{\numberline {4.7}Monitoring probes generation}{30}{section.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.11.1}Collecting Information for the Transformation}{32}{subsection.4.11.1}
+\contentsline {subsection}{\numberline {4.7.1}Collecting Information for the Transformation}{31}{subsection.4.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.11.2}Keeping the Source Code and the Instrumentation Consistent}{33}{subsection.4.11.2}
+\contentsline {subsection}{\numberline {4.7.2}Keeping the Source Code and the Instrumentation Consistent}{31}{subsection.4.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.12}Adaptive Instrumentation Process}{33}{section.4.12}
+\contentsline {section}{\numberline {4.8}Adaptive Instrumentation Process}{32}{section.4.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.12.1}Design}{33}{subsection.4.12.1}
+\contentsline {subsection}{\numberline {4.8.1}Design}{32}{subsection.4.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.12.2}Inputs}{33}{subsection.4.12.2}
+\contentsline {subsection}{\numberline {4.8.2}Inputs}{32}{subsection.4.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.12.3}Output}{34}{subsection.4.12.3}
+\contentsline {subsection}{\numberline {4.8.3}Output}{32}{subsection.4.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.12.4}Architecture}{36}{subsection.4.12.4}
+\contentsline {subsection}{\numberline {4.8.4}Architecture}{35}{subsection.4.8.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.12.5}Call Sequence of the Instrumentation Process}{37}{subsection.4.12.5}
+\contentsline {subsection}{\numberline {4.8.5}Call Sequence of the Instrumentation Process}{35}{subsection.4.8.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.12.6}Service Parameters Extraction}{38}{subsection.4.12.6}
+\contentsline {subsection}{\numberline {4.8.6}Service Parameters Extraction}{37}{subsection.4.8.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.13}Limitation}{38}{section.4.13}
+\contentsline {section}{\numberline {4.9}Limitation}{37}{section.4.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.14}Extending the Incremental SEFF Reconstruction Process}{39}{section.4.14}
+\contentsline {section}{\numberline {4.10}Extending the Incremental SEFF Reconstruction Process}{38}{section.4.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.14.1}Objective}{40}{subsection.4.14.1}
+\contentsline {subsection}{\numberline {4.10.1}Objective}{38}{subsection.4.10.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.14.2}Method}{40}{subsection.4.14.2}
+\contentsline {subsection}{\numberline {4.10.2}Method}{39}{subsection.4.10.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.14.3}Scientific Challenges}{40}{subsection.4.14.3}
+\contentsline {subsection}{\numberline {4.10.3}Scientific Challenges}{39}{subsection.4.10.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.14.4}SEFF Comparison}{41}{subsection.4.14.4}
+\contentsline {subsection}{\numberline {4.10.4}SEFF Comparison}{39}{subsection.4.10.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.14.5}Approach}{41}{subsection.4.14.5}
+\contentsline {subsection}{\numberline {4.10.5}Approach}{40}{subsection.4.10.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.14.6}Implementation Limitation}{43}{subsection.4.14.6}
+\contentsline {subsection}{\numberline {4.10.6}Implementation Limitation}{41}{subsection.4.10.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Evaluation}{51}{chapter.5}
+\contentsline {chapter}{\numberline {5}Evaluation}{49}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Case Study}{51}{section.5.1}
+\contentsline {section}{\numberline {5.1}Case Study}{49}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Adaptive Instrumentation}{52}{section.5.2}
+\contentsline {section}{\numberline {5.2}Adaptive Instrumentation}{50}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Incremental Instrumentation}{52}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.1}Incremental Instrumentation}{50}{subsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Monitoring Information}{53}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.2}Monitoring Information}{51}{subsection.5.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Adaptive Monitoring}{54}{section.5.3}
+\contentsline {section}{\numberline {5.3}Adaptive Monitoring}{52}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Related Work}{57}{chapter.6}
+\contentsline {chapter}{\numberline {6}Related Work}{55}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusions and Future Work}{59}{chapter.7}
+\contentsline {chapter}{\numberline {7}Conclusions and Future Work}{57}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.0.1}Summary}{59}{subsection.7.0.1}
+\contentsline {subsection}{\numberline {7.0.1}Summary}{57}{subsection.7.0.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.0.2}Future Work}{59}{subsection.7.0.2}
+\contentsline {subsection}{\numberline {7.0.2}Future Work}{57}{subsection.7.0.2}
