@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.4)  13 MAR 2019 20:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.4)  14 MAR 2019 04:24
 entering extended mode
 **./Noureddine_thesis.tex
 (Noureddine_thesis.tex
@@ -1815,7 +1815,7 @@ Package biblatex Warning: The following entry could not be found
 )
 Package biblatex Info: Reference section=0 on input line 109.
 Package biblatex Info: Reference segment=0 on input line 109.
-<logos/kitlogo_en_cmyk.pdf, id=239, 198.7425pt x 92.345pt>
+<logos/kitlogo_en_cmyk.pdf, id=247, 198.7425pt x 92.345pt>
 File: logos/kitlogo_en_cmyk.pdf Graphic file (type pdf)
 <use logos/kitlogo_en_cmyk.pdf>
 Package pdftex.def Info: logos/kitlogo_en_cmyk.pdf  used on input line 116.
@@ -1887,7 +1887,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7.9> on input line 116.
 Missing character: There is no ¹ in font lmsy10!
-<title-background.pdf, id=240, 597.50786pt x 845.04686pt>
+<title-background.pdf, id=248, 597.50786pt x 845.04686pt>
 File: title-background.pdf Graphic file (type pdf)
 <use title-background.pdf>
 Package pdftex.def Info: title-background.pdf  used on input line 116.
@@ -1899,7 +1899,7 @@ Package pdftex.def Info: title-background.pdf  used on input line 116.
 {C:/Users/nd/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./title-backgr
 ound.pdf> <./logos/kitlogo_en_cmyk.pdf>] [2
 
-] (sections/declaration.tex) [1
+] (sections/declaration.tex) (sections/abstract_en.tex [1
 
 
 ] [2
@@ -1907,29 +1907,58 @@ ound.pdf> <./logos/kitlogo_en_cmyk.pdf>] [2
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 142.
-Package tocbasic Info: character protrusion at toc deactivated on input line 14
-2.
-
-(Noureddine_thesis.toc
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 14.
+) (sections/abstract_de.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 10.
+(Font)              <12> on input line 13.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8.8> on input line 10.
+(Font)              <8.8> on input line 13.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.6> on input line 10.
+(Font)              <6.6> on input line 13.
 Missing character: There is no ¹ in font lmsy10!
- [3])
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 13.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 13.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 13.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 13.
+ [3]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 13.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 13.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 13.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 13.
+ [4
+
+
+]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 13.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 13.
+) [5] [6]
+Package tocbasic Info: character protrusion at toc deactivated on input line 14
+4.
+ (Noureddine_thesis.toc
+[7
+
+
+])
 \tf@toc=\write6
 \openout6 = `Noureddine_thesis.toc'.
 
- [4]
+ [8]
 Package tocbasic Info: character protrusion at lof deactivated on input line 14
-4.
+6.
  (Noureddine_thesis.lof
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5
+ [9
 
 
 ])
@@ -1937,26 +1966,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \openout7 = `Noureddine_thesis.lof'.
 
 
-[6] (sections/abstract_en.tex) (sections/introduction.texpdfTeX warning (ext4):
- destination with the same identifier (name{page.1}) has been already used, dup
-licate ignored
-<to be read again> 
-                   \relax 
-l.13 \chapter
-             {Introduction} [1
+[10]
+Package tocbasic Info: character protrusion at lot deactivated on input line 14
+7.
+ (Noureddine_thesis.lot)
+\tf@lot=\write8
+\openout8 = `Noureddine_thesis.lot'.
+
+ [11
 
 
+] [12
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.13 \chapter
-             {Introduction} [2
-
-
-]
+] (sections/introduction.tex
 chapter 1.
 
 Class scrbook Warning: \float@addtolists detected!
@@ -1973,10 +1996,23 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              a package that still implements the
 (scrbook)              deprecated \float@addtolist interface .
 
-[3]) (sections/foundations.tex [4]
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.31 
+      [1
+
+
+]) (sections/foundations.texpdfTeX warning (ext4): destination with the same id
+entifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.14 \chapter
+             {Foundations} [2]
 chapter 2.
 
-LaTeX Warning: Reference `sec: sec: SEFFs' on page 5 undefined on input line 16
+LaTeX Warning: Reference `sec: sec: SEFFs' on page 3 undefined on input line 16
 .
 
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <17.28> not available
@@ -1992,17 +2028,17 @@ LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
 LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
 (Font)              using `T1/lmss/m/n' instead on input line 30.
 
-[5
+[3
 
 
 ]
-<figures/pcmmodels.png, id=470, 711.8595pt x 324.61275pt>
+<figures/pcmmodels.png, id=497, 711.8595pt x 324.61275pt>
 File: figures/pcmmodels.png Graphic file (type png)
 <use figures/pcmmodels.png>
 Package pdftex.def Info: figures/pcmmodels.png  used on input line 38.
 (pdftex.def)             Requested size: 389.23111pt x 177.49243pt.
- [6 <./figures/pcmmodels.png>]
-<figures/code_seff.png, id=483, 583.58025pt x 363.759pt>
+ [4 <./figures/pcmmodels.png>]
+<figures/code_seff.png, id=510, 583.58025pt x 363.759pt>
 File: figures/code_seff.png Graphic file (type png)
 <use figures/code_seff.png>
 Package pdftex.def Info: figures/code_seff.png  used on input line 53.
@@ -2010,8 +2046,8 @@ Package pdftex.def Info: figures/code_seff.png  used on input line 53.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7 <./figures/code_seff.png>] [8] [9]
-<figures/coevolution_approach.png, id=514, 326.4195pt x 540.8205pt>
+ [5 <./figures/code_seff.png>] [6] [7]
+<figures/coevolution_approach.png, id=542, 326.4195pt x 540.8205pt>
 File: figures/coevolution_approach.png Graphic file (type png)
 <use figures/coevolution_approach.png>
 Package pdftex.def Info: figures/coevolution_approach.png  used on input line 1
@@ -2025,10 +2061,10 @@ LaTeX Warning: Float too large for page by 34.91296pt on input line 109.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `Incremental SEFF Reconstruction' on page 10 undefined
- on input line 113.
+LaTeX Warning: Reference `Incremental SEFF Reconstruction' on page 8 undefined 
+on input line 113.
 
-<figures/inscremental_seff_reconst.png, id=518, 459.51675pt x 398.08725pt>
+<figures/inscremental_seff_reconst.png, id=546, 459.51675pt x 398.08725pt>
 File: figures/inscremental_seff_reconst.png Graphic file (type png)
 <use figures/inscremental_seff_reconst.png>
 Package pdftex.def Info: figures/inscremental_seff_reconst.png  used on input l
@@ -2037,16 +2073,16 @@ ine 119.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10]
+[8]
 
-LaTeX Warning: Reference `fig:kieker manual instr' on page 11 undefined on inpu
-t line 133.
+LaTeX Warning: Reference `fig:kieker manual instr' on page 9 undefined on input
+ line 133.
 
 
-LaTeX Warning: Reference `fig:kieker AOP instr' on page 11 undefined on input l
-ine 133.
+LaTeX Warning: Reference `fig:kieker AOP instr' on page 9 undefined on input li
+ne 133.
 
-<figures/kieker.png, id=527, 439.04025pt x 194.52675pt>
+<figures/kieker.png, id=555, 439.04025pt x 194.52675pt>
 File: figures/kieker.png Graphic file (type png)
 <use figures/kieker.png>
 Package pdftex.def Info: figures/kieker.png  used on input line 140.
@@ -2067,8 +2103,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 146.
- [11] [12] [13]
-<figures/cipm.pdf, id=576, 447.92343pt x 167.12437pt>
+ [9] [10] [11]
+<figures/cipm.pdf, id=604, 447.92343pt x 167.12437pt>
 File: figures/cipm.pdf Graphic file (type pdf)
 <use figures/cipm.pdf>
 Package pdftex.def Info: figures/cipm.pdf  used on input line 216.
@@ -2077,9 +2113,9 @@ Package pdftex.def Info: figures/cipm.pdf  used on input line 216.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14]) (sections/thesis_statement.tex [15] [16 <./figures/coevolution_approach.p
-ng>] [17 <./figures/inscremental_seff_reconst.png> <./figures/kieker.png>]
-[18 <./figures/cipm.pdf>]
+[12]) (sections/thesis_statement.tex [13] [14 <./figures/coevolution_approach.p
+ng>] [15 <./figures/inscremental_seff_reconst.png> <./figures/kieker.png>]
+[16 <./figures/cipm.pdf>]
 chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
@@ -2096,22 +2132,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-[19
+[17
 
 
-] [20]) (sections/content.tex [21] [22
+] [18]) (sections/content.tex [19] [20
 
 
 ]
 chapter 4.
-[23]
-<figures/approach_context.png, id=796, 435.42674pt x 435.42674pt>
+[21]
+<figures/approach_context.png, id=823, 435.42674pt x 435.42674pt>
 File: figures/approach_context.png Graphic file (type png)
 <use figures/approach_context.png>
 Package pdftex.def Info: figures/approach_context.png  used on input line 29.
 (pdftex.def)             Requested size: 389.23111pt x 389.24275pt.
- [24 <./figures/approach_context.png>]
-<figures/probes.png, id=806, 446.8695pt x 395.076pt>
+ [22 <./figures/approach_context.png>]
+<figures/probes.png, id=833, 446.8695pt x 395.076pt>
 File: figures/probes.png Graphic file (type png)
 <use figures/probes.png>
 Package pdftex.def Info: figures/probes.png  used on input line 45.
@@ -2119,46 +2155,46 @@ Package pdftex.def Info: figures/probes.png  used on input line 45.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25 <./figures/probes.png>]
-<figures/records.png, id=815, 578.76225pt x 342.68025pt>
+ [23 <./figures/probes.png>]
+<figures/records.png, id=843, 578.76225pt x 342.68025pt>
 File: figures/records.png Graphic file (type png)
 <use figures/records.png>
 Package pdftex.def Info: figures/records.png  used on input line 66.
 (pdftex.def)             Requested size: 259.4918pt x 153.64519pt.
- [26 <./figures/records.png>] [27]
-<figures/im.png, id=829, 229.45724pt x 207.174pt>
+ [24 <./figures/records.png>] [25]
+<figures/im.png, id=857, 229.45724pt x 207.174pt>
 File: figures/im.png Graphic file (type png)
 <use figures/im.png>
 Package pdftex.def Info: figures/im.png  used on input line 101.
 (pdftex.def)             Requested size: 216.24097pt x 195.24304pt.
- [28 <./figures/im.png>]
-<figures/devops_approach.png, id=836, 514.92375pt x 451.6875pt>
+ [26 <./figures/im.png>]
+<figures/devops_approach.png, id=864, 514.92375pt x 451.6875pt>
 File: figures/devops_approach.png Graphic file (type png)
 <use figures/devops_approach.png>
 Package pdftex.def Info: figures/devops_approach.png  used on input line 122.
 (pdftex.def)             Requested size: 389.23111pt x 341.43895pt.
 
-[29 <./figures/devops_approach.png>] [30]
-<figures/seff_jamopp.png, id=858, 452.892pt x 316.18124pt>
+[27 <./figures/devops_approach.png>] [28]
+<figures/seff_jamopp.png, id=885, 452.892pt x 316.18124pt>
 File: figures/seff_jamopp.png Graphic file (type png)
 <use figures/seff_jamopp.png>
 Package pdftex.def Info: figures/seff_jamopp.png  used on input line 151.
 (pdftex.def)             Requested size: 389.23111pt x 271.74652pt.
- [31 <./figures/seff_jamopp.png>]
-<figures/correspondence_model.png, id=865, 222.23026pt x 186.09525pt>
+ [29 <./figures/seff_jamopp.png>]
+<figures/correspondence_model.png, id=893, 222.23026pt x 186.09525pt>
 File: figures/correspondence_model.png Graphic file (type png)
 <use figures/correspondence_model.png>
 Package pdftex.def Info: figures/correspondence_model.png  used on input line 1
 68.
 (pdftex.def)             Requested size: 259.4918pt x 217.30743pt.
-<figures/vitruv_vsum.png, id=868, 419.76825pt x 348.1005pt>
+<figures/vitruv_vsum.png, id=896, 419.76825pt x 348.1005pt>
 File: figures/vitruv_vsum.png Graphic file (type png)
 <use figures/vitruv_vsum.png>
 Package pdftex.def Info: figures/vitruv_vsum.png  used on input line 184.
 (pdftex.def)             Requested size: 389.23111pt x 322.78996pt.
 
-[32 <./figures/correspondence_model.png>] [33 <./figures/vitruv_vsum.png>]
-<figures/extended_vsum.png, id=885, 384.2355pt x 484.81125pt>
+[30 <./figures/correspondence_model.png>] [31 <./figures/vitruv_vsum.png>]
+<figures/extended_vsum.png, id=913, 384.2355pt x 484.81125pt>
 File: figures/extended_vsum.png Graphic file (type png)
 <use figures/extended_vsum.png>
 Package pdftex.def Info: figures/extended_vsum.png  used on input line 208.
@@ -2167,7 +2203,7 @@ Package pdftex.def Info: figures/extended_vsum.png  used on input line 208.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/seff_reconst_extension.png, id=890, 411.939pt x 452.28975pt>
+<figures/seff_reconst_extension.png, id=918, 411.939pt x 452.28975pt>
 File: figures/seff_reconst_extension.png Graphic file (type png)
 <use figures/seff_reconst_extension.png>
 Package pdftex.def Info: figures/seff_reconst_extension.png  used on input line
@@ -2176,8 +2212,8 @@ Package pdftex.def Info: figures/seff_reconst_extension.png  used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[34]
-<figures/approach_design.png, id=901, 482.40225pt x 180.675pt>
+[32]
+<figures/approach_design.png, id=929, 482.40225pt x 180.675pt>
 File: figures/approach_design.png Graphic file (type png)
 <use figures/approach_design.png>
 Package pdftex.def Info: figures/approach_design.png  used on input line 259.
@@ -2186,7 +2222,7 @@ Package pdftex.def Info: figures/approach_design.png  used on input line 259.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[35]
+[33]
 Overfull \hbox (39.53386pt too wide) in paragraph at lines 283--284
 [][] 
  []
@@ -2196,7 +2232,7 @@ Overfull \hbox (4.71367pt too wide) in paragraph at lines 286--288
 [][][][][][][] 
  []
 
-[36]
+[34]
 Overfull \hbox (69.17424pt too wide) in paragraph at lines 295--296
 [][] 
  []
@@ -2224,7 +2260,7 @@ Overfull \hbox (56.58434pt too wide) in paragraph at lines 305--306
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
+ [35]
 
 Class scrbook Warning: `\caption' outside float.
 (scrbook)              Seems you are using `\caption' outside a float.
@@ -2233,8 +2269,8 @@ Class scrbook Warning: `\caption' outside float.
 (scrbook)              Because I cannot detect the caption type, I'm using
 (scrbook)              the empty one. on input line 323.
 
-[38]
-<figures/architecture.png, id=975, 428.802pt x 301.72725pt>
+[36]
+<figures/architecture.png, id=1003, 428.802pt x 301.72725pt>
 File: figures/architecture.png Graphic file (type png)
 <use figures/architecture.png>
 Package pdftex.def Info: figures/architecture.png  used on input line 342.
@@ -2243,8 +2279,8 @@ Package pdftex.def Info: figures/architecture.png  used on input line 342.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[39]
-<figures/instrumentation_process.png, id=984, 625.1355pt x 466.1415pt>
+[37]
+<figures/instrumentation_process.png, id=1012, 625.1355pt x 466.1415pt>
 File: figures/instrumentation_process.png Graphic file (type png)
 <use figures/instrumentation_process.png>
 Package pdftex.def Info: figures/instrumentation_process.png  used on input lin
@@ -2254,7 +2290,7 @@ e 376.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/service_parameters.png, id=987, 461.3235pt x 279.444pt>
+<figures/service_parameters.png, id=1015, 461.3235pt x 279.444pt>
 File: figures/service_parameters.png Graphic file (type png)
 <use figures/service_parameters.png>
 Package pdftex.def Info: figures/service_parameters.png  used on input line 392
@@ -2263,25 +2299,80 @@ Package pdftex.def Info: figures/service_parameters.png  used on input line 392
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[40] [41] [42]
-<figures/seffmachting.png, id=1009, 269.808pt x 310.15875pt>
+[38] [39]
+
+LaTeX Warning: Reference `sec:sec:Java Model Parser and printer' on page 40 und
+efined on input line 445.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
+
+ []
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--456
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--459
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--462
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
+
+ []
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 468--471
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 479--481
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 483--485
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--488
+
+ []
+
+[42]
+<figures/seffmachting.png, id=1048, 269.808pt x 310.15875pt>
 File: figures/seffmachting.png Graphic file (type png)
 <use figures/seffmachting.png>
-Package pdftex.def Info: figures/seffmachting.png  used on input line 470.
+Package pdftex.def Info: figures/seffmachting.png  used on input line 498.
 (pdftex.def)             Requested size: 389.23111pt x 447.48486pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/seff_reconst_extension_level2.png, id=1010, 339.06676pt x 552.26324pt>
+<figures/seff_reconst_extension_level2.png, id=1049, 339.06676pt x 552.26324pt>
 
 File: figures/seff_reconst_extension_level2.png Graphic file (type png)
 <use figures/seff_reconst_extension_level2.png>
 Package pdftex.def Info: figures/seff_reconst_extension_level2.png  used on inp
-ut line 480.
+ut line 507.
 (pdftex.def)             Requested size: 389.23111pt x 633.9686pt.
 
-LaTeX Warning: Float too large for page by 23.96858pt on input line 483.
+LaTeX Warning: Float too large for page by 23.96858pt on input line 510.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2296,7 +2387,7 @@ st_extension_level2.png>] [50
 ]
 chapter 5.
 [51]
-<figures/case_study.png, id=1060, 328.8285pt x 207.174pt>
+<figures/case_study.png, id=1098, 328.8285pt x 207.174pt>
 File: figures/case_study.png Graphic file (type png)
 <use figures/case_study.png>
 Package pdftex.def Info: figures/case_study.png  used on input line 52.
@@ -2306,7 +2397,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
-<figures/incremental_instr_eva.png, id=1068, 569.12625pt x 220.4235pt>
+<figures/incremental_instr_eva.png, id=1106, 569.12625pt x 220.4235pt>
 File: figures/incremental_instr_eva.png Graphic file (type png)
 <use figures/incremental_instr_eva.png>
 Package pdftex.def Info: figures/incremental_instr_eva.png  used on input line 
@@ -2316,7 +2407,7 @@ Package pdftex.def Info: figures/incremental_instr_eva.png  used on input line
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [53]
-<figures/records_evaluation.png, id=1075, 614.89725pt x 442.0515pt>
+<figures/records_evaluation.png, id=1113, 614.89725pt x 442.0515pt>
 File: figures/records_evaluation.png Graphic file (type png)
 <use figures/records_evaluation.png>
 Package pdftex.def Info: figures/records_evaluation.png  used on input line 99.
@@ -2345,14 +2436,14 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
  [61]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
  [62]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
  (Noureddine_thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
 Package rerunfilecheck Info: File `Noureddine_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 38895968B73DDEBCC99DD5A244A9A24A;4302.
+(rerunfilecheck)             Checksum: FA6AA1C0FB3D3FAA16A4530A4DECB646;4437.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2368,13 +2459,13 @@ Package logreq Info: Writing requests to 'Noureddine_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27145 strings out of 493305
- 495406 string characters out of 3138884
- 1124016 words of memory out of 3000000
- 29813 multiletter control sequences out of 15000+200000
- 109979 words of font info for 172 fonts, out of 3000000 for 9000
+ 27178 strings out of 493305
+ 496077 string characters out of 3138884
+ 1124118 words of memory out of 3000000
+ 29829 multiletter control sequences out of 15000+200000
+ 110108 words of font info for 173 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 63i,20n,88p,9099b,3551s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,20n,88p,9099b,3551s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/lm/lmb10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc1
@@ -2386,9 +2477,9 @@ Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
 tt12.pfb>
-Output written on Noureddine_thesis.pdf (70 pages, 1758023 bytes).
+Output written on Noureddine_thesis.pdf (76 pages, 1770320 bytes).
 PDF statistics:
- 1225 PDF objects out of 1440 (max. 8388607)
- 243 named destinations out of 1000 (max. 500000)
- 29280 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1265 PDF objects out of 1440 (max. 8388607)
+ 252 named destinations out of 1000 (max. 500000)
+ 29296 words of extra memory for PDF output out of 29859 (max. 10000000)
 

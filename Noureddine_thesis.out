@@ -1,59 +1,61 @@
-\BOOKMARK [0][-]{chapter*.3}{Abstract}{}% 1
-\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 2
-\BOOKMARK [0][-]{chapter.2}{Foundations}{}% 3
-\BOOKMARK [1][-]{section.2.1}{Eclipse Modeling Framework}{chapter.2}% 4
-\BOOKMARK [1][-]{section.2.2}{The Palladio Component Model}{chapter.2}% 5
-\BOOKMARK [2][-]{subsection.2.2.1}{Palladio Models}{section.2.2}% 6
-\BOOKMARK [2][-]{subsection.2.2.2}{SEFFs}{section.2.2}% 7
-\BOOKMARK [1][-]{section.2.3}{Vitruvius}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.4}{Java Model Parser and printer}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.5}{Automated Coevolution of Source Code and Software Architecture Models}{chapter.2}% 10
-\BOOKMARK [2][-]{subsection.2.5.1}{Incremental SEFF Reconstruction}{section.2.5}% 11
-\BOOKMARK [1][-]{section.2.6}{Kieker Monitoring Framework}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.7}{Source Code Model eXtractor}{chapter.2}% 13
-\BOOKMARK [2][-]{subsection.2.7.1}{SoMoX SEFFs Reconstruction}{section.2.7}% 14
-\BOOKMARK [1][-]{section.2.8}{DevOps}{chapter.2}% 15
-\BOOKMARK [1][-]{section.2.9}{Continuous Integration of Performance Model}{chapter.2}% 16
-\BOOKMARK [2][-]{subsection.2.9.1}{Iterative Performance Model Parameter Estimation Considering Parametric Dependencies}{section.2.9}% 17
-\BOOKMARK [0][-]{chapter.3}{Thesis Statement}{}% 18
-\BOOKMARK [1][-]{section.3.1}{Contribution}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.2}{Scientific challenges}{chapter.3}% 20
-\BOOKMARK [0][-]{chapter.4}{Adaptive Monitoring for Continuous Performance Model Integration}{}% 21
-\BOOKMARK [1][-]{section.4.1}{Context of our approach}{chapter.4}% 22
-\BOOKMARK [1][-]{section.4.2}{Monitoring Probes}{chapter.4}% 23
-\BOOKMARK [1][-]{section.4.3}{Monitoring Records}{chapter.4}% 24
-\BOOKMARK [1][-]{section.4.4}{Adaptive Instrumentation}{chapter.4}% 25
-\BOOKMARK [1][-]{section.4.5}{Adaptive Monitoring}{chapter.4}% 26
-\BOOKMARK [1][-]{section.4.6}{Instrumentation Model}{chapter.4}% 27
-\BOOKMARK [1][-]{section.4.7}{Approach}{chapter.4}% 28
-\BOOKMARK [1][-]{section.4.8}{Probes Generation Process}{chapter.4}% 29
-\BOOKMARK [1][-]{section.4.9}{Terminology}{chapter.4}% 30
-\BOOKMARK [2][-]{subsection.4.9.1}{Source Code Decorator Model}{section.4.9}% 31
-\BOOKMARK [2][-]{subsection.4.9.2}{Correspondence Meta-model}{section.4.9}% 32
-\BOOKMARK [2][-]{subsection.4.9.3}{Vitruvius VSUM}{section.4.9}% 33
-\BOOKMARK [1][-]{section.4.10}{The Vitruvius VSUM of our approach}{chapter.4}% 34
-\BOOKMARK [1][-]{section.4.11}{Monitoring probes generation}{chapter.4}% 35
-\BOOKMARK [2][-]{subsection.4.11.1}{Collecting Information for the Transformation}{section.4.11}% 36
-\BOOKMARK [2][-]{subsection.4.11.2}{Keeping the Source Code and the Instrumentation Consistent}{section.4.11}% 37
-\BOOKMARK [1][-]{section.4.12}{Adaptive Instrumentation Process}{chapter.4}% 38
-\BOOKMARK [2][-]{subsection.4.12.1}{Design}{section.4.12}% 39
-\BOOKMARK [2][-]{subsection.4.12.2}{Inputs}{section.4.12}% 40
-\BOOKMARK [2][-]{subsection.4.12.3}{Output}{section.4.12}% 41
-\BOOKMARK [2][-]{subsection.4.12.4}{Architecture}{section.4.12}% 42
-\BOOKMARK [2][-]{subsection.4.12.5}{Call Sequence of the Instrumentation Process}{section.4.12}% 43
-\BOOKMARK [2][-]{subsection.4.12.6}{Service Parameters Extraction}{section.4.12}% 44
-\BOOKMARK [1][-]{section.4.13}{Limitation}{chapter.4}% 45
-\BOOKMARK [1][-]{section.4.14}{Extending the Incremental SEFF Reconstruction Process}{chapter.4}% 46
-\BOOKMARK [2][-]{subsection.4.14.1}{Objective}{section.4.14}% 47
-\BOOKMARK [2][-]{subsection.4.14.2}{Method}{section.4.14}% 48
-\BOOKMARK [2][-]{subsection.4.14.3}{Scientific Challenges}{section.4.14}% 49
-\BOOKMARK [2][-]{subsection.4.14.4}{SEFF Comparison}{section.4.14}% 50
-\BOOKMARK [2][-]{subsection.4.14.5}{Approach}{section.4.14}% 51
-\BOOKMARK [0][-]{chapter.5}{Evaluation}{}% 52
-\BOOKMARK [1][-]{section.5.1}{Case Study}{chapter.5}% 53
-\BOOKMARK [1][-]{section.5.2}{Adaptive Instrumentation}{chapter.5}% 54
-\BOOKMARK [2][-]{subsection.5.2.1}{Incremental Instrumentation}{section.5.2}% 55
-\BOOKMARK [2][-]{subsection.5.2.2}{Monitoring Information}{section.5.2}% 56
-\BOOKMARK [1][-]{section.5.3}{Adaptive Monitoring}{chapter.5}% 57
-\BOOKMARK [0][-]{chapter.6}{Related Work}{}% 58
-\BOOKMARK [0][-]{chapter.7}{Conclusions and Future Work}{}% 59
+\BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{Zusammenfassung}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
+\BOOKMARK [0][-]{chapter.2}{Foundations}{}% 4
+\BOOKMARK [1][-]{section.2.1}{Eclipse Modeling Framework}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.2}{The Palladio Component Model}{chapter.2}% 6
+\BOOKMARK [2][-]{subsection.2.2.1}{Palladio Models}{section.2.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.2}{SEFFs}{section.2.2}% 8
+\BOOKMARK [1][-]{section.2.3}{Vitruvius}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.4}{Java Model Parser and printer}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.5}{Automated Coevolution of Source Code and Software Architecture Models}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.5.1}{Incremental SEFF Reconstruction}{section.2.5}% 12
+\BOOKMARK [1][-]{section.2.6}{Kieker Monitoring Framework}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.7}{Source Code Model eXtractor}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.7.1}{SoMoX SEFFs Reconstruction}{section.2.7}% 15
+\BOOKMARK [1][-]{section.2.8}{DevOps}{chapter.2}% 16
+\BOOKMARK [1][-]{section.2.9}{Continuous Integration of Performance Model}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.9.1}{Iterative Performance Model Parameter Estimation Considering Parametric Dependencies}{section.2.9}% 18
+\BOOKMARK [0][-]{chapter.3}{Thesis Statement}{}% 19
+\BOOKMARK [1][-]{section.3.1}{Contribution}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.2}{Scientific challenges}{chapter.3}% 21
+\BOOKMARK [0][-]{chapter.4}{Adaptive Monitoring for Continuous Performance Model Integration}{}% 22
+\BOOKMARK [1][-]{section.4.1}{Context of our approach}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.2}{Monitoring Probes}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.3}{Monitoring Records}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.4}{Adaptive Instrumentation}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.5}{Adaptive Monitoring}{chapter.4}% 27
+\BOOKMARK [1][-]{section.4.6}{Instrumentation Model}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.7}{Approach}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.8}{Probes Generation Process}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.9}{Terminology}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.9.1}{Source Code Decorator Model}{section.4.9}% 32
+\BOOKMARK [2][-]{subsection.4.9.2}{Correspondence Meta-model}{section.4.9}% 33
+\BOOKMARK [2][-]{subsection.4.9.3}{Vitruvius VSUM}{section.4.9}% 34
+\BOOKMARK [1][-]{section.4.10}{The Vitruvius VSUM of our approach}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.11}{Monitoring probes generation}{chapter.4}% 36
+\BOOKMARK [2][-]{subsection.4.11.1}{Collecting Information for the Transformation}{section.4.11}% 37
+\BOOKMARK [2][-]{subsection.4.11.2}{Keeping the Source Code and the Instrumentation Consistent}{section.4.11}% 38
+\BOOKMARK [1][-]{section.4.12}{Adaptive Instrumentation Process}{chapter.4}% 39
+\BOOKMARK [2][-]{subsection.4.12.1}{Design}{section.4.12}% 40
+\BOOKMARK [2][-]{subsection.4.12.2}{Inputs}{section.4.12}% 41
+\BOOKMARK [2][-]{subsection.4.12.3}{Output}{section.4.12}% 42
+\BOOKMARK [2][-]{subsection.4.12.4}{Architecture}{section.4.12}% 43
+\BOOKMARK [2][-]{subsection.4.12.5}{Call Sequence of the Instrumentation Process}{section.4.12}% 44
+\BOOKMARK [2][-]{subsection.4.12.6}{Service Parameters Extraction}{section.4.12}% 45
+\BOOKMARK [1][-]{section.4.13}{Limitation}{chapter.4}% 46
+\BOOKMARK [1][-]{section.4.14}{Extending the Incremental SEFF Reconstruction Process}{chapter.4}% 47
+\BOOKMARK [2][-]{subsection.4.14.1}{Objective}{section.4.14}% 48
+\BOOKMARK [2][-]{subsection.4.14.2}{Method}{section.4.14}% 49
+\BOOKMARK [2][-]{subsection.4.14.3}{Scientific Challenges}{section.4.14}% 50
+\BOOKMARK [2][-]{subsection.4.14.4}{SEFF Comparison}{section.4.14}% 51
+\BOOKMARK [2][-]{subsection.4.14.5}{Approach}{section.4.14}% 52
+\BOOKMARK [2][-]{subsection.4.14.6}{Implementation Limitation}{section.4.14}% 53
+\BOOKMARK [0][-]{chapter.5}{Evaluation}{}% 54
+\BOOKMARK [1][-]{section.5.1}{Case Study}{chapter.5}% 55
+\BOOKMARK [1][-]{section.5.2}{Adaptive Instrumentation}{chapter.5}% 56
+\BOOKMARK [2][-]{subsection.5.2.1}{Incremental Instrumentation}{section.5.2}% 57
+\BOOKMARK [2][-]{subsection.5.2.2}{Monitoring Information}{section.5.2}% 58
+\BOOKMARK [1][-]{section.5.3}{Adaptive Monitoring}{chapter.5}% 59
+\BOOKMARK [0][-]{chapter.6}{Related Work}{}% 60
+\BOOKMARK [0][-]{chapter.7}{Conclusions and Future Work}{}% 61

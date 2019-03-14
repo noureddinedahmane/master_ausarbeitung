@@ -9,6 +9,50 @@
 %% burger@kit.edu
 %%
 %% Version 1.3.2, 2017-08-01
-
 \Abstract
-Deutsche Zusammenfassung
+ 
+Modellgetriebene Leistungsvorhersagen können zur frühzeitigen Abschätzung der	
+Softwareperformanz verwendet werden. Der Einsatz solcher Werkzeuge	im	agilen	
+Entwicklungsprozess	kann	den	in	die	Überwachung	investierten	Aufwand	reduzieren.	
+Allerdings	ist	das	bauen	eines	solchen	Modells	während	des	agilen	Entwicklungsprozesses	
+unpraktisch,	da	es	oft	dazu	führt,	Releases	in	kurzen	Intervallen	zu	produzieren.	Bisherige	
+Ansätze,	welche	automatisch	ein	Performance-Modell	(PM)	generieren,	arbeiten	auf	
+Grundlage	von	Reverse	Engineering	und/oder	Messverfahren.	Allerdings	überwachen	und	
+analysieren	diese	Ansätze	das	gesamte	System	nach	jeder	Iteration,	was	einen	
+Überwachungsaufwand	erzeugt.
+
+Die	Ansätze,	welche	inkrementell	das	PM	aus	dem	Quellcode	extrahieren	und	sie	konsistent	
+halten,	sind	auf	einen	Überwachungsansatz	angewiesen,	welcher	sie	mit	den	benötigten	
+Informationen	versorgt.	Vorhandene	Ansätze	können	entweder	bei	der	Überwachung	keine	
+feinkörnigen	Informationen	liefern	oder	die	Instrumentierung	des	Quellcodes	muss	
+manuelle	vorgenommen	werden,	was	den	Entwicklern	nicht	zumutbar	ist.
+
+Um	diese	Probleme	zu	überwinden,	stellt	diese	Thesis	einen	Ansatz	zur	adaptiven	
+Systemüberwachung	vor,	welches	PMen	feinkörnige	Überwachungsinformationen	zur	
+Verfügung	stellt.	Zudem	ist	unser	Ansatz	Teil	der	kontinuierlichen	Integration	von	PMen	in	
+den	agilen	Entwicklungsprozess.	Das	haben	wir	durch	die	Einführung	eines	automatischen	
+adaptiven	Instrumentierungsprozesses	des	Quellcodes	erreicht.	Außerdem	kann	unser	
+Instrumentierungsansatz	Quellcodeänderungen	während	der	Systementwicklung	
+überwachen	und	die	veränderten	Teile	des	Quellcodes	entsprechend	automatisch	
+instrumentieren.	Während	der	Systementwicklung	sammeln	wir	automatisch	die	
+Überwachungsproben,	welche	zur	Instrumentierung	des	Quellcodes	benötigt	werden.	Wenn	
+Änderungen	im	Quellcode	vorgenommen	werden,	instrumentieren	wir	den	Quellcode	
+automatisch	basierend	auf	den	Überwachungsproben,	welche	wir	während	der	
+Systementwicklung	generiert	haben.	Der	Vorteil	unseres	Ansatzes	wird	die Reduzierung	des	
+hohen	Überwachungsaufwandes	und	die	Unterstützung	der	kontinuierlichen	Integration	der	
+PMe	sein.
+
+Insbesondere	kann	unser	Ansatz	mit	anderen	Ansätzen,	welche	den	Quellcode	und	das	PM	
+konsistent	halten,	zusammengeschlossen	werden.	Während	jene	Ansätze	tendenziell	den	
+Quellcode	und	ihr	Verhalten	bezüglich	des	PMs	konsistent	halten,	wird	unser	Ansatz	die	
+notwendigen	Überwachungsdaten	liefern,	um	die	PM	Parameter	zu	schätzen	(wie	
+Ressourcenbeanspruchung,	Anzahl	von	Schleifenausführungen,	Wahrscheinlichkeit	einer	
+Programmierverzweigung).
+
+Wir	haben	unseren	Ansatz	anhand	einer	Fallstudie	evaluiert.	Wir	haben	gezeigt,	dass	wir	den	
+Quellcode	inkrementell	und	automatisch	instrumentieren	konnten.	Außerdem	hat	unsere	
+Evaluierung	gezeigt,	dass	wir	Überwachungsinformation	zur	Verfügung	stellen	konnten,	
+welche	für	die	Kalibrierung	der	PM	Parameter	benutzt	werden	können,	unter	
+Berücksichtigung	von	parametrischen	Abhängigkeiten.	Weiterhin	haben	wir	mit	unserem	
+Ansatz	und	der	Fallstudie	gezeigt,	dass	wir	den	Überwachungsaufwand	auf	50\%	reduzieren	
+konnten.

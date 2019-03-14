@@ -442,28 +442,56 @@ In this section, we introduce the challenges that we need to solve in order to a
 
 \subsection{SEFF Comparison}
 \label{sec:SEFF Comparison}
-As mentioned above, our approach is based on the comparison of the old and the new SEFF of the service. In order to compare the SEFF elements we proposed to use their corresponding JaMoPP (section) statements in the source code. Moreover, each SEFF element is represented by a set of statements in the source code, which means, in order to compare two SEFF elements we can simply compare their statements.
+As mentioned above, our approach is based on the comparison of the old and the new SEFF of the service. In order to compare the SEFF elements we proposed to use their corresponding JaMoPP (Section \ref{sec:sec:Java Model Parser and printer}) statements in the source code. Moreover, each SEFF element is represented by a set of statements in the source code, which means, in order to compare two SEFF elements we can simply compare their statements.\\
 
 \textbf{SPLevo: Diffing JaMoPP Cartridge}
 In order to compare the JaMoPP statements, we used the software development tool SPLevo \cite{klatt2016consolidation}. SPLevo provides the Diffing JaMoPP functionality, which can compare between JaMoPP models. We used this functionality to compare between JaMoPP statements, which we need, in order to compare SEFFs.
 
 \subsection{Approach}
 \label{sec:approach}
-Figure \ref{fig:seff_reconst_extension_level2} shows our contribution to the Incremental SEFF Reconstruction Process. The original process is described in (section in foundation). In the following we will describe the activities that we added to the process in order to achieve our objectives (Section \ref{sec:objective}). Furthermore, the activities in the blue color represent our contribution.
+Figure \ref{fig:seff_reconst_extension_level2} shows our contribution to the Incremental SEFF Reconstruction Process. The original process is described in (Section \ref{sec:Incremental SEFF Reconstruction}). In the following we will describe the activities that we added to the process in order to achieve our objectives (Section \ref{sec:objective}). Furthermore, the activities in the blue color represent our contribution.\\
 
-\textbf{Step (1): Remove all abstract actions of the old method from the correspondence model}
-This activity is responsible for clearing the correspondence model from the old method and its correspondences. This is required because the old method will be replaced by the new method and we will need create new correspondences for the new method.
+\textbf{Step (1): Remove all abstract actions of the old method from the correspondence model}\\
+This activity is responsible for clearing the correspondence model from the old method and its correspondences. This is required because the old method will be replaced by the new method and we will need create new correspondences for the new method.\\
 
-\textbf{Step (2): Return the Old Resource Demanding Behaviour}
-In this step, we use the old method reference to return its SEFF from the correspondence model.
+\textbf{Step (2): Return the Old SEFF}\\
+In this step, we use the old method reference to return its SEFF from the correspondence model.\\
 
-\textbf{Step (3): Run SoMoX to find the New Resource Demanding Behavior}
-In this step, we run the SoMoX on the new method in order to return its SEFF. 
+\textbf{Step (3): Run SoMoX to find the SEFF}\\
+In this step, we run the SoMoX on the new method in order to return its SEFF. \\
 
-\textbf{Step (4): Find the Matching of the New and the Old Resource Demanding Behavior}
+\textbf{Step (4): Find the Matching of the New and the Old Resource Demanding Behavior}\\
 In this step, we compute the matching between the old SEFF and the new SEFF. The matching possibilities are represented by the UML class diagram in Figure \ref{fig:seffmachting}.  The output of this step is a list of the matching between the old SEFF elements and the new SEFF elements. The enumeration \textit{MatchingType} describes the matching types, which define if two SEFF elements are totally equal or not. Two SEFF elements are total equal if their statements match completely. 
 
-A matching of type modified means that the source code of the old SEFF element has changed but it has a matching in the new SEFF. This type of matching will inform us, if an SEFF element has been modified.
+A matching of type modified means that the source code of the old SEFF element has changed but it has a matching in the new SEFF. This type of matching will inform us, if an SEFF element has been modified.\\
+
+\textbf{Step (5): Find the difference between the new and the old SEFF}\\
+The difference  of the old and the new SEFF is computed based on the matching returned from
+Step (4) and the elements of the old and the new SEFF. the difference is composed from two lists. (1) the first list contains the new added SEFF elements that do not exist in the old SEFF but do exist in the new SEFF. The list of the new added SEFF elements can be returned by searching in the elements of the new SEFF that do not exist in the matching list.  (2) The second list contains the elements that must be deleted from the old SEFF. These elements do exist in the old SEFF but not in the SEFF. This list can be returned by searching the elements in the old SEFF that do not have any matching in the matching list.\\
+
+\textbf{Step (6): Update the old SEFF}\\
+In this step, we update the old SEFF based on the difference between the new and the old SEFF that we computed in the Step (5). we identify three cases of updating the old SEFF:
+\begin{itemize}
+\item Case (1): SEFF elements that have to be deleted\\
+      we use the difference of the new and the old SEFF to return the SEFF elements that have to be deleted.
+ \item Case (2): SEFF elements that their corresponding code has changed\\
+       these elements have no effect on the SEFF structure and they will not be added or deleted. However, the corresponding source code has to instrumented and monitoring in order to provide these elements with the monitoring of the changed source code. 
+\item Case (3): SEFF elements that we need to add\\
+the SEFF elements that we need to add in the old SEFF do not exist in the old SEFF but in the new SEFF. Moreover, in order to add these elements in the old SEFF, we need to find the location in which we should add them. Here, we identify two cases. (1) if the SEFF element that we want to add in the old SEFF has no predecessor in the new SEFF that has a matching in the old SEFF, the SEFF element that we want to add, has to be added in the second position of the old SEFF. (2) else, we add the SEFF element that we want to add, after the SEFF element in the old SEFF that matches with the first predecessor of the SEFF element that we want to add.  \\
+\end{itemize}
+
+\textbf{Step (7): Create new correspondences between the new method and the SEFF elements}\\
+In this step, we create correspondence in the Correspondence Model between the new method and actual old SEFF elements.\\
+
+\textbf{Step (8): Create correspondences between the SEFF elements and the corresponding JaMoPP statements}\\
+In this step, we create the correspondence in the Correspondence Model between the actual old SEFF elements and the corresponding JaMoPP statements. These correspondences will be needed in probe generation.\\
+
+\subsection{Implementation Limitation}
+\label{sec:Implementation Limitation}
+
+We implemented the steps of the approach that we presented to reconstruct the SEFF incrementally and based on the statement level. We used the software development tool SPLevo \cite{klatt2016consolidation} to compare different JaMoPP statements. Moreover, our testing has succeed for updating the Internal Actions and Branch Actions. However, we could not update incrementally all the elements of SEFF. In particular, we could not compare correctly the source code statements that correspond to Loop Actions in SEFF. Furthermore, because of the time limit of this thesis, we could not improve this approach. Therefore, we suggest to improve this approach in a future work.   
+
+
 
 \begin{figure}[h]
 \centering
@@ -473,7 +501,6 @@ A matching of type modified means that the source code of the old SEFF element h
 \end{figure}
 
 
-\textbf{Step (5): Find the Difference between the New and the Old Resource Demanding Behavior}
 
 \begin{figure}[h]
 \centering
