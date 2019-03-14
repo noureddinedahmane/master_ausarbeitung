@@ -14,29 +14,26 @@
 \label{ch:Related Work}
 
 None of the existing approaches that deal with the automatic extraction of performance
-model considers the parametric dependencies of performance models, the adaptive
+models considers the parametric dependencies of performance models, the adaptive
 monitoring and the incremental execution of the whole process at the same time. Moreover,
 existing approaches do not support the adaptive monitoring for performance model continuous
 integration.
 
-Walter et al. \cite{walter2017expandable} provided an expandable approach for automated extraction of
-architectural performance model. He presents a framework for the extraction of
+Walter et al. \cite{walter2017expandable} provided an expandable approach for automated extraction of the architectural performance model. He presents a framework for the extraction of
 the architectural performance models based on monitoring files generalizing over
 the target architectural model language. This framework can be used to create
 an extraction tool for a specific modeling formalism. He implemented his approach
-in so called Performance Model Extractor (PMX) tool and provided it as a web service.
+in so-called Performance Model Extractor (PMX) tool and provided it as a web service.
 
 Krogmann et al. \cite{krogmann2012reconstruction, krogmann2010using} used genetic programming to estimate parametric dependencies between inputs and the number of execution for each byte code instruction.
 Depending on input data he could find control flow dependencies between required
 and provided services. However, for receiving monitoring information, he instruments the whole system in each iteration, which causes a monitoring overhead. 
 
-Spinner et al. \cite{spinner2016reference} predicted the system performance at run time under varying work
-loads and system configuration. He proposed an approach for obtaining architectural-level model performance in virtualized environment.
+Spinner et al. \cite{spinner2016reference} predicted the system performance at run time under varying workloads and system configuration. He proposed an approach for obtaining architectural-level model performance in a virtualized environment.
 
-Langhammer \cite{langhammer2017automated} introduced two approaches to extract the static and the dynamic
-behavior of the source code. Furthermore, he proposed an approach that keeps the source code and the 
-architecture consistent during development. Furthermore, he could generate the performance model incrementally. However, he did not use an adaptive monitoring approach, which means he instruments the whole system in each iteration. Therefore, the monitoring overhead could not be reduced.
+Langhammer \cite{langhammer2017automated} introduced two approaches to extract the static and dynamic
+behavior of the source code. Furthermore, he proposed an approach that keeps the source code and the architecture consistent during development. Furthermore, he could generate performance model incrementally. However, he did not use an adaptive monitoring approach, which means, he instruments the whole system in each iteration. Therefore, the monitoring overhead could not be reduced.
 
-Brosig et. al \cite{brosig2009automated} introduce an approach that the Palladio Component Models of of Java EE applications based on the monitoring data collected during operation. However, he did take into account the adaptive monitoring, which means he monitor the whole source code in each iteration. Therefore, monitoring huge Java EE applications will lead to monitoring overhead.    
+Brosig et. al \cite{brosig2009automated} introduce an approach that the Palladio Component Models of Java EE applications based on the monitoring data collected during operation. However, he did take into account the adaptive monitoring, which means he monitor the whole source code in each iteration. Therefore, monitoring huge Java EE applications will lead to monitoring overhead.    
 
 Jägers has also introduced in his master thesis \cite{jagers2018Iterative} an approach that estimates incrementally the performance model parameters considering parametric dependencies. Moreover, he used fine-grained monitoring information for the estimation. However, he instrumented the source code manually. 

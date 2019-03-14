@@ -11,39 +11,37 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Foundations}{3}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Eclipse Modeling Framework}{3}{section.2.1}
+\contentsline {section}{\numberline {2.1}The Palladio Component Model}{3}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}The Palladio Component Model}{3}{section.2.2}
+\contentsline {subsection}{\numberline {2.1.1}Palladio Models}{3}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Palladio Models}{3}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.1.2}SEFFs}{4}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}SEFFs}{4}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.2}Vitruvius}{5}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Vitruvius}{6}{section.2.3}
+\contentsline {subsection}{\numberline {2.2.1}Vitruvius VSUM}{6}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Vitruvius VSUM}{6}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.2.2}Correspondence Meta-model}{6}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Correspondence Meta-model}{7}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.3}Java Model Parser and printer}{7}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Java Model Parser and printer}{8}{section.2.4}
+\contentsline {section}{\numberline {2.4}Automated Coevolution of Source Code and Software Architecture Models}{8}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Automated Coevolution of Source Code and Software Architecture Models}{8}{section.2.5}
+\contentsline {subsection}{\numberline {2.4.1}Incremental SEFF Reconstruction}{10}{subsection.2.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.1}Incremental SEFF Reconstruction}{10}{subsection.2.5.1}
+\contentsline {section}{\numberline {2.5}Kieker Monitoring Framework}{10}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Kieker Monitoring Framework}{10}{section.2.6}
+\contentsline {section}{\numberline {2.6}Source Code Model eXtractor}{11}{section.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Source Code Model eXtractor}{12}{section.2.7}
+\contentsline {subsection}{\numberline {2.6.1}Source Code Decorator Model}{12}{subsection.2.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7.1}Source Code Decorator Model}{12}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.6.2}SoMoX SEFFs Reconstruction}{13}{subsection.2.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7.2}SoMoX SEFFs Reconstruction}{13}{subsection.2.7.2}
+\contentsline {section}{\numberline {2.7}DevOps}{13}{section.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.8}DevOps}{14}{section.2.8}
+\contentsline {section}{\numberline {2.8}Continuous Integration of Performance Model}{14}{section.2.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.9}Continuous Integration of Performance Model}{14}{section.2.9}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.9.1}Iterative Performance Model Parameter Estimation Considering Parametric Dependencies}{15}{subsection.2.9.1}
+\contentsline {subsection}{\numberline {2.8.1}Iterative Performance Model Parameter Estimation Considering Parametric Dependencies}{15}{subsection.2.8.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Thesis Statement}{19}{chapter.3}
 \defcounter {refsection}{0}\relax 
@@ -91,9 +89,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.7.6}Service Parameters Extraction}{36}{subsection.4.7.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.8}Limitation}{36}{section.4.8}
+\contentsline {section}{\numberline {4.8}Limitation}{37}{section.4.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.9}Extending the Incremental SEFF Reconstruction Process}{37}{section.4.9}
+\contentsline {section}{\numberline {4.9}Extending the Incremental SEFF Reconstruction Process}{38}{section.4.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.9.1}Objective}{38}{subsection.4.9.1}
 \defcounter {refsection}{0}\relax 
@@ -101,7 +99,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.9.3}Scientific Challenges}{38}{subsection.4.9.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.9.4}SEFF Comparison}{38}{subsection.4.9.4}
+\contentsline {subsection}{\numberline {4.9.4}SEFF Comparison}{39}{subsection.4.9.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.9.5}Approach}{39}{subsection.4.9.5}
 \defcounter {refsection}{0}\relax 

@@ -21,13 +21,13 @@ In the following we defined the goals (G) and research questions (Q) for our eva
   \begin{itemize}[label={}]
   \item Q1.1: Is our instrumentation of the source code incremental?
       \begin{itemize}[label={}]
-      \item M1.1.1: difference between the probes in the instrumentation model and the generated probes in the            
+      \item M1.1.1: the difference between the probes in the instrumentation model and the generated probes in the            
                     instrumented source code.  
       \end{itemize}
    \item Q1.2: did we generate the right monitoring information?
         \begin{itemize}[label={}]
              \item M1.2.1: Number of acceptances of our monitoring information from performance model parameters  
-	                       estimation approach.
+                           estimation approach.
       \end{itemize}
   \end{itemize}
 \item G2: Adaptive Monitoring
@@ -45,7 +45,7 @@ In the following we defined the goals (G) and research questions (Q) for our eva
 \label{sec:Case Study}
 In order to evaluate our approach, we performed a case study that is represented by the component diagram in Figure \ref{fig:case_study}. We created two Java interfaces and we implemented them. The first interface \textit{ISearchingAlgo} contains two functions. The service \textit{sequentianSearch}, which receives an Array of integers and a value of type integer, it returns True if the given value exists in the given array. This service is based on the sequential searching algorithm. The second service \textit{binarySearch} perform receives also an Array of integers and an integer value, it must then tell us if the given could be found in the given array. The service \textit{binarySearch} is implemented based on the binary searching algorithm. The binary searching algorithm is more efficient then the sequential searching algorithm, we choose these algorithms to provide the possibility of having different response times and service calls parameters. 
 
-The second interface \textit{GuiSearchingAlgo} provides also two services and requires services from the interface \textit{ISearchingAlgo}. The service \textit{guiSeuentialSearch} receives two arrays of integers, the first array represents the array in which we want to perform the searching, the second array represent the values we want to search for. This service iterates over the  array of values that we want to search for and calls the service \textit{sequentialSeach} from the interface \textit{ISearchingAlgo}, which tells if the current searched value could be found. Figure 2 shows the corresponding SEFF of the \textit{guiSequentialSearch} service. The service \textit{guiBinarySearch} in the interface \textit{GuiSearchingAlgo} does the same thing as the service \textit{guiSequentialSearch} but it calls the service \textit{binarySearch} instead of \textit{sequentialSeach} service. 
+The second interface \textit{GuiSearchingAlgo} provides also two services and requires services from the interface \textit{ISearchingAlgo}. The service \textit{guiSeuentialSearch} receives two arrays of integers, the first array represents the array in which we want to perform the searching, the second array represents the values we want to search for. This service iterates over the array of values that we want to search for and calls the service \textit{sequentialSeach} from the interface \textit{ISearchingAlgo}, which tells if the current searched value could be found. Figure \ref{fig:guiSequentialSearch_seff} shows the corresponding SEFF of the \textit{guiSequentialSearch} service. The service \textit{guiBinarySearch} in the interface \textit{GuiSearchingAlgo} does the same thing as the service \textit{guiSequentialSearch} but it calls the service \textit{binarySearch} instead of \textit{sequentialSeach} service. 
 
 \begin{figure}[h]
 \centering
@@ -56,7 +56,7 @@ The second interface \textit{GuiSearchingAlgo} provides also two services and re
 
 \section{Adaptive Instrumentation}
 \label{sec:Adaptive Instrumentation}
-In this section, we use our case study to evaluate the incremental instrumentation and the monitoring information types. We evaluate the incremental instrumentation to make sure that we could instrument the source code incrementally in our approach. We evaluate the monitoring information types to make sure that we've generated the right information that can be used by performance model parameters estimation approaches. 
+In this section, we use our case study to evaluate the incremental instrumentation and monitoring information types. We evaluate the incremental instrumentation to make sure that we could instrument the source code incrementally in our approach. We evaluate the monitoring information types to make sure that we've generated the right information that can be used by performance model parameters estimation approaches. 
 
 \subsection{Incremental Instrumentation}
 \label{sec:Incremental Instrumentation}
