@@ -233,7 +233,7 @@
   year={2016}
 }
 
-@MastersThesis{jägers2018,
+@inproceedings{jagers2018,
   author = {Jan-Philipp Jägers},
   title  = {Iterative Performance Model Parameter Estimation Considering Parametric Dependencies},
   school = {KIT},

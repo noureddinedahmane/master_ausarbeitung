@@ -1,17 +1,15 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [0] Config.pm:305> INFO - Logfile is 'Noureddine_thesis.blg'
-[47] biber-MSWIN64:313> INFO - === 
-[86] Biber.pm:371> INFO - Reading 'Noureddine_thesis.bcf'
-[243] Biber.pm:857> INFO - Found 24 citekeys in bib section 0
-[268] Biber.pm:3976> INFO - Processing section 0
-[288] Biber.pm:4136> INFO - Looking for bibtex format file 'thesis.bib' for section 0
-[292] bibtex.pm:1500> INFO - LaTeX decoding ...
-[352] bibtex.pm:1316> INFO - Found BibTeX data source 'thesis.bib'
-[577] Utils.pm:193> WARN - I didn't find a database entry for 'j\IeC {\"a}gers2018' (section 0)
-[637] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[637] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[637] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[637] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[691] bbl.pm:617> INFO - Writing 'Noureddine_thesis.bbl' with encoding 'UTF-8'
-[708] bbl.pm:720> INFO - Output to Noureddine_thesis.bbl
-[708] Biber.pm:110> INFO - WARNINGS: 1
+[61] biber-MSWIN64:313> INFO - === 
+[106] Biber.pm:371> INFO - Reading 'Noureddine_thesis.bcf'
+[279] Biber.pm:857> INFO - Found 24 citekeys in bib section 0
+[307] Biber.pm:3976> INFO - Processing section 0
+[333] Biber.pm:4136> INFO - Looking for bibtex format file 'thesis.bib' for section 0
+[337] bibtex.pm:1500> INFO - LaTeX decoding ...
+[397] bibtex.pm:1316> INFO - Found BibTeX data source 'thesis.bib'
+[713] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[713] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[714] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[714] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[777] bbl.pm:617> INFO - Writing 'Noureddine_thesis.bbl' with encoding 'UTF-8'
+[797] bbl.pm:720> INFO - Output to Noureddine_thesis.bbl

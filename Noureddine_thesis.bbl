@@ -392,6 +392,31 @@
       \endverb
       \keyw{application performance monitoring,dynamic software analysis,kieker framework}
     \endentry
+    \entry{jagers2018Iterative}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=8a0fbc29c01afd3b6d816d07c2ceb9e3}{%
+           family={Jägers},
+           familyi={J\bibinitperiod},
+           given={Jan-Philipp},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {KIT}%
+      }
+      \strng{namehash}{8a0fbc29c01afd3b6d816d07c2ceb9e3}
+      \strng{fullhash}{8a0fbc29c01afd3b6d816d07c2ceb9e3}
+      \strng{bibnamehash}{8a0fbc29c01afd3b6d816d07c2ceb9e3}
+      \strng{authorbibnamehash}{8a0fbc29c01afd3b6d816d07c2ceb9e3}
+      \strng{authornamehash}{8a0fbc29c01afd3b6d816d07c2ceb9e3}
+      \strng{authorfullhash}{8a0fbc29c01afd3b6d816d07c2ceb9e3}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Iterative Performance Model Parameter Estimation Considering Parametric Dependencies}
+      \field{type}{mathesis}
+      \field{year}{2018}
+    \endentry
     \entry{jung2013instrumentation}{report}{}
       \name{author}{1}{}{%
         {{hash=0793d2d9899806683ab844116f4ab119}{%
@@ -881,7 +906,6 @@
       \range{pages}{6}
     \endentry
   \enddatalist
-  \missing{j\IeC {\"a}gers2018}
 \endrefsection
 \endinput
 

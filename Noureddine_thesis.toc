@@ -124,3 +124,7 @@
 \contentsline {chapter}{\numberline {6}Related Work}{57}{chapter.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Conclusions and Future Work}{59}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.0.1}Summary}{59}{subsection.7.0.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.0.2}Future Work}{59}{subsection.7.0.2}
